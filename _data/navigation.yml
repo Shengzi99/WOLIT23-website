@@ -1,0 +1,17 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Program"
+    url: /
+  - title: "Speakers"
+    url: /
+  - title: "Committee"
+    url: /committee.html
+  - title: "Venue"
+    url: /
+  - title: "Registration"
+    url: /
+  - title: "Contact"
+    url: /
+
+  

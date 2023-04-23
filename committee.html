@@ -1,0 +1,39 @@
+---
+layout: single
+permalink: /committee.html
+---
+
+<h2>Steering Committee</h2>
+{% for person in site.data.committee %}
+  {% if person.post == "Steering Committee" %}
+    {% include person_profile.html person=person%}
+  {% endif %}
+{% endfor %}
+
+<h2>General Chair</h2>
+{% for person in site.data.committee %}
+  {% if person.post == "General Chair" %}
+    {% include person_profile.html person=person%}
+  {% endif %}
+{% endfor %}
+
+<h2>Program Chair</h2>
+{% for person in site.data.committee %}
+  {% if person.post == "Program Chair" %}
+    {% include person_profile.html person=person%}
+  {% endif %}
+{% endfor %}
+
+<h2>Publicity Chair</h2>
+{% for person in site.data.committee %}
+  {% if person.post == "Publicity Chair" %}
+    {% include person_profile.html person=person%}
+  {% endif %}
+{% endfor %}
+
+<h2>Finance Chair</h2>
+{% for person in site.data.committee %}
+  {% if person.post == "Finance Chair" %}
+    {% include person_profile.html person=person%}
+  {% endif %}
+{% endfor %}
