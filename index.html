@@ -1,55 +1,45 @@
 ---
-title: "2023 International Workshop on Learning and Information Theory (WOLIT’23)"
 layout: splash
 permalink: /
-date: 2016-03-23T11:48:41-04:00
+title: "2023 International Workshop on Learning and Information Theory (WOLIT’23)"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/banner_home-1.jpg
   actions:
     - label: "Register"
-      url: "/"
-  caption: "Photo"
+      url: /registration.html
+  # caption: "Photo"
 excerpt: "July 3-5,2023 <br> Shenzhen & Hong Kong, China"
-intro: 
-  - excerpt: "July 3-5,2023 <br> Shenzhen & Hong Kong, China"
 venue:
-  - image_path: /assets/images/venue-HK.png
-    alt: "venue-HK"
-    title: "Venue - HongKong"
-    excerpt: "Charles K. Kao Auditorium, Science Park"
-    url: "/venue.html"
-    btn_label: "Venue & Transportation >"
-    btn_class: "btn--info"
   - image_path: /assets/images/venue-SZ.png
     alt: "venue-SZ"
     title: "Venue - ShenZhen"
     excerpt: "Shenzhen Institute for Talents Development"
+  - image_path: /assets/images/venue-HK.png
+    alt: "venue-HK"
+    title: "Venue - HongKong"
+    excerpt: "Charles K. Kao Auditorium, Science Park"
   - image_path: /assets/images/venue-trans.jpg
     alt: "Transportation"
     title: "Transportation"
-    excerpt: "click button left below for details"
-feature_row2:
-  - excerpt: "WOLIT’23 is jointly hosted by Institute of Data and Information (iDI) of Tsinghua Shenzhen International Graduate School and Institute of Network Coding (INC) of The Chinese University of Hong Kong (CUHK).  \n\n
-              WOLIT aims to bring together the world’s leading researchers to explore deep unsolved problems in information theory, learning theory and the related fields."
-feature_row3:
-  - image_path: /assets/images/intro-2.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: ""
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    excerpt: "click button below for details"
+    url: "/venue.html"
+    btn_label: "Venue & Transportation >"
+    btn_class: "btn--info"
 ---
 
-{%- comment -%} {% include feature_row id="intro" type="center" %} {%- endcomment -%}
+<div style="text-align: left; width: 75%; margin: 0 auto 0 0;">
+  WOLIT’23 is jointly hosted by Institute of Data and Information (iDI) of Tsinghua Shenzhen International Graduate School and Institute of Network Coding (INC) of The Chinese University of Hong Kong (CUHK).
+  <p style="margin: 10px 0;"></p>
+  WOLIT aims to bring together the world’s leading researchers to explore deep unsolved problems in information theory, learning theory and the related fields.
+</div>
 
-{% include feature_row id="feature_row2" type="center"%}
+<h2>News</h2>
+{% include news.html %}
 
-{% include feature_row id="venue" %}
-
-<h3>
-  Program
-</h3>
+<h2>Program</h2>
 {% include time_schedule.html %}
+
+<h2>Venue</h2>
+{% include feature_row id="venue" %}
