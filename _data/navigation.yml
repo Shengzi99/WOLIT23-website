@@ -4,14 +4,14 @@ main:
   - title: "Program"
     url: /
   - title: "Speakers"
-    url: /
+    url: /speakers
   - title: "Committee"
-    url: /committee.html
+    url: /committee
   - title: "Venue"
-    url: /
+    url: /venue.html
   - title: "Registration"
-    url: /
+    url: /registration
   - title: "Contact"
-    url: /
+    url: /contact
 
   
