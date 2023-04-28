@@ -67,21 +67,34 @@
   title: Professor
   affiliation: The Chinese University of Hong Kong
   url: https://www.ie.cuhk.edu.hk/people/raymond.shtml
-  avatar: /assets/images/avatar-YeungWaiHo.png
+  avatar: /assets/images/avatar-YeungWaiHo.jpg
   intro: 
     - "Raymond W. Yeung received the BS, MEng and PhD degrees in electrical engineering from Cornell University in 1984, 1985, and 1988, respectively. He joined AT&T Bell Laboratories in 1988. Since 1991, he has been with CUHK, where he is currently Choh-Ming Li Professor of Information Engineering. A cofounder of the field of network coding, he has been serving as Co-Director of the Institute of Network Coding since 2010. He is the author of the books A First Course in Information Theory (Kluwer Academic/Plenum Publishers, 2002) and Information Theory and Network Coding (Springer 2008), which have been adopted by over 100 institutions around the world. In spring 2014, he gave on Coursera the first MOOC in the world on information theory that reached over 25,000 students. Since then, the MOOC has been offered regularly on Coursera and other platforms. His research interest is in information theory and network coding. He was a consultant in a project of Jet Propulsion Laboratory for salvaging the malfunctioning Galileo Spacecraft."
     - "Professor Yeung was a member of the Board of Governors of the IEEE Information Theory Society from 1999 to 2001. He has served on the committees of a number of information theory symposiums and workshops. He was the General Chair of the First Workshop on Network, Coding, and Applications (NetCod 2005), a Technical Co-Chair of the 2006 IEEE International Symposium on Information Theory, a Technical Co-Chair of the 2006 IEEE Information Theory Workshop, Chengdu, and a General Co-Chair of the 2015 IEEE International Symposium on Information Theory."
     - "Professor Yeung also has served on the editorial board of a number of academic journals. He was an Associate Editor for Shannon Theory of the IEEE Transactions on Information Theory from 2002 to 2005. He currently serves as an Editor-at-Large of Communications in Information and Systems, an Editor of Foundation and Trends in Communications and Information Theory, an Editor of Foundation and Trends in Networking, and a Senior Editor of IEEE Journal on Selected Areas in Information Theory. He is also on the Steering Committee of IEEE BITS the Information Theory Magazine."
     - "He was a recipient of the Croucher Senior Research Fellowship for 2000/01, the Best Paper Award (Communication Theory) of the 2004 International Conference on Communications, Circuits and System, the 2005 IEEE Information Theory Society Paper Award, the Friedrich Wilhelm Bessel Research Award from the Alexander von Humboldt Foundation in 2007, the 2016 IEEE Eric E. Sumner Award, the 2018 ACM SIGMOBILE Test-of-Time Paper Award, the Gold Medal with Congratulations from the Jury at the 47th International Exhibition of Invention of Geneva (2019), the 2021 IEEE Richard W Hamming Medal, the 2022 Claude E. Shannon Award and the 2023 RGC Senior Research Fellow Award. In 2015, he was named an Outstanding Overseas Chinese Information Theorist by the China Information Theory Society."
     - "Professor Yeung was a Changjiang Chair Professor of Xidian University, an Advisory Professor of Beijing University of Posts and Telecommunications, and an Adjunct Professor of the Institute of Interdisciplinary Information Sciences at Tsinghua University. He is currently a Guest Professor of Southeast University and a Huashan Scholar of Xidian University. He is a Fellow of the IEEE, Hong Kong Institution of Engineers, Hong Kong Academy of Engineering Sciences, and the US National Academy of Inventors."
-- id: 10
-  name: Venugopal V.Veeravalli
-  title: Henry Magnuski Professor
-  affiliation: University of Illinois
-  url: https://vvv.ece.illinois.edu/
-  avatar: /assets/images/avatar-Venugopal.jpg
+# - id: 10
+#   name: Venugopal V.Veeravalli
+#   title: Henry Magnuski Professor
+#   affiliation: University of Illinois
+#   url: https://vvv.ece.illinois.edu/
+#   avatar: /assets/images/avatar-Venugopal.jpg
+#   intro: 
+#     - "Prof. Veeravalli received the Ph.D. degree in Electrical Engineering from the University of Illinois at Urbana-Champaign in 1992, the M.S. degree from Carnegie-Mellon University in 1987, and the B.Tech degree from Indian Institute of Technology, Bombay (Silver Medal Honors) in 1985. He is currently the Henry Magnuski Professor in the Department of Electrical and Computer Engineering (ECE) at the University of Illinois at Urbana-Champaign, where he also holds appointments with the Coordinated Science Laboratory (CSL) and the Department of Statistics. He was on the faculty of the School of ECE at Cornell University before he joined Illinois in 2000. He served as a program director for communications research at the U.S. National Science Foundation in Arlington, VA during 2003-2005. His research interests span the theoretical areas of statistical inference, machine learning, and information theory, with applications to data science, wireless communications, and cyberphysical systems. He is a Fellow of the IEEE. Among the awards he has received for research and teaching are the IEEE Browder J. Thompson Best Paper Award, the U.S. Presidential Early Career Award for Scientists and Engineers (PECASE), and the Abraham Wald Prize in Sequential Analysis."
+- name: Ruoyu Sun
+  title: Assistant Professor
+  affiliation: The University of Illinois at Urbana-Champaign
+  url: https://ruoyus.github.io/
+  avatar: /assets/images/avatar-Ruoyu.png
   intro: 
-    - "Prof. Veeravalli received the Ph.D. degree in Electrical Engineering from the University of Illinois at Urbana-Champaign in 1992, the M.S. degree from Carnegie-Mellon University in 1987, and the B.Tech degree from Indian Institute of Technology, Bombay (Silver Medal Honors) in 1985. He is currently the Henry Magnuski Professor in the Department of Electrical and Computer Engineering (ECE) at the University of Illinois at Urbana-Champaign, where he also holds appointments with the Coordinated Science Laboratory (CSL) and the Department of Statistics. He was on the faculty of the School of ECE at Cornell University before he joined Illinois in 2000. He served as a program director for communications research at the U.S. National Science Foundation in Arlington, VA during 2003-2005. His research interests span the theoretical areas of statistical inference, machine learning, and information theory, with applications to data science, wireless communications, and cyberphysical systems. He is a Fellow of the IEEE. Among the awards he has received for research and teaching are the IEEE Browder J. Thompson Best Paper Award, the U.S. Presidential Early Career Award for Scientists and Engineers (PECASE), and the Abraham Wald Prize in Sequential Analysis."
+    - "Ruoyu Sun is an assistant professor in the Department of Industrial and Enterprise Systems Engineering (ISE) and affiliated with the Department of Electrical and Computer Engineering (ECE) and Coordinated Science Lab (CSL), the University of Illinois at Urbana-Champaign (UIUC). Before joining UIUC, he was a visiting research scientist at Facebook AI Research (FAIR) and was a postdoctoral researcher at Stanford University. He obtained Ph.D. in electrical engineering from the University of Minnesota, and a B.S. in mathematics from Peking University. He has won second place in INFORMS George Nicholson student paper competition, and honorable mention of INFORMS optimization society student paper competition. He has been serving as area chairs for machine learning conferences such as NeurIPS, ICML, and ICLR. His current research interests lie in optimization and machine learning, especially deep learning and large-scale optimization"
+- name: Ziv Goldfeld
+  title: Assistant Professor
+  affiliation: Cornell University
+  url: https://people.ece.cornell.edu/zivg/
+  avatar: /assets/images/avatar-Ziv.jpg
+  intro: "Ziv Goldfeld is an assistant professor in the School of Electrical and Computer Engineering, and a graduate field member in Computer Science, Data Science, and the Center of Applied Mathematics at Cornell University. He is also a member of the Foundations of Information, Networks, and Decision Systems (FIND) group. He was a postdoctoral fellow in the Laboratory for Information and Decision Systems (LIDS) at MIT. Before that,  he received his B.Sc., M.Sc. (both summa cum laude) and Ph.D. in the Department of Electrical and Computer Engineering at Ben Gurion University of the Negev."
 - id: 11
   name: Guangyue Han
   title: Professor
@@ -96,6 +109,11 @@
   url: http://chandra.ie.cuhk.edu.hk/
   avatar: /assets/images/avatar-Chandra.jpg
   intro: "Chandra Nair completed his undergraduate studies at the Indian Institue of Technology (IIT), Madras in electrical engineering graduating in 1999. Concurrently, Nair also completed the four-year nurture program in Mathematics at the Institute of Mathematical Sciences (IMSc) under the auspices of the National Board of Higher Mathematics (NBHM). He received his Masters (2002) and his PhD (2005) in electrical engineering from Stanford University. Following a postdoctoral position in the theory group at Microsoft Research, Nair joined the IE department faculty at the Chinese University of Hong Kong."
+- name: Rui Zhang
+  title: Assistant Professor
+  affiliation: The Chinese University of Hong Kong
+  avatar: /assets/images/avatar-RuiZhang.jpg
+  intro: "Dr. Rui Zhang (IEEE Fellow) received the B.Eng. (First-Class Hons.) and M.Eng. degrees from National University of Singapore, and the Ph.D. degree from Stanford University, Stanford, CA USA, all in electrical engineering. From 2007 to 2009, he worked as a Research Scientist at the Institute for Infocomm Research, ASTAR, Singapore. Since 2010, he has joined the Department of Electrical and Computer Engineering of National University of Singapore, where he is now a Dean’s Chair Associate Professor with the Faculty of Engineering. His current research interests include UAV/satellite communication, wireless information and power transfer, multiuser MIMO, smart and reconfigurable environment, and optimization methods. He has published over 330 papers, which have been cited more than 25,000 times. He has been listed in the World’s Most Influential Scientific Minds, also known as a Highly Cited Researcher, by Thomson Reuters since 2015. He was the recipient of the 6th IEEE Communications Society Asia-Pacific Region Best Young Researcher Award in 2011, and the Young Researcher Award of National University of Singapore in 2015. He was the co-recipient of the IEEE Marconi Prize Paper Award in Wireless Communications in 2015, the IEEE Communications Society Asia-Pacific Region Best Paper Award in 2016, the IEEE Signal Processing Society Best Paper Award in 2016, the IEEE Communications Society Heinrich Hertz Prize Paper Award in 2017, the IEEE Signal Processing Society Donald G. Fink Overview Paper Award in 2017, and the IEEE Technical Committee on Green Communications & Computing (TCGCC) Best Journal Paper Award in 2017. His co-authored paper received the IEEE Signal Processing Society Young Author Best Paper Award in 2017. He served for over 30 international conferences as the TPC Co-Chair or an Organizing Committee Member, and as the guest editor for 3 special issues in IEEE Journal of Selected Topics in Signal Processing and IEEE Journal on Selected Areas in Communications. He served as an elected member of the IEEE Signal Processing Society SPCOM and SAM Technical Committees, and the Vice Chair of the IEEE Communications Society Asia-Pacific Board Technical Affairs Committee. He served as an editor for the IEEE Transactions on Wireless Communications, the IEEE Journal on Selected Areas in Communications (Green Communications and Networking Series), and the IEEE Transactions on Signal Processing. He is now an editor for the IEEE Transactions on Communications, and the IEEE Transactions on Green Communications and Networking. He serves as a member of the Steering Committee of the IEEE Wireless Communications Letters. He is a Distinguished Lecturer of IEEE Signal Processing Society and IEEE Communications Society."
 - id: 13
   name: Deniz Gündüz
   title: Professor, IEEE Fellow
@@ -104,29 +122,29 @@
   avatar: /assets/images/avatar-Deniz.jpg
   intro: 
     - "Deniz Gündüz (Fellow, IEEE) received the B.S. degree in electrical and electronics engineering from METU, Turkey, in 2002, and the M.S. and Ph.D. degrees in electrical engineering from the NYU Tandon School of Engineering in 2004 and 2007, respectively. After his Ph.D. degree, he worked as a Post-Doctoral Research Associate at Princeton University, a Consulting Assistant Professor at Stanford University, and a Research Associate at CTTC, Barcelona, Spain. In September 2012, he joined the Electrical and Electronic Engineering Department, Imperial College London, U.K., where he is currently a Professor in information processing and works as the Deputy Head of the Intelligent Systems and Networks Group. He is also a part-time Faculty Member of the University of Modena and Reggio Emilia, Italy, and has held visiting positions at the University of Padova from 2018 to 2020 and Princeton University from 2009 to 2012. His research interests lie in the areas of communications and information theory, machine learning, and privacy. He was a recipient of the IEEE Communications Society-Communication Theory Technical Committee (CTTC) Early Achievement Award in 2017, the Starting Grant of the European Research Council (ERC) in 2016, and several best paper awards. He is also a Distinguished Lecturer for the IEEE Information Theory Society from 2020 to 2022. He is an Area Editor of the IEEE Transactions on Information Theory, IEEE Transactions on Communications, and the IEEE Journal on Selected Areas in Communications Special Series on Machine Learning in Communications and Networks. He also serves as an Editor for the IEEE Transactions on Wireless Communications."
-- id: 14
-  name: Haim Permuter
-  title: Professor
-  affiliation: Ben-Gurion University
-  url: https://www.ee.bgu.ac.il/~haimp/
-  avatar: /assets/images/avatar-Haim.jpg
-  intro: 
-    - "Haim H. Permuter (Senior Member, IEEE) received the B.Sc. and M.Sc. degrees (summa cum laude) in electrical and computer engineering from the Ben-Gurion University of the Negev, Israel, in 1997 and 2003, respectively, and the Ph.D. degree in electrical engineering from Stanford University, California, in 2008. Between 1997 and 2004, he was an Officer at a research and development unit of the Israeli Defense Forces. Since 2009, he has been with the Department of Electrical and Computer Engineering, Ben-Gurion University of the Negev, where he is currently a Professor and the Luck-Hille Chair in electrical engineering and also serves as the Head for communication, cyber, and information track in his department. He was a recipient of several awards, among them are the Fullbright Fellowship, the Stanford Graduate Fellowship (SGF), Allon Fellowship, and the U.S.–Israel Binational Science Foundation Bergmann Memorial Award. He served on the Editorial Board of the IEEE Transactions on Information Theory from 2013 to 2016.(Based on document published on 20 April 2022)."
-- id: 15
-  name: Meir Feder
-  title: Professor
-  affiliation: Tel Aviv University
-  url: https://english.tau.ac.il/profile/meir
-  avatar: /assets/images/avatar-Meir.jpg
-  intro: 
-    - "Meir Feder (Life Fellow, IEEE) received the B.Sc. and M.Sc. degrees in electrical engineering from Tel-Aviv University in 1980 and 1984, respectively, and the Sc.D. degree in electrical engineering and ocean engineering from the Massachusetts Institute of Technology (MIT) and the Woods Hole Oceanographic Institution in 1987. After being a Research Associate and a Lecturer with MIT, he joined the School of Electrical Engineering, Tel-Aviv University, where he is currently a Chaired Professor and the Head of the newly established Tel-Aviv University Center for Artificial Intelligence and Data Science (TAD). He is also a Visiting Professor with the Department of EECS, MIT. Parallel to his academic career, he is closely involved with the high-tech industry. He founded five companies, among them are Peach Networks that developed an interactive TV solution (Acq: MSFT) and Amimon that provided the highest quality, robust and no delay wireless high-definition A/V connectivity (Acq:LON.VTC). Recently, with his renewed interest in machine learning and AI, he co-founded Run:ai, a virtualization, orchestration, and acceleration platform for AI infrastructure. He is also an Active Angel Investor and serves on the board/advisory board of several U.S. and Israeli companies. He received several academic and professional awards, including the IEEE Information Theory Society Best Paper Award for his work on universal prediction, the Creative Thinking Award of the Israeli Defense Forces, and the Research Prize of the Israeli Electronic Industry, awarded by the President of Israel. For the development of Amimon’s chip-set, that uses a unique MIMO implementation of joint source-channel coding for wireless video transmission, he received the 2020 Scientific and Engineering Award of the Academy of Motion Picture Arts and Sciences."
-- name: Itzhak Tamo
-  title: Professor
-  affiliation: Tel Aviv University
-  url: https://english.tau.ac.il/profile/tamo
-  avatar: /assets/images/avatar-Itzhak.jpg
-  intro: 
-    - "Itzhak Tamo (Member, IEEE) received the B.A. degree in mathematics and the B.Sc. and Ph.D. degrees in electrical engineering from the Ben-Gurion University of the Negev, Israel, in 2008 and 2012, respectively. From 2012 to 2014, he was a Post-Doctoral Researcher at the Institute for Systems Research, University of Maryland, College Park, MD, USA. He is currently an Associate Professor with the Department of Electrical Engineering, Tel Aviv University, Israel. His research interests include storage systems and devices, coding, information theory, and combinatorics. He was a co-recipient (with Zhiying Wang and Jehoshua Bruck) of the IEEE Communication Society Data Storage Technical Committee 2013 Best Paper Award. He received the 2015 IEEE Information Theory Society Paper Award with Alexander Barg and, in 2018, the Krill Prize."
+# - id: 14
+#   name: Haim Permuter
+#   title: Professor
+#   affiliation: Ben-Gurion University
+#   url: https://www.ee.bgu.ac.il/~haimp/
+#   avatar: /assets/images/avatar-Haim.jpg
+#   intro: 
+#     - "Haim H. Permuter (Senior Member, IEEE) received the B.Sc. and M.Sc. degrees (summa cum laude) in electrical and computer engineering from the Ben-Gurion University of the Negev, Israel, in 1997 and 2003, respectively, and the Ph.D. degree in electrical engineering from Stanford University, California, in 2008. Between 1997 and 2004, he was an Officer at a research and development unit of the Israeli Defense Forces. Since 2009, he has been with the Department of Electrical and Computer Engineering, Ben-Gurion University of the Negev, where he is currently a Professor and the Luck-Hille Chair in electrical engineering and also serves as the Head for communication, cyber, and information track in his department. He was a recipient of several awards, among them are the Fullbright Fellowship, the Stanford Graduate Fellowship (SGF), Allon Fellowship, and the U.S.–Israel Binational Science Foundation Bergmann Memorial Award. He served on the Editorial Board of the IEEE Transactions on Information Theory from 2013 to 2016.(Based on document published on 20 April 2022)."
+# - id: 15
+#   name: Meir Feder
+#   title: Professor
+#   affiliation: Tel Aviv University
+#   url: https://english.tau.ac.il/profile/meir
+#   avatar: /assets/images/avatar-Meir.jpg
+#   intro: 
+#     - "Meir Feder (Life Fellow, IEEE) received the B.Sc. and M.Sc. degrees in electrical engineering from Tel-Aviv University in 1980 and 1984, respectively, and the Sc.D. degree in electrical engineering and ocean engineering from the Massachusetts Institute of Technology (MIT) and the Woods Hole Oceanographic Institution in 1987. After being a Research Associate and a Lecturer with MIT, he joined the School of Electrical Engineering, Tel-Aviv University, where he is currently a Chaired Professor and the Head of the newly established Tel-Aviv University Center for Artificial Intelligence and Data Science (TAD). He is also a Visiting Professor with the Department of EECS, MIT. Parallel to his academic career, he is closely involved with the high-tech industry. He founded five companies, among them are Peach Networks that developed an interactive TV solution (Acq: MSFT) and Amimon that provided the highest quality, robust and no delay wireless high-definition A/V connectivity (Acq:LON.VTC). Recently, with his renewed interest in machine learning and AI, he co-founded Run:ai, a virtualization, orchestration, and acceleration platform for AI infrastructure. He is also an Active Angel Investor and serves on the board/advisory board of several U.S. and Israeli companies. He received several academic and professional awards, including the IEEE Information Theory Society Best Paper Award for his work on universal prediction, the Creative Thinking Award of the Israeli Defense Forces, and the Research Prize of the Israeli Electronic Industry, awarded by the President of Israel. For the development of Amimon’s chip-set, that uses a unique MIMO implementation of joint source-channel coding for wireless video transmission, he received the 2020 Scientific and Engineering Award of the Academy of Motion Picture Arts and Sciences."
+# - name: Itzhak Tamo
+#   title: Professor
+#   affiliation: Tel Aviv University
+#   url: https://english.tau.ac.il/profile/tamo
+#   avatar: /assets/images/avatar-Itzhak.jpg
+#   intro: 
+#     - "Itzhak Tamo (Member, IEEE) received the B.A. degree in mathematics and the B.Sc. and Ph.D. degrees in electrical engineering from the Ben-Gurion University of the Negev, Israel, in 2008 and 2012, respectively. From 2012 to 2014, he was a Post-Doctoral Researcher at the Institute for Systems Research, University of Maryland, College Park, MD, USA. He is currently an Associate Professor with the Department of Electrical Engineering, Tel Aviv University, Israel. His research interests include storage systems and devices, coding, information theory, and combinatorics. He was a co-recipient (with Zhiying Wang and Jehoshua Bruck) of the IEEE Communication Society Data Storage Technical Committee 2013 Best Paper Award. He received the 2015 IEEE Information Theory Society Paper Award with Alexander Barg and, in 2018, the Krill Prize."
 - name: Nikolaos Pappas
   title: Associate professor
   affiliation: Linköping University
@@ -134,40 +152,59 @@
   avatar: /assets/images/avatar-Nikolaos.png
   intro: 
     - "Nikolaos Pappas (Senior Member, IEEE) received the B.Sc. degree in computer science, the M.Sc. degree in computer science, the B.Sc. degree in mathematics, and the Ph.D. degree in computer science from the University of Crete, Greece, in 2005, 2007, 2012, and 2012, respectively. From 2005 to 2012, he was a Graduate Research Assistant with the Telecommunications and Networks Laboratory, Institute of Computer Science, Foundation for Research and Technology—Hellas, Heraklion, Greece; and a Visiting Scholar with the Institute of Systems Research, University of Maryland at College Park, College Park, MD, USA. From 2012 to 2014, he was a Post-Doctoral Researcher with the Department of Telecommunications, CentraleSupélec, Gif-sur-Yvette, France. He is currently an Associate Professor with the Department of Computer and Information Science, Linköping University, Linköping, Sweden. His main research interests include the field of wireless communication networks with an emphasis on semantics-aware communications, energy harvesting networks, network-level cooperation, age of information, and stochastic geometry. He has served as the Symposium Co-Chair for the IEEE International Conference on Communications in 2022 and the IEEE Wireless Communications and Networking Conference in 2022. From 2013 to 2018, he was an Editor of the IEEE Communications Letters. He was a Guest Editor of the IEEE Internet of Things Journal on “Age of Information and Data Semantics for Sensing, Communication and Control Co-Design in IoT. ” He is also an Editor of the IEEE Transactions on Communications, the IEEE Transactions on Machine Learning in Communications and Networking, the IEEE/ KICS Journal of Communications and Networks, and the IEEE Open Journal of the Communications Society, and an Expert Editor for invited papers of the IEEE Communications Letters."
-- name: Mehdi Bennis
-  title: Professor
-  affiliation: University of Oulu
-  url: https://www.oulu.fi/en/researchers/mehdi-bennis
-  avatar: /assets/images/avatar-Mehdi.jpg
-  intro: 
-    - "Dr Mehdi Bennis is a full (tenured) Professor at the Centre for Wireless Communications, University of Oulu, Finland and head of the intelligent connectivity and networks/systems group (ICON). His main research interests are in radio resource management, game theory and distributed AI in 5G/6G networks. He has published more than 200 research papers in international conferences, journals and book chapters. He has been the recipient of several prestigious awards including the 2015 Fred W. Ellersick Prize from the IEEE Communications Society, the 2016 Best Tutorial Prize from the IEEE Communications Society, the 2017 EURASIP Best paper Award for the Journal of Wireless Communications and Networks, the all-University of Oulu award for research, the 2019 IEEE ComSoc Radio Communications Committee Early Achievement Award and the 2020-2021 Clarviate Highly Cited Researcher by the Web of Science. Dr Bennis is an editor of IEEE TCOM and Specialty Chief Editor for Data Science for Communications in the Frontiers in Communications and Networks journal. Dr Bennis is an IEEE Fellow."
-- name: Bruno Loureiro
-  title: Researcher
-  affiliation: École Normale Supérieure
-  url: https://brloureiro.github.io/
-  avatar: /assets/images/avatar-Bruno.png
-  intro: 
-    - "Bruno Loureiro is a researcher at the Centre for Data Science at the École Normale Supérieure in Paris working on the crossroads between machine learning and statistical mechanics."
-    - "Before moving to ENS, he was a postdoc at the Institut de Physique Théorique (IPhT) in Paris and at the École Polytechnique Fédérale de Lausanne (EPFL) in Lausanne, where he worked with Lenka Zdeborová and Florent Krzakala."
-    - "Before his postdoc, he read the part III of the Mathematics Tripos at the University of Cambridge, and continued into a PhD at the TCM group in the same university. During his PhD he worked on the Holographic Principle, a duality stemming from string theory that relates quantum field theories to classical theories of gravity. Bruno Loureiro 's thesis was centred on applications of this duality to strongly coupled condensed matter systems, with a particular focus on disordered systems."
-- name: Yoshiyuki Kabashima
-  title: Professor
-  affiliation: The University of Tokyo
-  url: https://www.s.u-tokyo.ac.jp/en/people/kabashima_yoshiyuki/
-  avatar: /assets/images/avatar-Yoshiyuki.jpg
-  intro: 
-    - "Yoshiyuki Kabashima received the B.Sci., M.Sci., and Ph.D. degrees in physics from Kyoto University, Japan, in 1989, 1991, and 1994, respectively. From 1993 until 1996, he was with the Department of Physics, Nara Women’s University, Japan. In 1996, he moved to Tokyo Institute of Technology, Japan, where he is currently a professor with the Department of Mathematical and Computing science. His research interests include statistical mechanics, information theory, and machine learning. Dr. Kabashima received the 14th Japan IBM Science Prize in 2000, the Young Scientist Award from the Ministry of Education, Culture, Sports, Science, and Technology, Japan, in 2006, and the 11th Ryogo Kubo Memorial Prize in 2007."
-- name: Carlo Lucibell
+- name: Uri Cohen
+  title: Postdoctoral Research Fellow
+  affiliation: University of Cambridge
+  url: https://uricohen.github.io/
+  avatar: /assets/images/avatar-Uri.png
+  intro:
+    - "Uri Cohen is an aspiring scientist in the field of computational neuroscience, interested in developing theories on the dynamics of learning and memory in the brain, with possible applications to machine learning. He has strong mathematical background and hands-on experience with advanced methods from statistical physics and computer science, applied to analyze problems and experimental results from neuroscience and machine learning."
+- name: Lan V. Truong
+  title: Research Associate
+  affiliation: University of Cambridge
+  url: https://sites.google.com/site/truongvinhlan
+  avatar: /assets/images/avatar-LanVTruong.png
+  intro:
+    - "Lan V.  Truong (Trương Vĩnh Lân in Vietnamese) was born in Quang Binh province, Vietnam, where he studied at Vo Nguyen Giap Gifted High School from 1995 to 1998. He received the B.S.E. degree in electronics and telecommunications from the Posts and Telecommunications Institute of Technology (PTIT), Hanoi, Vietnam, in 2003, and the M.S.E. degree from the School of Electrical and Computer Engineering, Purdue University, West Lafayette, IN, USA, in 2011, and the Ph.D. degree from the Department of Electrical and Computer Engineering, National University of Singapore (NUS), Singapore, in 2018. He was an Operation and Maintenance Engineer with MobiFone Telecommunications Corporation, Hanoi, for several years. He spent one year as a Research Assistant with the NSF Center for Science of Information and the Department of Computer Science, Purdue University, in 2012. From 2013 to 2015, he was a University Lecturer with the Department of Information Technology Specialization, FPT University, Hanoi, Vietnam.  From 2018 to 2019, he was a Research Fellow with the Department of Computer Science, School of Computing, NUS. Since 2020, he has been a Research Associate with the Department of Engineering, University of Cambridge, United Kingdom. His research interests include information theory, machine learning, data science, and probability."
+- name: Mohamed El Amine Seddik
+  title: Senior Researcher
+  affiliation: Technology Innovation Institute
+  url: https://melaseddik.github.io/
+  avatar: /assets/images/avatar-Mohamed.png
+  intro:
+    - "Mohamed El Amine Seddik is a senior researcher in AI at the Technology Innovation Institute within the AI and Digital Science research center. Previously, He worked as a machine learning researcher at the Mathematical and Algorithmic Science Lab of Huawei Paris Research Center, where he was member of the Signal and Information Processing team held by Maxime Guillaud. Before that, he was a Postdoctoral researcher at Ecole Polytechnique hosted by Prof. Michalis Vazirgiannis. He received his Ph.D. in signal and image processing from Centrale-Supélec, University of Paris-Saclay in 2020, where he was also attached to CEA (French Atomic Agency). During his Ph.D. I worked on Random Matrix Theory and Machine Learning under the supervision of Prof. Romain Couillet."
+- name: Cynthia Rush
   title: Assistant Professor
-  affiliation: Bocconi University
-  url: https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home/faculty+and+research/faculty
-  avatar: /assets/images/avatar-Carlo.jpg
-  intro: 
-    - "I am Assistant Professor in Computer Science at Bocconi University. I obtained my PhD in Physics in 2015 from Sapienza University, under the supervision of Giorgio Parisi and Federico Ricci-Tersenghi.  I’m mostly focused on applying analytical tools from statistical physics to the understeanding of machine learning problems and in deriving efficient physics-inspired algorithms for learning, optimization, and inference."
-- name: Ruoyu Sun
-  title: Assistant Professor
-  affiliation: The University of Illinois at Urbana-Champaign
-  url: https://ruoyus.github.io/
-  avatar: /assets/images/avatar-Ruoyu.png
-  intro: 
-    - "Ruoyu Sun is an assistant professor in the Department of Industrial and Enterprise Systems Engineering (ISE) and affiliated with the Department of Electrical and Computer Engineering (ECE) and Coordinated Science Lab (CSL), the University of Illinois at Urbana-Champaign (UIUC). Before joining UIUC, he was a visiting research scientist at Facebook AI Research (FAIR) and was a postdoctoral researcher at Stanford University. He obtained Ph.D. in electrical engineering from the University of Minnesota, and a B.S. in mathematics from Peking University. He has won second place in INFORMS George Nicholson student paper competition, and honorable mention of INFORMS optimization society student paper competition. He has been serving as area chairs for machine learning conferences such as NeurIPS, ICML, and ICLR. His current research interests lie in optimization and machine learning, especially deep learning and large-scale optimization"
+  affiliation: Columbia University
+  url: http://www.columbia.edu/~cgr2130/
+  avatar: /assets/images/avatar-Cynthia.png
+# - name: Mehdi Bennis
+#   title: Professor
+#   affiliation: University of Oulu
+#   url: https://www.oulu.fi/en/researchers/mehdi-bennis
+#   avatar: /assets/images/avatar-Mehdi.jpg
+#   intro: 
+#     - "Dr Mehdi Bennis is a full (tenured) Professor at the Centre for Wireless Communications, University of Oulu, Finland and head of the intelligent connectivity and networks/systems group (ICON). His main research interests are in radio resource management, game theory and distributed AI in 5G/6G networks. He has published more than 200 research papers in international conferences, journals and book chapters. He has been the recipient of several prestigious awards including the 2015 Fred W. Ellersick Prize from the IEEE Communications Society, the 2016 Best Tutorial Prize from the IEEE Communications Society, the 2017 EURASIP Best paper Award for the Journal of Wireless Communications and Networks, the all-University of Oulu award for research, the 2019 IEEE ComSoc Radio Communications Committee Early Achievement Award and the 2020-2021 Clarviate Highly Cited Researcher by the Web of Science. Dr Bennis is an editor of IEEE TCOM and Specialty Chief Editor for Data Science for Communications in the Frontiers in Communications and Networks journal. Dr Bennis is an IEEE Fellow."
+# - name: Bruno Loureiro
+#   title: Researcher
+#   affiliation: École Normale Supérieure
+#   url: https://brloureiro.github.io/
+#   avatar: /assets/images/avatar-Bruno.png
+#   intro: 
+#     - "Bruno Loureiro is a researcher at the Centre for Data Science at the École Normale Supérieure in Paris working on the crossroads between machine learning and statistical mechanics."
+#     - "Before moving to ENS, he was a postdoc at the Institut de Physique Théorique (IPhT) in Paris and at the École Polytechnique Fédérale de Lausanne (EPFL) in Lausanne, where he worked with Lenka Zdeborová and Florent Krzakala."
+#     - "Before his postdoc, he read the part III of the Mathematics Tripos at the University of Cambridge, and continued into a PhD at the TCM group in the same university. During his PhD he worked on the Holographic Principle, a duality stemming from string theory that relates quantum field theories to classical theories of gravity. Bruno Loureiro 's thesis was centred on applications of this duality to strongly coupled condensed matter systems, with a particular focus on disordered systems."
+# - name: Yoshiyuki Kabashima
+#   title: Professor
+#   affiliation: The University of Tokyo
+#   url: https://www.s.u-tokyo.ac.jp/en/people/kabashima_yoshiyuki/
+#   avatar: /assets/images/avatar-Yoshiyuki.jpg
+#   intro: 
+#     - "Yoshiyuki Kabashima received the B.Sci., M.Sci., and Ph.D. degrees in physics from Kyoto University, Japan, in 1989, 1991, and 1994, respectively. From 1993 until 1996, he was with the Department of Physics, Nara Women’s University, Japan. In 1996, he moved to Tokyo Institute of Technology, Japan, where he is currently a professor with the Department of Mathematical and Computing science. His research interests include statistical mechanics, information theory, and machine learning. Dr. Kabashima received the 14th Japan IBM Science Prize in 2000, the Young Scientist Award from the Ministry of Education, Culture, Sports, Science, and Technology, Japan, in 2006, and the 11th Ryogo Kubo Memorial Prize in 2007."
+# - name: Carlo Lucibell
+#   title: Assistant Professor
+#   affiliation: Bocconi University
+#   url: https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home/faculty+and+research/faculty
+#   avatar: /assets/images/avatar-Carlo.jpg
+#   intro: 
+#     - "I am Assistant Professor in Computer Science at Bocconi University. I obtained my PhD in Physics in 2015 from Sapienza University, under the supervision of Giorgio Parisi and Federico Ricci-Tersenghi.  I’m mostly focused on applying analytical tools from statistical physics to the understeanding of machine learning problems and in deriving efficient physics-inspired algorithms for learning, optimization, and inference."

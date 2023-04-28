@@ -1,6 +1,9 @@
 ---
 layout: single
 permalink: /venue
+toc: true
+toc_label: " "
+toc_sticky: true
 ---
 
 ## Venue

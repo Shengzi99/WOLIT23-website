@@ -1,0 +1,6 @@
+<!-- <div style="overflow: hidden; margin:0 auto; float: none;"> -->
+<div style="overflow: hidden; margin:0 auto;">
+    {% for org in site.data.organizers %}
+        <img src="{{ site.baseurl }}{{org.logo}}" alt="{{org.name}}" style="height: 60px; margin: 4px">
+    {% endfor %}
+</div>
