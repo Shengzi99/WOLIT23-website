@@ -1,10 +1,12 @@
 main:
-  - title: "Home"
-    url: /
+  # - title: "Home"
+  #   url: /
   - title: "Speakers"
     url: /speakers.html
-  - title: "Poster"
-    url: /poster.html
+  - title: "Program"
+    url: /program.html
+  - title: Posters
+    url: /call4student_posters.html
   - title: "Venue"
     url: /venue.html
   - title: "Registration"
@@ -64,4 +66,9 @@ sidebar-speakers:
         url: /speakers.html#speaker-21
       - title: "speaker 22"
         url: /speakers.html#speaker-22
-    
+  
+sidebar-calls:
+  - title: "CALL FOR POSTERS"
+    children: 
+      - title: "Call for Student Posters"
+        url: /call4student_posters.html

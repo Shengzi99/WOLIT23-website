@@ -22,10 +22,10 @@
   affiliation: "Tsinghua Shenzhen International Graduate School"
   post: "Publicity Chair"
   avatar: "/assets/images/avatar-YansongTang.jpg"
-- name: "Cheuk Ting Li"
-  affiliation: "The Chinese University of Hong Kong"
-  post: "Publicity Chair"
-  avatar: "/assets/images/avatar-CheukTingLi.jpg"
+- name: "Chung Chan"
+  affiliation: "City University of Hong Kong"
+  post: Publicity Chair
+  avatar: /assets/images/avatar-ChungChan.jpg
 - name: "Songze Li"
   affiliation: "The Hong Kong University of Science and Technology (Guangzhou)"
   post: "Publicity Chair"
@@ -38,11 +38,11 @@
   affiliation: "Tsinghua Shenzhen International Graduate School"
   post: "Registration Chair"
   avatar: "/assets/images/avatar-BingziTian.jpg"
-- name: "Chung Chan"
-  affiliation: "City University of Hong Kong"
-  post: Local Arrangement Chair
-  avatar: /assets/images/avatar-ChungChan.jpg
 - name: "Mengfan Zheng"
   affiliation: "Hong Kong University of Science and Technology"
   post: Local Arrangement Chair
   avatar: /assets/images/avatar-MengfanZheng.png
+- name: "Cheuk Ting Li"
+  affiliation: "The Chinese University of Hong Kong"
+  post: Local Arrangement Chair
+  avatar: "/assets/images/avatar-CheukTingLi.jpg"

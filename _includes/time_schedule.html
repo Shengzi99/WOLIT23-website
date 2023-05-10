@@ -1,174 +1,35 @@
-<!-- <div style="display:flex; -ms-flex-align: center;"> -->
-<div>
+<div style="display:flex; -ms-flex-align: center;">
+<!-- <div> -->
 <div style="overflow: hidden; margin:0 auto; float: none;">
   <style type="text/css">
     .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
-    .tg td{border-width: 1px 0; border-color:rgb(201, 201, 201);border-style:solid; overflow:hidden;padding:0px 5px;word-break:normal;}
-    .tg th{border-width: 0;border-bottom-width:1px;border-color:black;border-style:solid;font-weight:bold;overflow:hidden;padding:0px 5px;word-break:normal;}
+    .tg td{border-width: 1px 0; border-color:rgb(232, 232, 232);border-style:solid; overflow:hidden;padding:5px 5px;word-break:normal;text-align:center; }
+    .tg th{border-width: 0;border-top-width:2px;border-color:rgb(180, 180, 180);border-style:solid;font-weight:bold;overflow:hidden;padding:5px 5px;word-break:normal;text-align:center; }
+    .brk {background-color: rgb(235, 255, 246);}
   </style>
   <div style="margin: 0 10px 0 0; float: left;">
       <table class="tg">
-      <thead>
-        <tr>
-          <th class="tg-fu7v">   <br>Day-1</th>
-          <th class="tg-fu7v">   <br>3rd July Monday   </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>8:00-8:30&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>Registration&nbsp;&nbsp;&nbsp;</td>
-        </tr>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>8:30-9:00&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">   <br>Opening Ceremony   </td>
-        </tr>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>9:00-9:45&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">   <br>Speaker 1</td>
-        </tr>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>9:45-10:30&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">   <br>Speaker 2</td>
-        </tr>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>10:30-11:00&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>Group Photo &amp; Coffee Break&nbsp;&nbsp;&nbsp;</td>
-        </tr>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>11:00-11:45&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">   <br>Speaker 3</td>
-        </tr>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>12:00-13:30&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">   <br>Lunch Break   </td>
-        </tr>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>13:30-14:15&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;</td>
-        </tr>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>14:15-15:00&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;</td>
-        </tr>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>15:00-15:30&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">   <br>Coffee Break   </td>
-        </tr>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>15:30-16:15&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;</td>
-        </tr>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>16:15-17:00&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;</td>
-        </tr>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>17:00-17:45&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">   <br>Speaker   8   </td>
-        </tr>
-        <tr>
-          <td class="tg-lboi">&nbsp;&nbsp;&nbsp;<br>18:00-20:00&nbsp;&nbsp;&nbsp;</td>
-          <td class="tg-lboi">   <br>Banquet</td>
-        </tr>
-      </tbody>
+        {% for day in site.data.time_sched %}
+          <thead>
+            <tr>
+              <th>Day {{ day.num }}</th>
+              <th>
+                {% for line in day.date %}
+                  {{ line }}<br>
+                {% endfor %}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for sch in day.sched %}
+            <tr {% if sch.event contains 'Break' %}class="brk"{% endif %}>
+              <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{sch.time}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{sch.event}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        {% endfor %}
       </table>
-  </div>
-  <div style="margin: 0 10px 0 0; float: left;">
-    <table class="tg">
-    <thead>
-      <tr>
-        <th class="tg-dvid">   <br>Day-2   </th>
-        <th class="tg-dvid">   <br>4th July Tuesday   </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>8:30-9:15&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>9:15-10:00&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;10&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>10:00-10:30&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0pky">   <br>Coffee Break   </td>
-      </tr>
-      <tr>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>10:30-11:15&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;11&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>11:15-12:00&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>12:00-13:30&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0pky">   <br>Lunch Break   </td>
-      </tr>
-      <tr>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>13:30-14:15&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;13&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>14:15-15:00&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;14&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>15:00-15:45&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0pky">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;15&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-    </tbody>
-    </table>
-  </div>
-  <div style="margin: 0 10px 0 0; float: left;">
-    <table class="tg">
-    <thead>
-      <tr>
-        <th class="tg-1wig">&nbsp;&nbsp;&nbsp;<br>Day-3&nbsp;&nbsp;&nbsp;</th>
-        <th class="tg-1wig">   <br>5th   July&nbsp;&nbsp;Wednesday   </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>8:30-9:15&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;16&nbsp;&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>9:15-10:00&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;17&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>10:00-10:30&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>Coffee&nbsp;&nbsp;&nbsp;Break&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>10:30-11:15&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;18&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>11:15-12:00&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;19&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>12:00-13:30&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>Lunch&nbsp;&nbsp;&nbsp;Break&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>13:30-14:15&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;20&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>14:15-15:00&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;21&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>15:00-15:45&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br>Speaker&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;&nbsp;</td>
-      </tr>
-    </tbody>
-    </table>
   </div>
 </div>
 </div>

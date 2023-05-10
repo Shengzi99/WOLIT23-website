@@ -1,0 +1,75 @@
+- num: 1
+  date: 
+    - 3rd July
+    - Monday
+  sched:
+    - time: 8:00 - 8:30
+      event: Registration
+    - time: 8:30 - 9:00
+      event: Opening Ceremony
+    - time: 9:00 - 9:50
+      event: Speaker 1
+    - time: "&nbsp;&nbsp;9:50 - 10:20"
+      event: Group Photo & Coffee Break
+    - time: 10:20 - 11:10
+      event: Speaker 2
+    - time: 11:10 - 12:00
+      event: Speaker 3
+    - time: 12:00 - 13:30
+      event: Lunch Break
+    - time: 13:30 - 14:20
+      event: Speaker 4
+    - time: 14:20 - 15:10
+      event: Speaker 5
+    - time: 15:10 - 15:40
+      event: Coffee Break
+    - time: 15:40 - 16:30
+      event: Speaker 6
+    - time: 16:30 - 18:00
+      event: Panel Discussion
+    - time: 18:00 - 20:00
+      event: Banquet
+- num: 2
+  date: 
+    - 4th July
+    - Tuesday
+  sched:
+    - time: 9:00 - 9:50
+      event: Speaker 7
+    - time: "&nbsp;&nbsp;9:50 - 10:40"
+      event: Speaker 8
+    - time: 10:40 - 11:10
+      event: Coffee Break
+    - time: 11:10 - 12:00
+      event: Speaker 9
+    - time: 12:00 - 13:30
+      event: Lunch Break
+    - time: 13:30 - 14:20
+      event: Speaker 10
+    - time: 14:20 - 15:10
+      event: Speaker 11
+    - time: 15:10 - 16:00
+      event: Speaker 12
+    - time: 16:00 - 18:00
+      event: Transportation to Hong Kong
+- num: 3
+  date:
+    - 5th July
+    - Wednesday
+  sched:
+    - time: 9:00 - 9:50
+      event: Speaker 13
+    - time: "&nbsp;&nbsp;9:50 - 10:40"
+      event: Speaker 14
+    - time: 10:40 - 11:10
+      event: Coffee Break
+    - time: 11:10 - 12:00
+      event: Speaker 15
+    - time: 12:00 - 13:30
+      event: Lunch Break
+    - time: 13:30 - 14:20
+      event: Speaker 16
+    - time: 14:20 - 15:10
+      event: Speaker 17
+    - time: 15:10 - 16:00
+      event: Speaker 18
