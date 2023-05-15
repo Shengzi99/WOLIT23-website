@@ -16,14 +16,14 @@ toc_sticky: true
 ### 1. Hong Kong Airport ➡ Shenzhen Venue
 - A.  via Shekou Port   
 
-    Ferry (30mins)-> Shekou Port -> Taxi (50mins)-> Shenzhen Institute for Talents Development (Shenzhen Venue)  
+    Ferry (30min) ↠ Shekou Port ↠ Taxi (50min) ↠ Shenzhen Institute for Talents Development (Shenzhen Venue)  
     
 - B.  via Futian Port  
 
-    Subway (40mins) -> Futian Port -> Taxi (35mins) -> Shenzhen Institute for Talents Development (Shenzhen Venue)
+    Subway (40min) ↠ Futian Port ↠ Taxi (35min) ↠ Shenzhen Institute for Talents Development (Shenzhen Venue)
 
 ### 2. Shenzhen Airport ➡ Shenzhen Venue
-Taxi (35mins) -> Shenzhen Institute for Talents Development (Shenzhen Venue)
+Taxi (35min) ↠ Shenzhen Institute for Talents Development (Shenzhen Venue)
 
 ### 3. Shenzhen Venue ➡ Hong Kong Venue
-Taxi (30mins)-> Futian Port -> HK subway East Rail Line (22mins) -> University Station (Exit B) -> Bus 272K (6mins) -> HK Science Park station (Hong Kong Venue)
+Taxi (30min) ↠ Futian Port ↠ HK subway East Rail Line (22min) ↠ University Station (Exit B) ↠ Bus 272K (6min) ↠ HK Science Park station (Hong Kong Venue)
