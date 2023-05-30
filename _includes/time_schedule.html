@@ -23,7 +23,7 @@
           <tbody>
             {% for sch in day.sched %}
             <tr {% if sch.event contains 'Break' %}class="brk"{% endif %}>
-              <td style="width: 90px;">{{sch.time}}</td>
+              <td style="width: 95px;">{{sch.time}}</td>
               <td style="padding: 5px 0px">
                 <div>
                   <p style="margin: 0">{{sch.event}}</p>

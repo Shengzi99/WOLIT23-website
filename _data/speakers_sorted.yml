@@ -36,8 +36,8 @@
     to derive the Gaussian optimality of the auxiliaries. Finally I will present a
     simple observation (conjecture) about the maximizers whose proof will lead to
     further decoupling of the optimization problem.
-  spk-title: Certain families of non-convex optimization problems in information theory
-    with unique local maximzers
+  spk-title: Certain Families of Non-convex Optimization Problems in Information Theory
+    with Unique Local Maximzers
   title:
   - Professor
   title_level: 1
@@ -150,8 +150,8 @@
   id: 5
   name: Haim Permuter
   spk-abstract: TBA
-  spk-title: A machine Learning approach for estimating and achieving capacity regions
-    of communication system
+  spk-title: A Machine Learning Approach for Estimating and Achieving Capacity Regions
+    of Communication System
   title:
   - Professor
   title_level: 1
@@ -198,7 +198,7 @@
     this algorithm to the target problem in em algorithm, and propose its improvement.
     In addition, we apply it to other various problems in information theory.
   - This paper is available in https://arxiv.org/abs/2302.06905.
-  spk-title: Iterative minimization algorithm on mixture family
+  spk-title: Iterative Minimization Algorithm on Mixture Family
   title:
   - Professor
   - ', IEEE Fellow and an IMS Fellow'
@@ -329,7 +329,7 @@
   title:
   - Principal's Diligence Chair Professor
   title_level: 1
-  url: null
+  url: https://sse.cuhk.edu.cn/en/faculty/zhangrui
 - affiliation:
   - University of California, Berkeley
   avatar: /assets/images/avatar-YiMa.jpg
@@ -385,7 +385,7 @@
     in the finite blocklength regime as well as an extended Sanov's  bound for the
     hypothesis testing problem. This talk is based on a joint  work with Saeed Masiha
     and  Mohammad Hossein Yassaee.
-  spk-title: Shannon-type inequalities for f-divergences
+  spk-title: Shannon-type Inequalities for f-divergences
   title:
   - Vice-Chancellor Associate Professor
   title_level: 2
@@ -530,7 +530,7 @@
   title:
   - Associate professor
   title_level: 2
-  url: null
+  url: https://pappas-nikolaos.github.io/
 - affiliation:
   - The Chinese University of Hong Kong, Shenzhen
   - ; Shenzhen Research Institute of Big Data
@@ -614,8 +614,8 @@
     different levels in the hierarchy play in achieving the improvement in classification
     through orchestrated reduction of manifolds’ radius, dimensionality and inter-manifold
     correlations.
-  spk-title: Characterize the geometry of object manifolds in deep neural networks
-    using statistical physics methods
+  spk-title: Characterize the Geometry of Object Manifolds in Deep Neural Networks
+    Using Statistical Physics Methods
   title:
   - Postdoctoral Research Fellow
   title_level: 3
@@ -649,7 +649,7 @@
     for the matrices of interest.
   - Based on joint work in preparation with Hong Chang Ji, Marco Mondelli and Ramji
     Venkataramanan.
-  spk-title: Discovering spikes in random matrices using approximate message passing
+  spk-title: Discovering Spikes in Random Matrices Using Approximate Message Passing
   title:
   - Post doctor
   title_level: 3
