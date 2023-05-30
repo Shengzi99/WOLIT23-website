@@ -30,12 +30,12 @@ sidebar-speakers:
         url: /speakers.html#speaker-5
       - title: "speaker 6"
         url: /speakers.html#speaker-6
+  - title: "DAY-2"
+    children:
       - title: "speaker 7"
         url: /speakers.html#speaker-7
       - title: "speaker 8"
         url: /speakers.html#speaker-8
-  - title: "DAY-2"
-    children:
       - title: "speaker 9"
         url: /speakers.html#speaker-9
       - title: "speaker 10"
@@ -44,28 +44,18 @@ sidebar-speakers:
         url: /speakers.html#speaker-11
       - title: "speaker 12"
         url: /speakers.html#speaker-12
+  - title: "DAY-3"
+    children:
       - title: "speaker 13"
         url: /speakers.html#speaker-13
       - title: "speaker 14"
         url: /speakers.html#speaker-14
       - title: "speaker 15"
         url: /speakers.html#speaker-15
-  - title: "DAY-3"
-    children:
       - title: "speaker 16"
         url: /speakers.html#speaker-16
       - title: "speaker 17"
         url: /speakers.html#speaker-17
-      - title: "speaker 18"
-        url: /speakers.html#speaker-18
-      - title: "speaker 19"
-        url: /speakers.html#speaker-19
-      - title: "speaker 20"
-        url: /speakers.html#speaker-20
-      - title: "speaker 21"
-        url: /speakers.html#speaker-21
-      - title: "speaker 22"
-        url: /speakers.html#speaker-22
   
 sidebar-calls:
   - title: "CALL FOR POSTERS"

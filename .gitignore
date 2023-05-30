@@ -16,3 +16,4 @@ Gemfile.lock
 
 # MISC
 .deploy.sh
+*.tmp.py

@@ -4,8 +4,16 @@
         <img src="{{ site.baseurl }}{{include.speaker.avatar}}" alt="{{include.speaker.name}}" style="width:120px; height:160px;"/>
         <div style="width: 400px; margin: 0px 0px 0px 30px">
             <h4 style="color:dimgray; margin-top: 5px;">{{include.speaker.name}}</h4>
-            <p style="font-size: medium; margin: 10px 0 0 0;">{{include.speaker.title}}</p>
-            <p style="font-size: medium; margin: 5px 0;">{{include.speaker.affiliation}}</p>
+            <p style="font-size: medium; margin: 10px 0 0 0;">
+                {% for t in include.speaker.title%}
+                    {{t}}
+                {% endfor %}
+            </p> 
+            <p style="font-size: medium; margin: 5px 0;">
+                {% for aff in include.speaker.affiliation%}
+                    {{aff}}
+                {% endfor %}
+            </p>
             {% if include.speaker contains "url" %}
             <p style="font-size: medium; margin: 5px 0"><a href="{{include.speaker.url}}">Personal Webpage</a></p>
             {% endif %}

@@ -2,7 +2,7 @@
 <!-- <div> -->
 <div style="overflow: hidden; margin:0 auto; float: none;">
   <style type="text/css">
-    .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+    .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;font-size: small;}
     .tg td{border-width: 1px 0; border-color:rgb(232, 232, 232);border-style:solid; overflow:hidden;padding:5px 5px;word-break:normal;text-align:center; }
     .tg th{border-width: 0;border-top-width:2px;border-color:rgb(180, 180, 180);border-style:solid;font-weight:bold;overflow:hidden;padding:5px 5px;word-break:normal;text-align:center; }
     .brk {background-color: rgb(235, 255, 246);}
@@ -23,8 +23,17 @@
           <tbody>
             {% for sch in day.sched %}
             <tr {% if sch.event contains 'Break' %}class="brk"{% endif %}>
-              <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{sch.time}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-              <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{sch.event}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td style="width: 90px;">{{sch.time}}</td>
+              <td style="padding: 5px 0px">
+                <div>
+                  <p style="margin: 0">{{sch.event}}</p>
+                  {% if sch contains "spk-id" %}
+                    {% assign cur_spk = site.data.speakers | find: "id", sch.spk-id %}
+                    <p style="margin: 0"><b>Speaker: </b>{{cur_spk.name}}, {{cur_spk.title | first}}, {{cur_spk.affiliation | first}}</p>
+                    <p style="margin: 0"><b>Title: </b>{{cur_spk.spk-title}}</p>
+                  {% endif %}
+                </div>
+              </td>
             </tr>
             {% endfor %}
           </tbody>
