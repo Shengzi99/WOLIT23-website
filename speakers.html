@@ -1,69 +1,14 @@
 ---
 layout: single
 permalink: /speakers
-<!-- sidebar:
+sidebar:
   title: "Speakers"
-  nav: sidebar-speakers -->
-speakers:
-  - name: Guangyue Han
-    inst: The University of Hong Kong
-  - name: Ercan Engin Kuruoglu
-    inst: Tsinghua Shenzhen International Graduate School
-  - name: Yi Ma
-    inst: University of California, Berkeley
-  - name: Hayashi Masahito
-    inst: Southern University of Science and Technology
-  - name: Chandra Nair
-    inst: The Chinese University of Hong Kong
-  - name: Haim Permuter
-    inst: Ben Gurion University
-  - name: Lizhong Zheng
-    inst: Massachusetts Institute of Technology
-  - name: Amin Gohari
-    inst: The Chinese University of Hong Kong
-  - name: Ruoyu Sun
-    inst: The University of Illinois at Urbana-Champaign
-  - name: Rui Zhang
-    inst: The Chinese University of Hong Kong
-  - name: Yeung Wai-Ho, Raymond
-    inst: The Chinese University of Hong Kong
-  - name: Uri Cohen
-    inst: University of Cambridge
-  - name: Mohamed El Amine Seddik
-    inst: Technology Innovation Institute
-  - name: Cynthia Rush
-    inst: Columbia University
-  - name: Deniz Gündüz
-    inst: Imperial College London
-  - name: Nikolaos Pappas
-    inst: Linköping University, Sweden
+  nav: sidebar-speakers
 ---
 
-<style type="text/css">
-  .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;margin:0px auto;}
-  .tg td{background-color:#fff;border-bottom-width:1px;border-color:#ccc;border-style:solid;border-top-width:1px;
-    border-width:0px;color:#333;overflow:hidden;padding:0px 20px;
-    word-break:normal;}
-  .tg th{background-color:#f0f0f0;border-bottom-width:1px;border-color:#ccc;border-style:solid;border-top-width:1px;
-    border-width:0px;color:#333;font-weight:normal;overflow:hidden;
-    padding:0px 20px;word-break:normal;}
-  .tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:bottom;padding: 10px;}
-  .tg .tg-0lax{text-align:left;vertical-align:top;padding: 10px;}
-  </style>
-  <table class="tg">
-  <thead>
-    <tr>
-      <th class="tg-1wig">Speaker</th>
-      <th class="tg-1wig">Institute</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for speaker in page.speakers %}
-      <tr>
-        <td class="tg-0lax">{{speaker.name}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-        <td class="tg-0lax">{{speaker.inst}}</td>
-      </tr>
-    {% endfor %}
-    <tr>
-  </tbody>
-  </table>
+{% assign idx = 0 %}
+{% for speaker in site.data.speakers %}
+  {% assign idx = idx | plus: 1 %}
+  {% include speaker_profile.html speaker=speaker id=speaker.id%}
+  <hr width=100%>
+{% endfor %}
