@@ -1,60 +1,74 @@
 - affiliation:
-  - The Chinese University of Hong Kong
-  avatar: /assets/images/avatar-Chandra.png
-  bio:
-  - Chandra Nair is a Professor with the Information Engineering department at The
-    Chinese University of Hong Kong. He also serves as the Programme Director of the
-    undergraduate program on Mathematics and Information Engineering.
-  - Chandra Nair got his Bachelor's degree, B.Tech (EE), from IIT Madras (India) and
-    his Ph.D. degree from the EE department of Stanford University. He has been an
-    Associate Editor for the IEEE Transactions on Information Theory  and was a distinguished
-    lecturer of the IEEE Information theory society. He is a Fellow of the IEEE. He
-    is a co-recipient of the 2016 Information Theory Society paper award.
-  - His recent research interests and contributions are in developing ideas, tools,
-    and techniques to tackle families of combinatorial and non-convex optimization
-    problems arising primarily in the information sciences.
-  - 'You can find more about his research: http://chandra.ie.cuhk.edu.hk/pub/research-summary.pdf'
-  id: 1
-  name: Chandra Nair
-  spk-abstract:
-  - Non-Convex optimization problems arise often in information theory, especially
-    in the context of evaluation of inner and outer bounds to the capacity regions
-    of various multiuser settings. Multiuser settings with additive Gaussian noise
-    is a commonly used model for communication in wireless networks. For Gaussian
-    broadcast channels, capacity region was established by evaluating the outer bound
-    and demonstrating that the outer bound was optimized by Gaussian distributions.
-    Further, using ideas inspiered by Dirty Paper Coding, it was shown that the outer
-    and the inner bounds coincide. From an information theorist's perspective, the
-    question of determining the capacty region of a broadcast channel seemed settled.
-    However, from an algotihmic point  of the evaluation of the capacity region, the
-    non-convexity of the resultant optimization problem over Gaussian distributions
-    poses a significant computational challenge. In this talk, we will show that the
-    non-convex optimization problem only has a  unique local maximizer, thus making
-    techniques like Gradient deascent feasible. The technique for proving optimizality
-    of local maximizers turns out to be a consequence of sub-additivity of the underlying
-    funcitonal, the same idea that led to the discovery of an alternate technqiue
-    to derive the Gaussian optimality of the auxiliaries. Finally I will present a
-    simple observation (conjecture) about the maximizers whose proof will lead to
-    further decoupling of the optimization problem.
-  spk-title: Certain Families of Non-convex Optimization Problems in Information Theory
-    with Unique Local Maximzers
-  title:
-  - Professor
-  title_level: 1
-  url: http://chandra.ie.cuhk.edu.hk/
-- affiliation:
   - Imperial College London
   avatar: /assets/images/avatar-Deniz.png
-  bio: TBA
-  id: 2
+  bio:
+  - Deniz Gündüz received his M.S. and Ph.D. degrees in electrical engineering from
+    NYU Tandon School of Engineering (formerly Polytechnic University) in 2004 and
+    2007, respectively. After his PhD, he served as a postdoctoral research associate
+    at Princeton University, as a consulting assistant professor at Stanford University,
+    and as a research associate at CTTC. ln 2012, he joined the Electrical and Electronic
+    Engineering Department of Imperial College London, UK, where he is currently a
+    Professor of Information Processing, and serves as the deputy head of the Intelligent
+    Systems and Networks Group. He has held visiting/part-time positions at University
+    of Modena and Reggio Emilia (2019-2022), University of Padova (2018-2020) and
+    Princeton University (2009-2012). His research interests lie in the areas of communications
+    and information theory, machine learning, and privacy. Dr. Gündüz is a  Fellow
+    of the IEEE. He is an Area Editor for the IEEE Transactions on Information Theory
+    and IEEE Transactions on Communications, and an Editor of the IEEE Transactions
+    on Wireless Communications. He is the recipient of the IEEE Communications Society
+    - Communication Theory Technical Committee (CTTC) Early Achievement Award in 2017,
+    Starting (2016), Consolidator (2022) and Proof-of-Concept (2023) grants of the
+    European Research Council (ERC), and several best paper awards.
+  id: 1
   name: Deniz Gündüz
-  spk-abstract: TBA
-  spk-title: TBA
+  spk-abstract:
+  - Many emerging applications, from autonomous driving, to healthcare and Internet
+    of things, involve connecting machines with humans and other machines, where the
+    goal is to enable the receiver to make the right inference or to take the right
+    action at the right time and context. This requires identifying and sending only
+    the most relevant information for the underlying task, which can significantly
+    reduce the communication load, and has motivated the recent resurgence of interest
+    in semantic and task-oriented communications. In this talk, I will present new
+    sets of performance requirements and design constraints motivated by these applications,
+    and present the results of our recent efforts in designing semantic and pragmatic
+    communication systems bringing together ideas and tools from classical information
+    and coding theory with modern machine learning algorithms.
+  spk-title: Information Theoretic Results in Semantic and Task-Oriented Communications
   title:
   - Professor
   - ', IEEE Fellow'
   title_level: 1
   url: https://www.imperial.ac.uk/people/d.gunduz
+- affiliation:
+  - The University of Hong Kong
+  avatar: /assets/images/avatar-Guangyue.png
+  bio:
+  - Guangyue Han received the B.S. and M.S. degrees in mathematics from Peking University,
+    China, in 1997 and 2000, respectively, and the Ph.D. degree in mathematics from
+    the University of Notre Dame, USA, in 2004. After three years with the Department
+    of Mathematics, the University of British Columbia, Canada, he joined the Department
+    of Mathematics, the University of Hong Kong, China, in 2007. His main research
+    areas are coding and information theory.
+  id: 2
+  name: Guangyue Han
+  spk-abstract:
+  - For a continuous-time additive white Gaussian noise (AWGN) channel with possible
+    feedback, it has been shown that as sampling gets infinitesimally fine, the mutual
+    information of the associative discrete-time channels converges to that of the
+    original continuous-time channel. We give in this paper more quantitative strengthenings
+    of this result, which, among other implications, characterize how over-sampling
+    approaches the true mutual information of a continuous-time Gaussian channel with
+    bandwidth limit. The assumptions in our results are relatively mild. In particular,
+    for the non-feedback case, compared to the Shannon-Nyquist sampling theorem, a
+    widely used tool to connect continuous-time Gaussian channels to their discrete-time
+    counterparts that requires the band-limitedness of the channel input, our results
+    only require some integrability conditions on the power spectral density function
+    of the input.
+  spk-title: On Sampling Continuous-Time AWGN Channels
+  title:
+  - Professor
+  title_level: 1
+  url: https://hkumath.hku.hk/~ghan/
 - affiliation:
   - Tsinghua Shenzhen International Graduate School
   avatar: /assets/images/avatar-Ercan.png
@@ -103,59 +117,17 @@
   title_level: 1
   url: https://ercanenginkuruoglu.github.io
 - affiliation:
-  - The University of Hong Kong
-  avatar: /assets/images/avatar-Guangyue.png
-  bio:
-  - Guangyue Han received the B.S. and M.S. degrees in mathematics from Peking University,
-    China, in 1997 and 2000, respectively, and the Ph.D. degree in mathematics from
-    the University of Notre Dame, USA, in 2004. After three years with the Department
-    of Mathematics, the University of British Columbia, Canada, he joined the Department
-    of Mathematics, the University of Hong Kong, China, in 2007. His main research
-    areas are coding and information theory.
+  - University of California, Berkeley
+  avatar: /assets/images/avatar-YiMa.jpg
+  bio: TBA
   id: 4
-  name: Guangyue Han
-  spk-abstract:
-  - For a continuous-time additive white Gaussian noise (AWGN) channel with possible
-    feedback, it has been shown that as sampling gets infinitesimally fine, the mutual
-    information of the associative discrete-time channels converges to that of the
-    original continuous-time channel. We give in this paper more quantitative strengthenings
-    of this result, which, among other implications, characterize how over-sampling
-    approaches the true mutual information of a continuous-time Gaussian channel with
-    bandwidth limit. The assumptions in our results are relatively mild. In particular,
-    for the non-feedback case, compared to the Shannon-Nyquist sampling theorem, a
-    widely used tool to connect continuous-time Gaussian channels to their discrete-time
-    counterparts that requires the band-limitedness of the channel input, our results
-    only require some integrability conditions on the power spectral density function
-    of the input.
-  spk-title: On Sampling Continuous-Time AWGN Channels
-  title:
-  - Professor
-  title_level: 1
-  url: https://hkumath.hku.hk/~ghan/
-- affiliation:
-  - Ben Gurion University
-  avatar: /assets/images/avatar-Haim.png
-  bio: Haim Permuter received his B.Sc. (summa cum laude) from Ben-Gurion University
-    (BGU) and Ph.D. from Stanford University, both in in Electrical Engineering, in
-    1997 and 2008, respectively.  Between 1997-2004, he served as a scientific research
-    officer in an R&D unit in the Israeli Defense Forces. In summer 2002 he worked
-    for IBM, Almaden research center. He is a recipient of several rewards including
-    Eshkol Fellowship, Wolf Award,  Fulbright Fellowship,  Stanford Graduate Fellowship,
-    U.S.-Israel Binational Science Foundation Bergmann Memorial Award, and Allon Fellowship.  Haim
-    joined the faculty of Electrical Engineering Department at BGU in Oct 2008 as
-    a tenure-track faculty, and is now a  Professor, Luck-Hille Chair in Electrical
-    Engineering. Haim also serves as head of the communication, cyber and information
-    track in his department. Haim served on the editorial boards of the IEEE Transactions
-    on Information Theory in 2013-2016 and serves again from Jan 2023 till now.
-  id: 5
-  name: Haim Permuter
+  name: Yi Ma
   spk-abstract: TBA
-  spk-title: A Machine Learning Approach for Estimating and Achieving Capacity Regions
-    of Communication System
+  spk-title: TBA
   title:
   - Professor
   title_level: 1
-  url: https://www.ee.bgu.ac.il/~haimp/
+  url: http://people.eecs.berkeley.edu/~yima/
 - affiliation:
   - The Chinese University of Hong Kong, Shenzhen
   avatar: /assets/images/avatar-Hayashi.jpg
@@ -184,7 +156,7 @@
     Artificial Intelligence Association (AAIA) Fellow. His research interests include
     classical and quantum information theory and classical and quantum statistical
     inference.
-  id: 6
+  id: 5
   name: Hayashi Masahito
   spk-abstract:
   - Iterative minimization algorithms appear in various areas including machine learning,
@@ -205,35 +177,73 @@
   title_level: 1
   url: https://mhayashi.info/about.html
 - affiliation:
-  - Massachusetts Institute of Technology
-  avatar: /assets/images/avatar-LizhongZheng.png
-  bio: Lizhong Zheng received the B.S and M.S. degrees, in 1994 and 1997 respectively,
-    from the Department of Electronic Engineering, Tsinghua University, China, and
-    the Ph.D. degree, in 2002, from the Department of Electrical Engineering and Computer
-    Sciences, University of California, Berkeley. Since 2002, he has been working
-    at MIT, where he is currently a professor of Electrical Engineering. His research
-    interests include information theory, statistical inference, communications, and
-    networks theory.
-  id: 7
-  name: Lizhong Zheng
+  - The Chinese University of Hong Kong
+  avatar: /assets/images/avatar-Chandra.png
+  bio:
+  - Chandra Nair is a Professor with the Information Engineering department at The
+    Chinese University of Hong Kong. He also serves as the Programme Director of the
+    undergraduate program on Mathematics and Information Engineering.
+  - Chandra Nair got his Bachelor's degree, B.Tech (EE), from IIT Madras (India) and
+    his Ph.D. degree from the EE department of Stanford University. He has been an
+    Associate Editor for the IEEE Transactions on Information Theory  and was a distinguished
+    lecturer of the IEEE Information theory society. He is a Fellow of the IEEE. He
+    is a co-recipient of the 2016 Information Theory Society paper award.
+  - His recent research interests and contributions are in developing ideas, tools,
+    and techniques to tackle families of combinatorial and non-convex optimization
+    problems arising primarily in the information sciences.
+  - 'You can find more about his research: http://chandra.ie.cuhk.edu.hk/pub/research-summary.pdf'
+  id: 6
+  name: Chandra Nair
   spk-abstract:
-  - In this talk, we report recent progress in neural network based modal decomposition.
-    The overarching theme is that we should view learning as selecting feature functions
-    in a vector space, the geometry of which provides critical insights into the design
-    of learning algorithms, including neural networks. This talk introduces the neural
-    network modules to make projections in this vector space. With this as a basic
-    building block, we can decompose dependence between more than two random variables.
-    We argue that this technique is the counterpart to basic concepts like the chain
-    rule and random binning in classical information theory. We demonstrate that this
-    result can be used in problems such as designing receivers that can take parameters
-    as side information, which is widely used in communication problems.
-  spk-title: Decomposition of Multi-Variate Dependence and Application in Parameterized
-    Inference
+  - Non-Convex optimization problems arise often in information theory, especially
+    in the context of evaluation of inner and outer bounds to the capacity regions
+    of various multiuser settings. Multiuser settings with additive Gaussian noise
+    is a commonly used model for communication in wireless networks. For Gaussian
+    broadcast channels, capacity region was established by evaluating the outer bound
+    and demonstrating that the outer bound was optimized by Gaussian distributions.
+    Further, using ideas inspiered by Dirty Paper Coding, it was shown that the outer
+    and the inner bounds coincide. From an information theorist's perspective, the
+    question of determining the capacty region of a broadcast channel seemed settled.
+    However, from an algotihmic point  of the evaluation of the capacity region, the
+    non-convexity of the resultant optimization problem over Gaussian distributions
+    poses a significant computational challenge. In this talk, we will show that the
+    non-convex optimization problem only has a  unique local maximizer, thus making
+    techniques like Gradient deascent feasible. The technique for proving optimizality
+    of local maximizers turns out to be a consequence of sub-additivity of the underlying
+    funcitonal, the same idea that led to the discovery of an alternate technqiue
+    to derive the Gaussian optimality of the auxiliaries. Finally I will present a
+    simple observation (conjecture) about the maximizers whose proof will lead to
+    further decoupling of the optimization problem.
+  spk-title: Certain Families of Non-convex Optimization Problems in Information Theory
+    with Unique Local Maximzers
   title:
   - Professor
-  - ', IEEE Fellow'
   title_level: 1
-  url: https://lizhongzheng.mit.edu/
+  url: http://chandra.ie.cuhk.edu.hk/
+- affiliation:
+  - Ben Gurion University
+  avatar: /assets/images/avatar-Haim.png
+  bio: Haim Permuter received his B.Sc. (summa cum laude) from Ben-Gurion University
+    (BGU) and Ph.D. from Stanford University, both in in Electrical Engineering, in
+    1997 and 2008, respectively.  Between 1997-2004, he served as a scientific research
+    officer in an R&D unit in the Israeli Defense Forces. In summer 2002 he worked
+    for IBM, Almaden research center. He is a recipient of several rewards including
+    Eshkol Fellowship, Wolf Award,  Fulbright Fellowship,  Stanford Graduate Fellowship,
+    U.S.-Israel Binational Science Foundation Bergmann Memorial Award, and Allon Fellowship.  Haim
+    joined the faculty of Electrical Engineering Department at BGU in Oct 2008 as
+    a tenure-track faculty, and is now a  Professor, Luck-Hille Chair in Electrical
+    Engineering. Haim also serves as head of the communication, cyber and information
+    track in his department. Haim served on the editorial boards of the IEEE Transactions
+    on Information Theory in 2013-2016 and serves again from Jan 2023 till now.
+  id: 7
+  name: Haim Permuter
+  spk-abstract: TBA
+  spk-title: A Machine Learning Approach for Estimating and Achieving Capacity Regions
+    of Communication System
+  title:
+  - Professor
+  title_level: 1
+  url: https://www.ee.bgu.ac.il/~haimp/
 - affiliation:
   - The Chinese University of Hong Kong
   avatar: /assets/images/avatar-Raymond.png
@@ -283,8 +293,8 @@
   title_level: 1
   url: https://www.ie.cuhk.edu.hk/people/raymond.shtml
 - affiliation:
-  - The Chinese University of Hong Kong, Shenzhen
-  - ; Shenzhen Research Institute of Big Data
+  - Shenzhen Research Institute of Big Data
+  - ; The Chinese University of Hong Kong, Shenzhen
   avatar: /assets/images/avatar-RuiZhang.jpg
   bio: Dr. Rui Zhang (Fellow of IEEE, Fellow of the Academy of Engineering Singapore)
     received the Ph.D. degree from Stanford University in electrical engineering in
@@ -327,21 +337,39 @@
   spk-title: 'Intelligent Reflecting Surface (IRS) Empowered 6G: Fundamentals, Applications
     and Challenges'
   title:
-  - Principal's Diligence Chair Professor
+  - X.Q. Deng Presidential Chair Professor
   title_level: 1
   url: https://sse.cuhk.edu.cn/en/faculty/zhangrui
 - affiliation:
-  - University of California, Berkeley
-  avatar: /assets/images/avatar-YiMa.jpg
-  bio: TBA
+  - Massachusetts Institute of Technology
+  avatar: /assets/images/avatar-LizhongZheng.png
+  bio: Lizhong Zheng received the B.S and M.S. degrees, in 1994 and 1997 respectively,
+    from the Department of Electronic Engineering, Tsinghua University, China, and
+    the Ph.D. degree, in 2002, from the Department of Electrical Engineering and Computer
+    Sciences, University of California, Berkeley. Since 2002, he has been working
+    at MIT, where he is currently a professor of Electrical Engineering. His research
+    interests include information theory, statistical inference, communications, and
+    networks theory.
   id: 10
-  name: Yi Ma
-  spk-abstract: TBA
-  spk-title: TBA
+  name: Lizhong Zheng
+  spk-abstract:
+  - In this talk, we report recent progress in neural network based modal decomposition.
+    The overarching theme is that we should view learning as selecting feature functions
+    in a vector space, the geometry of which provides critical insights into the design
+    of learning algorithms, including neural networks. This talk introduces the neural
+    network modules to make projections in this vector space. With this as a basic
+    building block, we can decompose dependence between more than two random variables.
+    We argue that this technique is the counterpart to basic concepts like the chain
+    rule and random binning in classical information theory. We demonstrate that this
+    result can be used in problems such as designing receivers that can take parameters
+    as side information, which is widely used in communication problems.
+  spk-title: Decomposition of Multi-Variate Dependence and Application in Parameterized
+    Inference
   title:
   - Professor
+  - ', IEEE Fellow'
   title_level: 1
-  url: http://people.eecs.berkeley.edu/~yima/
+  url: https://lizhongzheng.mit.edu/
 - affiliation:
   - The Chinese University of Hong Kong
   avatar: /assets/images/avatar-Amin.png
@@ -391,47 +419,56 @@
   title_level: 2
   url: https://www.ie.cuhk.edu.hk/people/gohari.shtml
 - affiliation:
-  - Texas A&M University
-  avatar: /assets/images/avatar-ChaoTian.jpg
-  bio: Dr. Chao Tian received the B.E. degree in Electronic Engineering from Tsinghua
-    University, Beijing, China, in 2000 and the M.S. and Ph. D. degrees in Electrical
-    and Computer Engineering from Cornell University, Ithaca, NY in 2003 and 2005,
-    respectively. Dr. Tian was a postdoctoral researcher at Ecole Polytechnique Federale
-    de Lausanne (EPFL) from 2005 to 2007, a member of technical staff--research at
-    AT&T Labs--Research in New Jersey from 2007 to 2014, and an Associate Professor
-    in the Department of Electrical Engineering and Computer Science at the University
-    of Tennessee Knoxville from 2014 to 2017. He joined the Department of Electrical
-    and Computer Engineering at Texas A&M University in 2017, where he is a now an
-    associate professor. His research interests include machine learning, data storage
-    systems, multi-user information theory, and optimization. Dr. Tian received the
-    Liu Memorial Award at Cornell University in 2004, AT&T Key Contributor Award in
-    2010, 2011 and 2013. His authored and co-authored papers received the 2014 IEEE
-    Data Storage Best Paper Award, the 2017 IEEE Jack Keil Wolf ISIT Student Paper
-    Award, and the 2020-2021 IEEE Data Storage Best Student Paper Award. He was an
-    Associate Editor for the IEEE Signal Processing Letters during 2012-2014, an Editor
-    for the IEEE Transactions on Communications during 2016-2021, and an Associate
-    Editor for the IEEE Transactions on Information Theory during 2020-2023.
+  - Linköping University
+  avatar: /assets/images/avatar-Nikolaos.png
+  bio: 'Nikolaos Pappas (Senior Member, IEEE) received a B.Sc. degree in computer
+    science, a B.Sc. degree in mathematics, an M.Sc. degree in computer science, and
+    a Ph.D. degree in computer science from the University of Crete, Greece, in 2005,
+    2012, 2007, and 2012, respectively. From 2005 to 2012, he was a Graduate Research
+    Assistant with the Telecommunications and Networks Laboratory, Institute of Computer
+    Science, Foundation for Research and Technology—Hellas, Heraklion, Greece, and
+    a Visiting Scholar with the Institute of Systems Research, University of Maryland
+    at College Park, College Park, MD, USA. From 2012 to 2014, he was a postdoctoral
+    Researcher with the Department of Telecommunications, CentraleSupélec, Gif-sur-Yvette,
+    France. He is currently an Associate Professor at the Department of Computer and
+    Information Science at Linköping University, Linköping, Sweden. His main research
+    interests include the field of wireless communication networks with an emphasis
+    on semantics-aware communications, energy harvesting networks, network-level cooperation,
+    age of information, and stochastic geometry. Dr. Pappas has served as the Symposium
+    Co-Chair of the IEEE International Conference on Communications in 2022 and the
+    IEEE Wireless Communications and Networking Conference in 2022. From 2013 to 2018,
+    he was an Editor of the IEEE COMMUNICATIONS LETTERS. He was a Guest Editor of
+    the IEEE INTERNET OF THINGS JOURNAL on “Age of Information and Data Semantics
+    for Sensing, Communication and Control Co-Design in IoT”. He is also an Editor
+    of the IEEE TRANSACTIONS ON COMMUNICATIONS, the IEEE Transactions on Machine Learning
+    in Communications and Networking, the IEEE/KICS JOURNAL OF COMMUNICATIONS AND
+    NETWORKS. He is area editor of the IEEE OPEN JOURNAL OF THE COMMUNICATIONS SOCIETY
+    and an Expert Editor for invited papers of the IEEE COMMUNICATIONS LETTERS. He
+    is guest editor of the IEEE Network on “Tactile Internet for a cyber-physical
+    continuum”. He has co-authored a monograph on Age of Information, and he is the
+    leading editor of a book on “Age of Information: Foundations and Applications”
+    published by Cambridge University Press. He has appeared in the Top 2% scientists
+    list, single year impact, in the area of Networking and Telecommunications for
+    the last three years. He is the principal investigator of the project “Semantics-Empowered
+    Communication for Networked Intelligent Systems” funded by the Swedish Research
+    Council, and he is the main PI of five more projects related to the semantics
+    of information funded by other national and EU sources.'
   id: 12
-  name: Chao Tian
+  name: Nikolaos Pappas
   spk-abstract:
-  - Recent advances in machine learning algorithms reveal the deficiency of existing
-    approaches in understanding the generalization behaviors of such algorithms. Information
-    theoretic generalization error bounds have emerged as a promising approach, which
-    allows the incorporation of both the restriction on the data distribution and
-    the interaction between training data and the algorithms. In this talk we shall
-    discuss several results that we have developed using this approach. The first
-    is a conditional mutual information based generalization error bound, the second
-    is a new chaining approach that can be used to boost existing information theoretic
-    generalization error bound, and the third is a matching approach to construct
-    tight generalization error bound for specific problems. Akin to traditional information
-    theoretic studies in communications, the Gaussian setting plays an important role
-    in these studies of information theoretic generalization error.
-  spk-title: On Information Theoretic Generalization Error Bounds for Machine Learning
-    Algorithms
+  - Wireless networks are evolving to cater to emerging cyber-physical and mission-critical
+    interactive systems, such as swarm robotics, self-driving cars, and the smart
+    Internet of Things. A fundamental shift in thinking is necessary to satisfy the
+    requirements for real-time communication, autonomous decision-making, and efficient
+    distributed processing. In this talk, we will focus on the freshness and value
+    of information, and we will present some initial results and ongoing works on
+    semantics-aware goal-oriented communication.
+  spk-title: From Information Freshness to Semantics of Information and Goal-oriented
+    Communications
   title:
-  - Associate Professor
+  - Associate professor
   title_level: 2
-  url: https://tiangroup.engr.tamu.edu/
+  url: https://pappas-nikolaos.github.io/
 - affiliation:
   - Columbia University
   avatar: /assets/images/avatar-Cynthia.png
@@ -481,59 +518,9 @@
   title_level: 2
   url: http://www.columbia.edu/~cgr2130/
 - affiliation:
-  - Linköping University
-  avatar: /assets/images/avatar-Nikolaos.png
-  bio: 'Nikolaos Pappas (Senior Member, IEEE) received a B.Sc. degree in computer
-    science, a B.Sc. degree in mathematics, an M.Sc. degree in computer science, and
-    a Ph.D. degree in computer science from the University of Crete, Greece, in 2005,
-    2012, 2007, and 2012, respectively. From 2005 to 2012, he was a Graduate Research
-    Assistant with the Telecommunications and Networks Laboratory, Institute of Computer
-    Science, Foundation for Research and Technology—Hellas, Heraklion, Greece, and
-    a Visiting Scholar with the Institute of Systems Research, University of Maryland
-    at College Park, College Park, MD, USA. From 2012 to 2014, he was a postdoctoral
-    Researcher with the Department of Telecommunications, CentraleSupélec, Gif-sur-Yvette,
-    France. He is currently an Associate Professor at the Department of Computer and
-    Information Science at Linköping University, Linköping, Sweden. His main research
-    interests include the field of wireless communication networks with an emphasis
-    on semantics-aware communications, energy harvesting networks, network-level cooperation,
-    age of information, and stochastic geometry. Dr. Pappas has served as the Symposium
-    Co-Chair of the IEEE International Conference on Communications in 2022 and the
-    IEEE Wireless Communications and Networking Conference in 2022. From 2013 to 2018,
-    he was an Editor of the IEEE COMMUNICATIONS LETTERS. He was a Guest Editor of
-    the IEEE INTERNET OF THINGS JOURNAL on “Age of Information and Data Semantics
-    for Sensing, Communication and Control Co-Design in IoT”. He is also an Editor
-    of the IEEE TRANSACTIONS ON COMMUNICATIONS, the IEEE Transactions on Machine Learning
-    in Communications and Networking, the IEEE/KICS JOURNAL OF COMMUNICATIONS AND
-    NETWORKS. He is area editor of the IEEE OPEN JOURNAL OF THE COMMUNICATIONS SOCIETY
-    and an Expert Editor for invited papers of the IEEE COMMUNICATIONS LETTERS. He
-    is guest editor of the IEEE Network on “Tactile Internet for a cyber-physical
-    continuum”. He has co-authored a monograph on Age of Information, and he is the
-    leading editor of a book on “Age of Information: Foundations and Applications”
-    published by Cambridge University Press. He has appeared in the Top 2% scientists
-    list, single year impact, in the area of Networking and Telecommunications for
-    the last three years. He is the principal investigator of the project “Semantics-Empowered
-    Communication for Networked Intelligent Systems” funded by the Swedish Research
-    Council, and he is the main PI of five more projects related to the semantics
-    of information funded by other national and EU sources.'
-  id: 14
-  name: Nikolaos Pappas
-  spk-abstract:
-  - Wireless networks are evolving to cater to emerging cyber-physical and mission-critical
-    interactive systems, such as swarm robotics, self-driving cars, and the smart
-    Internet of Things. A fundamental shift in thinking is necessary to satisfy the
-    requirements for real-time communication, autonomous decision-making, and efficient
-    distributed processing. In this talk, we will focus on the freshness and value
-    of information, and we will present some initial results and ongoing works on
-    semantics-aware goal-oriented communication.
-  spk-title: From Information Freshness to Semantics of Information and Goal-oriented
-    Communications
-  title:
-  - Associate professor
-  title_level: 2
-  url: https://pappas-nikolaos.github.io/
-- affiliation:
-  - The Chinese University of Hong Kong, Shenzhen
+  - Shenzhen International Center for Industrial and Applied Mathematics
   - ; Shenzhen Research Institute of Big Data
+  - ; The Chinese University of Hong Kong, Shenzhen
   avatar: /assets/images/avatar-Ruoyu.png
   bio:
   - Ruoyu Sun is currently an associate professor (tenured) in the School of Data
@@ -552,7 +539,7 @@
     than 50 papers in machine learning conferences, information theory and communication
     journals, and optimization journals. He has been serving as an area chair of machine
     learning conferences NeurIPS, ICML, ICLR and AISTATS.
-  id: 15
+  id: 14
   name: Ruoyu Sun
   spk-abstract:
   - 'Adam is one of the most popular algorithms in deep learning, used in lots of
@@ -577,6 +564,48 @@
   - Associate Professor
   title_level: 2
   url: https://sds.cuhk.edu.cn/en/teacher/628
+- affiliation:
+  - Texas A&M University
+  avatar: /assets/images/avatar-ChaoTian.jpg
+  bio: Dr. Chao Tian received the B.E. degree in Electronic Engineering from Tsinghua
+    University, Beijing, China, in 2000 and the M.S. and Ph. D. degrees in Electrical
+    and Computer Engineering from Cornell University, Ithaca, NY in 2003 and 2005,
+    respectively. Dr. Tian was a postdoctoral researcher at Ecole Polytechnique Federale
+    de Lausanne (EPFL) from 2005 to 2007, a member of technical staff--research at
+    AT&T Labs--Research in New Jersey from 2007 to 2014, and an Associate Professor
+    in the Department of Electrical Engineering and Computer Science at the University
+    of Tennessee Knoxville from 2014 to 2017. He joined the Department of Electrical
+    and Computer Engineering at Texas A&M University in 2017, where he is a now an
+    associate professor. His research interests include machine learning, data storage
+    systems, multi-user information theory, and optimization. Dr. Tian received the
+    Liu Memorial Award at Cornell University in 2004, AT&T Key Contributor Award in
+    2010, 2011 and 2013. His authored and co-authored papers received the 2014 IEEE
+    Data Storage Best Paper Award, the 2017 IEEE Jack Keil Wolf ISIT Student Paper
+    Award, and the 2020-2021 IEEE Data Storage Best Student Paper Award. He was an
+    Associate Editor for the IEEE Signal Processing Letters during 2012-2014, an Editor
+    for the IEEE Transactions on Communications during 2016-2021, and an Associate
+    Editor for the IEEE Transactions on Information Theory during 2020-2023.
+  id: 15
+  name: Chao Tian
+  spk-abstract:
+  - Recent advances in machine learning algorithms reveal the deficiency of existing
+    approaches in understanding the generalization behaviors of such algorithms. Information
+    theoretic generalization error bounds have emerged as a promising approach, which
+    allows the incorporation of both the restriction on the data distribution and
+    the interaction between training data and the algorithms. In this talk we shall
+    discuss several results that we have developed using this approach. The first
+    is a conditional mutual information based generalization error bound, the second
+    is a new chaining approach that can be used to boost existing information theoretic
+    generalization error bound, and the third is a matching approach to construct
+    tight generalization error bound for specific problems. Akin to traditional information
+    theoretic studies in communications, the Gaussian setting plays an important role
+    in these studies of information theoretic generalization error.
+  spk-title: On Information Theoretic Generalization Error Bounds for Machine Learning
+    Algorithms
+  title:
+  - Associate Professor
+  title_level: 2
+  url: https://tiangroup.engr.tamu.edu/
 - affiliation:
   - University of Cambridge
   avatar: /assets/images/avatar-Uri.png

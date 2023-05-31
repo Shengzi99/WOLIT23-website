@@ -89,8 +89,9 @@
     - Associate Professor
   title_level: 2
   affiliation: 
-    - The Chinese University of Hong Kong, Shenzhen
+    - Shenzhen International Center for Industrial and Applied Mathematics
     - "; Shenzhen Research Institute of Big Data"
+    - "; The Chinese University of Hong Kong, Shenzhen"
   bio: 
     - "Ruoyu Sun is currently an associate professor (tenured) in the School of Data Science at The Chinese University of Hong Kong, Shenzhen. From 2017 to 2022, he worked as a tenure-track assistant professor in the Department of ISE and ECE (affiliated), at the University of Illinois at Urbana-Champaign (UIUC). Prior to that, he worked as a full-time visiting research scientist at the Facebook AI Research, and was a postdoctoral researcher at Stanford University. He obtained Ph.D. in Electrical Engineering from the University of Minnesota, and B.S. in mathematics from Peking University. His research interests include deep learning theory and algorithms, generative models, large-scale optimization, learning to optimize and communication networks. He has won the second place of INFORMS George Nicholson student paper competition, and honorable mention of INFORMS optimization society student paper competition. He received “AI2000 Most Influential Scholar Honorable Mention” (theory, 2012-2021) from AMiner in 2022. He has published more than 50 papers in machine learning conferences, information theory and communication journals, and optimization journals. He has been serving as an area chair of machine learning conferences NeurIPS, ICML, ICLR and AISTATS."
   avatar: /assets/images/avatar-Ruoyu.png
@@ -132,11 +133,11 @@
 - id: 10
   name: Rui Zhang
   title: 
-    - Principal's Diligence Chair Professor
+    - X.Q. Deng Presidential Chair Professor
   title_level: 1
   affiliation: 
-    - The Chinese University of Hong Kong, Shenzhen
-    - "; Shenzhen Research Institute of Big Data"
+    - Shenzhen Research Institute of Big Data
+    - "; The Chinese University of Hong Kong, Shenzhen"
   bio: "Dr. Rui Zhang (Fellow of IEEE, Fellow of the Academy of Engineering Singapore) received the Ph.D. degree from Stanford University in electrical engineering in 2007. He is now a Principal’s Diligence Chair Professor in School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen. His current research interests include wireless information and power transfer, UAV/satellite communications, intelligent reflecting surfaces and reconfigurable MIMO. He has published over 500 papers, which have been cited more than 75,000 times with the h-index over 120. He has been listed as a Highly Cited Researcher by Thomson Reuters / Clarivate Analytics since 2015. He was the recipient of the IEEE Communications Society Asia-Pacific Region Best Young Researcher Award in 2011, the Young Researcher Award of National University of Singapore in 2015, the Wireless Communications Technical Committee Recognition Award in 2020, and the IEEE Signal Processing and Computing for Communications (SPCC) Technical Recognition Award in 2021. He received 17 IEEE Best Journal Paper Awards, including the IEEE Marconi Prize Paper Award in Wireless Communications (twice), the IEEE Communications Society Heinrich Hertz Prize Paper Award (thrice), the IEEE Communications Society Stephen O. Rice Prize, the IEEE Signal Processing Society Best Paper Award, etc. He has served as an Editor for several IEEE journals, including TWC, TCOM, JSAC, TSP, TGCN, etc., and as TPC co-chair or organizing committee member for over 30 international conferences. He served as an IEEE Distinguished Lecturer of IEEE Communications Society and IEEE Signal Processing Society."
   avatar: /assets/images/avatar-RuiZhang.jpg
   url: https://sse.cuhk.edu.cn/en/faculty/zhangrui
@@ -165,11 +166,13 @@
   title_level: 1
   affiliation: 
     - Imperial College London
-  bio: TBA
+  bio:
+    - "Deniz Gündüz received his M.S. and Ph.D. degrees in electrical engineering from NYU Tandon School of Engineering (formerly Polytechnic University) in 2004 and 2007, respectively. After his PhD, he served as a postdoctoral research associate at Princeton University, as a consulting assistant professor at Stanford University, and as a research associate at CTTC. ln 2012, he joined the Electrical and Electronic Engineering Department of Imperial College London, UK, where he is currently a Professor of Information Processing, and serves as the deputy head of the Intelligent Systems and Networks Group. He has held visiting/part-time positions at University of Modena and Reggio Emilia (2019-2022), University of Padova (2018-2020) and Princeton University (2009-2012). His research interests lie in the areas of communications and information theory, machine learning, and privacy. Dr. Gündüz is a  Fellow of the IEEE. He is an Area Editor for the IEEE Transactions on Information Theory and IEEE Transactions on Communications, and an Editor of the IEEE Transactions on Wireless Communications. He is the recipient of the IEEE Communications Society - Communication Theory Technical Committee (CTTC) Early Achievement Award in 2017, Starting (2016), Consolidator (2022) and Proof-of-Concept (2023) grants of the European Research Council (ERC), and several best paper awards."
   avatar: /assets/images/avatar-Deniz.png
   url: https://www.imperial.ac.uk/people/d.gunduz
-  spk-title: TBA
-  spk-abstract: TBA
+  spk-title: Information Theoretic Results in Semantic and Task-Oriented Communications
+  spk-abstract:
+    - "Many emerging applications, from autonomous driving, to healthcare and Internet of things, involve connecting machines with humans and other machines, where the goal is to enable the receiver to make the right inference or to take the right action at the right time and context. This requires identifying and sending only the most relevant information for the underlying task, which can significantly reduce the communication load, and has motivated the recent resurgence of interest in semantic and task-oriented communications. In this talk, I will present new sets of performance requirements and design constraints motivated by these applications, and present the results of our recent efforts in designing semantic and pragmatic communication systems bringing together ideas and tools from classical information and coding theory with modern machine learning algorithms."
 - id: 13
   name: Nikolaos Pappas
   title: 

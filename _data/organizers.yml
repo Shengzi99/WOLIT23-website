@@ -1,6 +1,12 @@
 - id: 1
   name: Institute of Data and Information (iDI), Tsinghua Shenzhen International Graduate School
   logo: /assets/images/logo-iDI_SIGS.png
+- id: 11
+  name: The Chinese University of Hong Kong, Shenzhen
+  logo: /assets/images/logo-CUHK_SZ.jpg
+- id: 11
+  name: Shenzhen International Center for Industrial and Applied Mathematics
+  logo: /assets/images/logo-SICIAM.jpg
 - id: 2
   name: Institute of Network Coding (INC), The Chinese University of Hong Kong
   logo: /assets/images/logo-INC_CUHK.png
