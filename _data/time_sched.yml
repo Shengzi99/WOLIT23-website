@@ -82,11 +82,14 @@
       spk-id: 15
     - time: 12:00 - 13:30
       event: Lunch Break
+    - time: 13:30 - 16:00
+      event: <b>Outstanding Young Scholar Session</b>
     - time: 13:30 - 14:20
       event: Speaker 16
       spk-id: 14
     - time: 14:20 - 15:10
       event: Speaker 17
+      spk-id: 18
     - time: 15:10 - 16:00
       event: Speaker 18
       spk-id: 16

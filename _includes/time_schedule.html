@@ -29,7 +29,7 @@
                   <p style="margin: 0">{{sch.event}}</p>
                   {% if sch contains "spk-id" %}
                     {% assign cur_spk = site.data.speakers | find: "id", sch.spk-id %}
-                    <p style="margin: 0"><b>Speaker: </b>{{cur_spk.name}}, {{cur_spk.title | first}}, {{cur_spk.affiliation | first}}</p>
+                    <p style="margin: 0"><b>Speaker: </b>{{cur_spk.name}}, {{cur_spk.title | first}}, {% for aff in cur_spk.affiliation %}{{aff}}{% endfor %}</p>
                     <p style="margin: 0"><b>Title: </b>{{cur_spk.spk-title}}</p>
                   {% endif %}
                 </div>

@@ -19,8 +19,9 @@
     - Communication Theory Technical Committee (CTTC) Early Achievement Award in 2017,
     Starting (2016), Consolidator (2022) and Proof-of-Concept (2023) grants of the
     European Research Council (ERC), and several best paper awards.
-  id: 1
+  id: 12
   name: Deniz Gündüz
+  sort_num: 1
   spk-abstract:
   - Many emerging applications, from autonomous driving, to healthcare and Internet
     of things, involve connecting machines with humans and other machines, where the
@@ -49,8 +50,9 @@
     of Mathematics, the University of British Columbia, Canada, he joined the Department
     of Mathematics, the University of Hong Kong, China, in 2007. His main research
     areas are coding and information theory.
-  id: 2
+  id: 8
   name: Guangyue Han
+  sort_num: 2
   spk-abstract:
   - For a continuous-time additive white Gaussian noise (AWGN) channel with possible
     feedback, it has been shown that as sampling gets infinitesimally fine, the mutual
@@ -93,8 +95,9 @@
     image processing, Bayesian machine learning and information theory with applications
     in remote sensing, environmental sciences, telecommunications and computational
     biology. He speaks English, Italian, German and Turkish.'
-  id: 3
-  name: Ercan Engin Kuruoğlu
+  id: 11
+  name: Ercan E. Kuruoğlu
+  sort_num: 3
   spk-abstract:
   - Graphs provide an effective framework for the analysis of multi-variate data.
     Research in Graph Signal Processing and Graph Neural Networks have advanced to
@@ -118,12 +121,44 @@
   url: https://ercanenginkuruoglu.github.io
 - affiliation:
   - University of California, Berkeley
+  - ; Hong Kong University
   avatar: /assets/images/avatar-YiMa.jpg
-  bio: TBA
-  id: 4
+  bio: Yi Ma is the inaugural director of the Data Science Institute and the head
+    of the Computer Science Department of the University of Hong Kong. He is also
+    a professor at the EECS Department at the University of California, Berkeley.
+    His research interests include computer vision, high-dimensional data analysis,
+    and integrated intelligent systems. Yi received his two bachelor’s degrees in
+    Automation and Applied Mathematics from Tsinghua University in 1995, two master’s
+    degrees in EECS and Mathematics in 1997, and a PhD degree in EECS from UC Berkeley
+    in 2000.  He has been on the faculty of UIUC ECE from 2000 to 2011, the principal
+    researcher and manager of the Visual Computing group of Microsoft Research Asia
+    from 2009 to 2014, and the Executive Dean of the School of Information Science
+    and Technology of ShanghaiTech University from 2014 to 2017. He joined the faculty
+    of UC Berkeley EECS in 2018. He has published over 60 journal papers, 120 conference
+    papers, and three textbooks in computer vision, generalized PCA, and high-dimensional
+    data analysis. He received the NSF Career award in 2004 and the ONR Young Investigator
+    award in 2005. He also received the David Marr prize in computer vision from ICCV
+    1999 and best paper awards from ECCV 2004 and ACCV 2009. He has served as the
+    Program Chair for ICCV 2013 and the General Chair for ICCV 2015. He is a Fellow
+    of IEEE, ACM, and SIAM.
+  id: 3
   name: Yi Ma
-  spk-abstract: TBA
-  spk-title: TBA
+  sort_num: 4
+  spk-abstract: In this talk, we provide a more systematic and principled view about
+    the practice of artificial intelligence from the history of the study of intelligence.
+    We argue that the most fundamental objective of intelligence is to learn a parsimonious
+    and structured representation of the sensed world that maximizes the internal
+    information gain. This objective naturally leads to a unifying computational framework
+    which integrates fundamental ideas from information theory, optimization, feedback
+    control, and game theory, hence connects us back to the true origin of the study
+    of intelligence 80 years ago. We contend that this new framework provides a unifying
+    understanding and white-box explanation for almost all recent and current practices
+    of artificial intelligence based on deep networks/learning. Probably most importantly,
+    it reveals out a much broad and bright future for developing next-generation autonomous
+    intelligent systems that truly emulate the computational mechanisms of natural
+    intelligence.
+  spk-title: 'The Past, Present, and Future of Intelligence: from Artificial Intelligence
+    to Autonomous Intelligence'
   title:
   - Professor
   title_level: 1
@@ -156,8 +191,9 @@
     Artificial Intelligence Association (AAIA) Fellow. His research interests include
     classical and quantum information theory and classical and quantum statistical
     inference.
-  id: 5
+  id: 4
   name: Hayashi Masahito
+  sort_num: 5
   spk-abstract:
   - Iterative minimization algorithms appear in various areas including machine learning,
     neural network, and information theory. The em algorithm is one of the famous
@@ -192,8 +228,9 @@
     and techniques to tackle families of combinatorial and non-convex optimization
     problems arising primarily in the information sciences.
   - 'You can find more about his research: http://chandra.ie.cuhk.edu.hk/pub/research-summary.pdf'
-  id: 6
+  id: 9
   name: Chandra Nair
+  sort_num: 6
   spk-abstract:
   - Non-Convex optimization problems arise often in information theory, especially
     in the context of evaluation of inner and outer bounds to the capacity regions
@@ -235,9 +272,22 @@
     Engineering. Haim also serves as head of the communication, cyber and information
     track in his department. Haim served on the editorial boards of the IEEE Transactions
     on Information Theory in 2013-2016 and serves again from Jan 2023 till now.
-  id: 7
+  id: 17
   name: Haim Permuter
-  spk-abstract: TBA
+  sort_num: 7
+  spk-abstract: In this talk we will develop a principled framework for neural estimation
+    and optimization of information measures and specifically directed information,
+    which is then leveraged to estimate the feedforward and feedback capacities of
+    general channels and to design a decoder for polar codes based on neural networks.
+    To that end, we propose a novel Directed Information Neural Estimator (DINE) that
+    complements the Mutual Information Neural Estimation (MINE), and then develop
+    methods for optimizing DINE and MINE over the channel input distributions. More
+    specifically, two optimization methods are proposed, one for continuous channel
+    input spaces and the other for discrete. While capacity estimation is the main
+    application considered in this talk, we will discuss how the developed estimation
+    and optimization techniques are applicable in additional scenarios where (maximized)
+    Directed Information is of interest such as probability density estimation for
+    processes with memory, causality identification and machine learning in general.
   spk-title: A Machine Learning Approach for Estimating and Achieving Capacity Regions
     of Communication System
   title:
@@ -267,8 +317,9 @@
     by the China Information Theory Society.  He is a Fellow of the IEEE, Hong Kong
     Academy of Engineering Sciences, Hong Kong Institution of Engineers, and the US
     National Academy of Engineering.
-  id: 8
+  id: 6
   name: Raymond W. Yeung
+  sort_num: 8
   spk-abstract:
   - The entropy function plays a central role in information theory. Constraints on
     the entropy function in the form of inequalities, viz. entropy inequalities (often
@@ -289,7 +340,7 @@
     in speeding up the proving of entropy inequalities.
   spk-title: Machine-Proving of Entropy Inequalities
   title:
-  - Professor
+  - The Choh-Ming Li Professor
   title_level: 1
   url: https://www.ie.cuhk.edu.hk/people/raymond.shtml
 - affiliation:
@@ -317,8 +368,9 @@
     etc., and as TPC co-chair or organizing committee member for over 30 international
     conferences. He served as an IEEE Distinguished Lecturer of IEEE Communications
     Society and IEEE Signal Processing Society.
-  id: 9
+  id: 10
   name: Rui Zhang
+  sort_num: 9
   spk-abstract:
   - In this talk, we introduce a new promising paradigm for future wireless networks
     (6G) by leveraging a massive number of low-cost passive elements with controllable
@@ -350,8 +402,9 @@
     at MIT, where he is currently a professor of Electrical Engineering. His research
     interests include information theory, statistical inference, communications, and
     networks theory.
-  id: 10
+  id: 1
   name: Lizhong Zheng
+  sort_num: 10
   spk-abstract:
   - In this talk, we report recent progress in neural network based modal decomposition.
     The overarching theme is that we should view learning as selecting feature functions
@@ -396,8 +449,9 @@
     (as supervisor). He was selected as an  exemplary reviewer for the IEEE Transactions
     on Communications in 2015  and 2016. Dr. Gohari served as an Associate Editor
     for the IEEE  Transactions on Information Theory from 2018 to 2021.
-  id: 11
+  id: 5
   name: Amin Gohari
+  sort_num: 11
   spk-abstract:
   - Shannon's mutual information is known to satisfy a class of  inequalities known
     as the Shannon-type inequalities. The Shannon-type  inequalities are widely utilized
@@ -413,13 +467,13 @@
     in the finite blocklength regime as well as an extended Sanov's  bound for the
     hypothesis testing problem. This talk is based on a joint  work with Saeed Masiha
     and  Mohammad Hossein Yassaee.
-  spk-title: Shannon-type Inequalities for f-divergences
+  spk-title: Shannon-type Inequalities for f-Divergences
   title:
   - Vice-Chancellor Associate Professor
   title_level: 2
   url: https://www.ie.cuhk.edu.hk/people/gohari.shtml
 - affiliation:
-  - Linköping University
+  - Linköping University, Sweden
   avatar: /assets/images/avatar-Nikolaos.png
   bio: 'Nikolaos Pappas (Senior Member, IEEE) received a B.Sc. degree in computer
     science, a B.Sc. degree in mathematics, an M.Sc. degree in computer science, and
@@ -453,8 +507,9 @@
     Communication for Networked Intelligent Systems” funded by the Swedish Research
     Council, and he is the main PI of five more projects related to the semantics
     of information funded by other national and EU sources.'
-  id: 12
+  id: 13
   name: Nikolaos Pappas
+  sort_num: 12
   spk-abstract:
   - Wireless networks are evolving to cater to emerging cyber-physical and mission-critical
     interactive systems, such as swarm robotics, self-driving cars, and the smart
@@ -482,8 +537,9 @@
     Computation, and Geometry in High Dimensions in Fall 2020, and was a Google Research
     Fellow at the Simons Institute for the Theory of Computing for the program on
     Computational Complexity of Statistical Inference in Fall 2021.
-  id: 13
+  id: 15
   name: Cynthia Rush
+  sort_num: 13
   spk-abstract:
   - 'Sorted L1 regularization has been incorporated into many methods for solving
     high-dimensional statistical estimation problems, including the SLOPE estimator
@@ -539,8 +595,9 @@
     than 50 papers in machine learning conferences, information theory and communication
     journals, and optimization journals. He has been serving as an area chair of machine
     learning conferences NeurIPS, ICML, ICLR and AISTATS.
-  id: 14
+  id: 7
   name: Ruoyu Sun
+  sort_num: 14
   spk-abstract:
   - 'Adam is one of the most popular algorithms in deep learning, used in lots of
     applications including chatGPT. Despite the popularity, the theoretical properties
@@ -585,8 +642,9 @@
     Associate Editor for the IEEE Signal Processing Letters during 2012-2014, an Editor
     for the IEEE Transactions on Communications during 2016-2021, and an Associate
     Editor for the IEEE Transactions on Information Theory during 2020-2023.
-  id: 15
+  id: 2
   name: Chao Tian
+  sort_num: 15
   spk-abstract:
   - Recent advances in machine learning algorithms reveal the deficiency of existing
     approaches in understanding the generalization behaviors of such algorithms. Information
@@ -607,6 +665,55 @@
   title_level: 2
   url: https://tiangroup.engr.tamu.edu/
 - affiliation:
+  - EURECOM, Campus SophiaTech
+  avatar: /assets/images/avatar-Photios.jpg
+  bio: Photios A. Stavrou  (M’16, SM’22) received his D. Eng in 2008 from the Department
+    of Electrical and Computer Engineering (ECE) of the Faculty of Engineering at
+    Aristotle University of Thessaloniki, Greece and his Ph.D in Electrical Engineering
+    from the University of Cyprus, Cyprus, in 2016. From October 2016 to August 2022,
+    he held post-doctoral positions at Aalborg University in Denmark, at KTH Royal
+    Institute of Technology in Sweden and at EURECOM in France. As of September of
+    2022, Dr Stavrou is an Assistant Professor within the Communication Systems Department
+    at EURECOM, Sophia-Antipolis, France. His research interests span information
+    and communication theories, networked control systems, goal-oriented semantic
+    communications, causal estimation theory, optimization and game theory.
+  id: 18
+  name: Photios A. Stavrou
+  sort_num: 16
+  spk-abstract:
+  - In this talk, the goal is to stress the usefulness of rate distortion theory and
+    its variants in identifying fundamental limitations in goal-oriented semantic
+    communications. In the first part of the talk, we discuss a variant of a robust
+    description lossy source coding problem. Particularly, for the proposed setup,
+    we demonstrate the cardinal role of multiple fidelity constraints in designing
+    selective decoders which in turn dictate the outcome of the reconstructed message
+    depending on the task.  We also discuss a less restrictive class of fidelity constraints,
+    called f-separable distortions, which allow for a much richer class of distortion
+    penalties (e.g., exponential, polynomial, logarithmic) between the transmitted
+    signal and the received signal. An algorithm for computing the resulting rate-distortion
+    characterizations via the alternating minimization approach is also discussed.  In
+    the second part of this talk, we consider a variant of rate distortion function,
+    called rate-distortion-perception function, and explain its utility in goal-oriented
+    compression. Here we primarily discuss optimization viewpoints and algorithms
+    that allow the computation of this function for finite alphabet sources, when
+    the distortion criterion is separable and the perception constraint belongs to
+    the family of f-divergences. An interesting result herein is the derivation of
+    a robust approximate iterative method with provable convergence guarantees, that
+    is shown to converge to the globally optimal solution. In the third part of this
+    talk and if time permits, we will also talk about a lower bound on the optimal
+    performance theoretically attainable by causal and zero-delay codes, called non-anticipative
+    rate distortion function, and demonstrate its utility in constructing achievable
+    bounds in a low-delay variable-rate lossy source coding setup that necessitates
+    causal reconstruction of the source message, one of the key features of goal-oriented
+    semantic communications from an information-theoretic standpoint.  The utility
+    of this bound, is also demonstrated in identifying the synthesis and the performance
+    analysis of a quantized closed-loop controlled network.
+  spk-title: Rate Distortion Perspectives in Goal-Oriented Semantic Communications
+  title:
+  - Assistant Professor
+  title_level: 2.5
+  url: http://photios-stavrou.com/
+- affiliation:
   - University of Cambridge
   avatar: /assets/images/avatar-Uri.png
   bio: Uri Cohen received a BSc in Mathematics and Cognitive sciences from the Hebrew
@@ -619,8 +726,9 @@
     properties of memory mechanisms in the brain. He is interested in developing theories
     on the dynamics of learning and memory in the brain, with possible applications
     to machine learning.
-  id: 16
+  id: 14
   name: Uri Cohen
+  sort_num: 17
   spk-abstract:
   - Methods from statistical physics usually describe the typical behaviour of random,
     unstructured systems when the number of elements becomes large. Here we present
@@ -661,8 +769,9 @@
     Institute of Science and Technology Austria since October 2021. His research interests
     include coding theory, information theory, and statistics theory (in no particular
     order).
-  id: 17
+  id: 16
   name: Yihan Zhang
+  sort_num: 18
   spk-abstract:
   - In modern statistics, random matrices of large dimensions often arise with a low-dimensional
     planted structure. Such structure may originate from an informative component
@@ -680,6 +789,6 @@
     Venkataramanan.
   spk-title: Discovering Spikes in Random Matrices Using Approximate Message Passing
   title:
-  - Post doctor
+  - Post-Doctoral Researcher
   title_level: 3
   url: https://sites.google.com/view/yihan/

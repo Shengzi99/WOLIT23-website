@@ -5,14 +5,10 @@
         <div style="width: 400px; margin: 0px 0px 0px 30px">
             <h4 style="color:dimgray; margin-top: 5px;">{{include.speaker.name}}</h4>
             <p style="font-size: medium; margin: 10px 0 0 0;">
-                {% for t in include.speaker.title%}
-                    {{t}}
-                {% endfor %}
+                {% for t in include.speaker.title%}{{t}}{% endfor %}
             </p> 
             <p style="font-size: medium; margin: 5px 0;">
-                {% for aff in include.speaker.affiliation%}
-                    {{aff}}
-                {% endfor %}
+                {% for aff in include.speaker.affiliation%}{{aff}}{% endfor %}
             </p>
             {% if include.speaker contains "url" %}
             <p style="font-size: medium; margin: 5px 0"><a href="{{include.speaker.url}}">Personal Webpage</a></p>
