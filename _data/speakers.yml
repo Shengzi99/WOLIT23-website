@@ -1,4 +1,5 @@
 - id: 1
+  sort_num: 4
   name: Lizhong Zheng
   title: 
     - Professor
@@ -13,6 +14,7 @@
   spk-abstract: 
     - "In this talk, we report recent progress in neural network based modal decomposition. The overarching theme is that we should view learning as selecting feature functions in a vector space, the geometry of which provides critical insights into the design of learning algorithms, including neural networks. This talk introduces the neural network modules to make projections in this vector space. With this as a basic building block, we can decompose dependence between more than two random variables. We argue that this technique is the counterpart to basic concepts like the chain rule and random binning in classical information theory. We demonstrate that this result can be used in problems such as designing receivers that can take parameters as side information, which is widely used in communication problems."
 - id: 2
+  sort_num: 5
   name: Chao Tian
   title: 
     - Associate Professor
@@ -26,6 +28,7 @@
   spk-abstract: 
     - Recent advances in machine learning algorithms reveal the deficiency of existing approaches in understanding the generalization behaviors of such algorithms. Information theoretic generalization error bounds have emerged as a promising approach, which allows the incorporation of both the restriction on the data distribution and the interaction between training data and the algorithms. In this talk we shall discuss several results that we have developed using this approach. The first is a conditional mutual information based generalization error bound, the second is a new chaining approach that can be used to boost existing information theoretic generalization error bound, and the third is a matching approach to construct tight generalization error bound for specific problems. Akin to traditional information theoretic studies in communications, the Gaussian setting plays an important role in these studies of information theoretic generalization error.
 - id: 3
+  sort_num: 2
   name: Yi Ma
   title: 
     - Professor
@@ -39,6 +42,7 @@
   spk-title: "The Past, Present, and Future of Intelligence: from Artificial Intelligence to Autonomous Intelligence"
   spk-abstract: "In this talk, we provide a more systematic and principled view about the practice of artificial intelligence from the history of the study of intelligence. We argue that the most fundamental objective of intelligence is to learn a parsimonious and structured representation of the sensed world that maximizes the internal information gain. This objective naturally leads to a unifying computational framework which integrates fundamental ideas from information theory, optimization, feedback control, and game theory, hence connects us back to the true origin of the study of intelligence 80 years ago. We contend that this new framework provides a unifying understanding and white-box explanation for almost all recent and current practices of artificial intelligence based on deep networks/learning. Probably most importantly, it reveals out a much broad and bright future for developing next-generation autonomous intelligent systems that truly emulate the computational mechanisms of natural intelligence."
 - id: 4
+  sort_num: 3
   name: Hayashi Masahito
   title: 
     - Professor
@@ -56,6 +60,7 @@
     - "However, these two topics had been separately studied for a long time. In this paper, we generalize an algorithm that was recently proposed in the context of Arimoto-Blahut algorithm. Then, we show various convergence theorems, one of which covers the case wheneach iterative step is done approximately. Also, we apply this algorithm to the target problem in em algorithm, and propose its improvement. In addition, we apply it to other various problems in information theory."
     - "This paper is available in https://arxiv.org/abs/2302.06905."
 - id: 5
+  sort_num: 13
   name: Amin Gohari
   title: 
     - Vice-Chancellor Associate Professor
@@ -70,6 +75,7 @@
   spk-abstract:
     - "Shannon's mutual information is known to satisfy a class of  inequalities known as the Shannon-type inequalities. The Shannon-type  inequalities are widely utilized in network information theory to prove  infeasibility results. In this talk, I consider the question of whether  some of these Shannon-type inequalities continue to hold for mutual  f-information, which is defined using f-divergences (also known as  generalized relative entropy). f-divergences have found various  applications in information theory, statistics, and machine learning  among other fields. We will introduce a new class of f-divergences  called super-modular divergences and show that they lead to information  measures satisfying certain Shannon-type inequalities. Applications of  super-modular divergences in statistics and information theory are  discussed. In particular, we offer new bounds on the rate-distortion  function in the finite blocklength regime as well as an extended Sanov's  bound for the hypothesis testing problem. This talk is based on a joint  work with Saeed Masiha and  Mohammad Hossein Yassaee."
 - id: 6
+  sort_num: 1
   name: Raymond W. Yeung
   title: 
     -  The Choh-Ming Li Professor
@@ -85,6 +91,7 @@
   spk-abstract:
     - "The entropy function plays a central role in information theory. Constraints on the entropy function in the form of inequalities, viz. entropy inequalities (often conditional on certain Markov conditions imposed by the problem under consideration), are indispensable tools for proving converse coding theorems. In this talk, I will give an overview of the development of machine-proving of entropy inequalities for the past 25 years. To start with, I will present a geometrical framework for the entropy function, and explain how an entropy inequality can be formulated, with or without constraints on the entropy function. Among all entropy inequalities, Shannon-type inequalities, namely those implied by the nonnegativity of Shannon’s information measures, are best understood. We will focus on the proving of Shannon-type inequalities, which in fact can be formulated as a linear programming problem. I will discuss ITIP, a software package originally developed for this purpose in the mid-1990s, as well as some of its later variants. In 2014, Tian successfully characterized the rate region of a class of exact-repair regenerating codes by means of a variant of ITIP. This is the first nontrivial converse coding theorem proved by a machine. At the end of the talk, I will discuss some recent progress in speeding up the proving of entropy inequalities."
 - id: 7
+  sort_num: 12
   name: Ruoyu Sun
   title: 
     - Associate Professor
@@ -94,13 +101,14 @@
     - "; Shenzhen Research Institute of Big Data"
     - "; The Chinese University of Hong Kong, Shenzhen"
   bio: 
-    - "Ruoyu Sun is currently an associate professor (tenured) in the School of Data Science at The Chinese University of Hong Kong, Shenzhen. From 2017 to 2022, he worked as a tenure-track assistant professor in the Department of ISE and ECE (affiliated), at the University of Illinois at Urbana-Champaign (UIUC). Prior to that, he worked as a full-time visiting research scientist at the Facebook AI Research, and was a postdoctoral researcher at Stanford University. He obtained Ph.D. in Electrical Engineering from the University of Minnesota, and B.S. in mathematics from Peking University. His research interests include deep learning theory and algorithms, generative models, large-scale optimization, learning to optimize and communication networks. He has won the second place of INFORMS George Nicholson student paper competition, and honorable mention of INFORMS optimization society student paper competition. He received “AI2000 Most Influential Scholar Honorable Mention” (theory, 2012-2021) from AMiner in 2022. He has published more than 50 papers in machine learning conferences, information theory and communication journals, and optimization journals. He has been serving as an area chair of machine learning conferences NeurIPS, ICML, ICLR and AISTATS."
+    - "Ruoyu Sun is currently a Senior Research Scientist at Shenzhen Research Institute of Big Data and Shenzhen International Center for Industrial and Applied Mathematics. He is also an associate professor (tenured) in the School of Data Science at The Chinese University of Hong Kong, Shenzhen. From 2017 to 2022, he worked as a tenure-track assistant professor in the Department of ISE and ECE (affiliated), at the University of Illinois at Urbana-Champaign (UIUC). Prior to that, he worked as a full-time visiting research scientist at the Facebook AI Research, and was a postdoctoral researcher at Stanford University. He obtained Ph.D. in Electrical Engineering from the University of Minnesota, and B.S. in mathematics from Peking University. His research interests include deep learning theory and algorithms, generative models, large-scale optimization, learning to optimize and communication networks. He has won the second place of INFORMS George Nicholson student paper competition, and honorable mention of INFORMS optimization society student paper competition. He received “AI2000 Most Influential Scholar Honorable Mention” (theory, 2012-2021) from AMiner in 2022. He has published more than 50 papers in machine learning conferences, information theory and communication journals, and optimization journals. He has been serving as an area chair of machine learning conferences NeurIPS, ICML, ICLR and AISTATS."
   avatar: /assets/images/avatar-Ruoyu.png
   url: https://sds.cuhk.edu.cn/en/teacher/628
   spk-title: Converge or Diverge? A Story of Adam
   spk-abstract:
     - "Adam is one of the most popular algorithms in deep learning, used in lots of applications including chatGPT. Despite the popularity, the theoretical properties of Adam were largely unknown, and how to tune Adam was not clear. Reddi et al. (2018) pointed out the diverengece issue of Adam, and since then many variants of Adam were proposed. However, vanilla Adam remains exceptionally popular and it works well in practice. Why is there a gap between theory and practice? We point out there is a mismatch between the settings of theory and practice: Reddi et al. (2018) pick the problem after picking the hyperparameters of Adam, i.e., (β1, β2); while practical applications often fix the problem first and then tune (β1, β2). We conjecture for the latter practical setting, i.e. allowing tuning hyperparameters, Adam can converge. In this talk, we present our recent findings that confirm this conjecture. More specifically, we show that when the 2nd-order momentum parameter β2 is large enough and 1st-order momentum parameter β1 < sqrt(β2) < 1, Adam converges. In general, Adam converges to the neighborhood of critical points; and under an extra condition (strong growth condition), Adam converges to critical points. These results lead to suggestions on how to tune Adam hyperparameters, which are confirmed by empirical experiments."
 - id: 8
+  sort_num: 6
   name: Guangyue Han
   title: 
     - Professor
@@ -115,6 +123,7 @@
   spk-abstract:
     - "For a continuous-time additive white Gaussian noise (AWGN) channel with possible feedback, it has been shown that as sampling gets infinitesimally fine, the mutual information of the associative discrete-time channels converges to that of the original continuous-time channel. We give in this paper more quantitative strengthenings of this result, which, among other implications, characterize how over-sampling approaches the true mutual information of a continuous-time Gaussian channel with bandwidth limit. The assumptions in our results are relatively mild. In particular, for the non-feedback case, compared to the Shannon-Nyquist sampling theorem, a widely used tool to connect continuous-time Gaussian channels to their discrete-time counterparts that requires the band-limitedness of the channel input, our results only require some integrability conditions on the power spectral density function of the input."
 - id: 9
+  sort_num: 10
   name: Chandra Nair
   title: 
     - Professor
@@ -132,6 +141,7 @@
   spk-abstract:
     - "Non-Convex optimization problems arise often in information theory, especially in the context of evaluation of inner and outer bounds to the capacity regions of various multiuser settings. Multiuser settings with additive Gaussian noise is a commonly used model for communication in wireless networks. For Gaussian broadcast channels, capacity region was established by evaluating the outer bound and demonstrating that the outer bound was optimized by Gaussian distributions. Further, using ideas inspiered by Dirty Paper Coding, it was shown that the outer and the inner bounds coincide. From an information theorist's perspective, the question of determining the capacty region of a broadcast channel seemed settled. However, from an algotihmic point  of the evaluation of the capacity region, the non-convexity of the resultant optimization problem over Gaussian distributions poses a significant computational challenge. In this talk, we will show that the non-convex optimization problem only has a  unique local maximizer, thus making techniques like Gradient deascent feasible. The technique for proving optimizality of local maximizers turns out to be a consequence of sub-additivity of the underlying funcitonal, the same idea that led to the discovery of an alternate technqiue to derive the Gaussian optimality of the auxiliaries. Finally I will present a simple observation (conjecture) about the maximizers whose proof will lead to further decoupling of the optimization problem."
 - id: 10
+  sort_num: 7
   name: Rui Zhang
   title: 
     - X.Q. Deng Presidential Chair Professor
@@ -139,13 +149,16 @@
   affiliation: 
     - Shenzhen Research Institute of Big Data
     - "; The Chinese University of Hong Kong, Shenzhen"
-  bio: "Dr. Rui Zhang (Fellow of IEEE, Fellow of the Academy of Engineering Singapore) received the Ph.D. degree from Stanford University in electrical engineering in 2007. He is now a Principal’s Diligence Chair Professor in School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen. His current research interests include wireless information and power transfer, UAV/satellite communications, intelligent reflecting surfaces and reconfigurable MIMO. He has published over 500 papers, which have been cited more than 75,000 times with the h-index over 120. He has been listed as a Highly Cited Researcher by Thomson Reuters / Clarivate Analytics since 2015. He was the recipient of the IEEE Communications Society Asia-Pacific Region Best Young Researcher Award in 2011, the Young Researcher Award of National University of Singapore in 2015, the Wireless Communications Technical Committee Recognition Award in 2020, and the IEEE Signal Processing and Computing for Communications (SPCC) Technical Recognition Award in 2021. He received 17 IEEE Best Journal Paper Awards, including the IEEE Marconi Prize Paper Award in Wireless Communications (twice), the IEEE Communications Society Heinrich Hertz Prize Paper Award (thrice), the IEEE Communications Society Stephen O. Rice Prize, the IEEE Signal Processing Society Best Paper Award, etc. He has served as an Editor for several IEEE journals, including TWC, TCOM, JSAC, TSP, TGCN, etc., and as TPC co-chair or organizing committee member for over 30 international conferences. He served as an IEEE Distinguished Lecturer of IEEE Communications Society and IEEE Signal Processing Society."
+  bio: 
+    - "Dr. Rui Zhang (Fellow of IEEE, Fellow of the Academy of Engineering Singapore) received the Ph.D. degree from Stanford University in electrical engineering in 2007.Rui Zhang is currently a Principal Research Scientist at Shenzhen Research Institute of Big Data. He is also a Principal's Diligence Chair Professor in the School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen."
+    - "His current research interests include wireless information and power transfer, UAV/satellite communications, intelligent reflecting surfaces and reconfigurable MIMO. He has published over 500 papers, which have been cited more than 75,000 times with the h-index over 120. He has been listed as a Highly Cited Researcher by Thomson Reuters / Clarivate Analytics since 2015. He was the recipient of the IEEE Communications Society Asia-Pacific Region Best Young Researcher Award in 2011, the Young Researcher Award of National University of Singapore in 2015, the Wireless Communications Technical Committee Recognition Award in 2020, and the IEEE Signal Processing and Computing for Communications (SPCC) Technical Recognition Award in 2021. He received 17 IEEE Best Journal Paper Awards, including the IEEE Marconi Prize Paper Award in Wireless Communications (twice), the IEEE Communications Society Heinrich Hertz Prize Paper Award (thrice), the IEEE Communications Society Stephen O. Rice Prize, the IEEE Signal Processing Society Best Paper Award, etc. He has served as an Editor for several IEEE journals, including TWC, TCOM, JSAC, TSP, TGCN, etc., and as TPC co-chair or organizing committee member for over 30 international conferences. He served as an IEEE Distinguished Lecturer of IEEE Communications Society and IEEE Signal Processing Society."
   avatar: /assets/images/avatar-RuiZhang.jpg
   url: https://sse.cuhk.edu.cn/en/faculty/zhangrui
   spk-title: "Intelligent Reflecting Surface (IRS) Empowered 6G: Fundamentals, Applications and Challenges"
   spk-abstract:
     - "In this talk, we introduce a new promising paradigm for future wireless networks (6G) by leveraging a massive number of low-cost passive elements with controllable signal reflection, named Intelligent Reflecting Surface (IRS), which can smartly reconfigure wireless channels for enhancing the communication performance. First, we present the signal and channel models of IRS by considering its hardware constraints in practice. We then illustrate the main functions and applications of IRS in achieving spectral and energy efficient wireless networks and highlight its cost and performance advantages as compared to existing wireless technologies. Next, we focus on the main design challenges for efficiently integrating IRS into future wireless networks, including passive reflection optimization, IRS channel acquisition, and IRS deployment, and overview their state-of-the-art solutions, with an emphasis on the recent progress in multi-IRS multi-reflection aided wireless networks via a new “beam routing” approach. Finally, we discuss other extensions and point out directions worthy of investigation in the future."
 - id: 11
+  sort_num: 8
   name: Ercan E. Kuruoğlu
   title: 
     - Professor
@@ -160,6 +173,7 @@
     - "Graphs provide an effective framework for the analysis of multi-variate data. Research in Graph Signal Processing and Graph Neural Networks have advanced to the point of providing state of the art solutions in various applications ranging from traffic data analysis to meteorological data analysis. However, graphs provide only a quantification of one-to-one relationships between variables. Topological data analysis, an extension of graph data analysis provides a much greater potential for uncovering hidden relationships between multiple variables. We present the extension of basic graph signal processing to simplicial graphs and give the fundamentals of topological data analysis."
     - "This new formulation allows us also to address two important challenges of the adaptive graph signal processing problem: non-Gaussian data and time-varying graphs where not only the node values but also the branch weights change over time. We present new algorithms providing time-varying solutions robust to non-Gaussian noise and data. Finally, we present an algorithm that can estimate time varying node and branch values simultaneously."
 - id: 12
+  sort_num: 11
   name: Deniz Gündüz
   title: 
     - Professor
@@ -175,6 +189,7 @@
   spk-abstract:
     - "Many emerging applications, from autonomous driving, to healthcare and Internet of things, involve connecting machines with humans and other machines, where the goal is to enable the receiver to make the right inference or to take the right action at the right time and context. This requires identifying and sending only the most relevant information for the underlying task, which can significantly reduce the communication load, and has motivated the recent resurgence of interest in semantic and task-oriented communications. In this talk, I will present new sets of performance requirements and design constraints motivated by these applications, and present the results of our recent efforts in designing semantic and pragmatic communication systems bringing together ideas and tools from classical information and coding theory with modern machine learning algorithms."
 - id: 13
+  sort_num: 14
   name: Nikolaos Pappas
   title: 
     - Associate professor
@@ -188,6 +203,7 @@
   spk-abstract: 
     - "Wireless networks are evolving to cater to emerging cyber-physical and mission-critical interactive systems, such as swarm robotics, self-driving cars, and the smart Internet of Things. A fundamental shift in thinking is necessary to satisfy the requirements for real-time communication, autonomous decision-making, and efficient distributed processing. In this talk, we will focus on the freshness and value of information, and we will present some initial results and ongoing works on semantics-aware goal-oriented communication."
 - id: 14
+  sort_num: 16
   name: Uri Cohen
   title: 
     - Postdoctoral Research Fellow
@@ -201,6 +217,7 @@
   spk-abstract: 
     - "Methods from statistical physics usually describe the typical behaviour of random, unstructured systems when the number of elements becomes large. Here we present an application of those methods to real-world data, which contains both detailed structure and non-trivial correlations, through the introduction of a novel manifold generation model. In computational neuroscience, it is usually assumed that stimuli are represented in the brain by the collective population responses of sensory neurons, and an object presented under varying conditions gives rise to a collection of neural population responses called an ‘object manifold’. Then changes in the object representation along a hierarchical sensory system are associated with changes in the geometry of those manifolds. Introducing a theoretical framework based on statistical physics and an appropriate data generation model, it is possible to connect the manifolds' geometry with 'classification capacity', a quantitative measure of the ability of the neural population to support object classification. Deep neural networks trained on object classification tasks are a natural testbed for the applicability of this relation, where it is demonstrated that classification capacity improves along the hierarchies of deep neural networks with different architectures and that changes in the geometry of the associated object manifolds underlie this improved capacity. This analysis sheds light on the functional roles different levels in the hierarchy play in achieving the improvement in classification through orchestrated reduction of manifolds’ radius, dimensionality and inter-manifold correlations."
 - id: 15
+  sort_num: 15
   name: Cynthia Rush
   title: 
     - Associate professor
@@ -214,6 +231,7 @@
   spk-abstract: 
     - "Sorted L1 regularization has been incorporated into many methods for solving high-dimensional statistical estimation problems, including the SLOPE estimator in linear regression. In this talk, we study how this relatively new regularization technique improves variable selection by characterizing the optimal SLOPE trade-off between the false discovery proportion (FDP) and true positive proportion (TPP) or, equivalently, between measures of type I and type II error. Additionally, we show that on any problem instance, SLOPE with a certain regularization sequence outperforms the Lasso, in the sense of having a smaller FDP, larger TPP and smaller L2 estimation risk simultaneously. Our proofs are based on a novel technique that reduces a variational calculus problem to a class of infinite-dimensional convex optimization problems and a very recent result from approximate message passing (AMP) theory. AMP refers to a class of iterative algorithms that have been successfully applied to a number of high-dimensional statistical estimation problems like linear regression, generalized linear models, and low-rank matrix estimation, and are practical and useful in a variety of engineering and computer science applications such as imaging, communications, and neural networks. AMP algorithms have two features that make them particularly attractive: they can easily be tailored to take advantage of prior information on the structure of the signal, such as sparsity, and under suitable assumptions on a design matrix, AMP theory provides precise asymptotic guarantees for statistical procedures in the high-dimensional regime. With SLOPE being a particular example, we discuss these results in the context of a general program for systematically deriving exact expressions for the asymptotic risk of estimators that are solutions to a broad class of convex optimization problems via AMP. Collaborators on this work include Zhiqi Bu, Jason Klusowski, and Weijie Su (https://arxiv.org/abs/1907.07502 and https://arxiv.org/abs/2105.13302) and Oliver Feng, Ramji Venkataramanan, and Richard Samworth (https://arxiv.org/abs/2105.02180)."
 - id: 16
+  sort_num: 18
   name: Yihan Zhang
   title: 
     - Post-Doctoral Researcher
@@ -228,6 +246,7 @@
     - "In modern statistics, random matrices of large dimensions often arise with a low-dimensional planted structure. Such structure may originate from an informative component that has small effective dimensions such as sparsity, rank, etc. It is of statisticians' interest to extract such components from large noisy matrices. To this end, understanding the spectral properties of spiked random matrices arising from various models becomes crucial. In this talk, I will present a novel proof technique using the approximate message passing theory that allows us to systematically characterize some spectral properties such as the location of outlier eigenvalues and the overlap between principal components and unknown parameters. The power of this approach will be demonstrated in the context of generalized linear models with general Gaussian design for which there exists no off-the-shelf random matrix theory results for the matrices of interest."
     - "Based on joint work in preparation with Hong Chang Ji, Marco Mondelli and Ramji Venkataramanan."
 - id: 17
+  sort_num: 9
   name: Haim Permuter
   title: 
     - Professor
@@ -240,6 +259,7 @@
   spk-title: A Machine Learning Approach for Estimating and Achieving Capacity Regions of Communication System
   spk-abstract: "In this talk we will develop a principled framework for neural estimation and optimization of information measures and specifically directed information, which is then leveraged to estimate the feedforward and feedback capacities of general channels and to design a decoder for polar codes based on neural networks. To that end, we propose a novel Directed Information Neural Estimator (DINE) that complements the Mutual Information Neural Estimation (MINE), and then develop methods for optimizing DINE and MINE over the channel input distributions. More specifically, two optimization methods are proposed, one for continuous channel input spaces and the other for discrete. While capacity estimation is the main application considered in this talk, we will discuss how the developed estimation and optimization techniques are applicable in additional scenarios where (maximized) Directed Information is of interest such as probability density estimation for processes with memory, causality identification and machine learning in general."
 - id: 18
+  sort_num: 17
   name: Photios A. Stavrou
   title: 
     - Assistant Professor

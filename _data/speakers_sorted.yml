@@ -1,124 +1,52 @@
 - affiliation:
-  - Imperial College London
-  avatar: /assets/images/avatar-Deniz.png
+  - The Chinese University of Hong Kong
+  avatar: /assets/images/avatar-Raymond.png
   bio:
-  - Deniz Gündüz received his M.S. and Ph.D. degrees in electrical engineering from
-    NYU Tandon School of Engineering (formerly Polytechnic University) in 2004 and
-    2007, respectively. After his PhD, he served as a postdoctoral research associate
-    at Princeton University, as a consulting assistant professor at Stanford University,
-    and as a research associate at CTTC. ln 2012, he joined the Electrical and Electronic
-    Engineering Department of Imperial College London, UK, where he is currently a
-    Professor of Information Processing, and serves as the deputy head of the Intelligent
-    Systems and Networks Group. He has held visiting/part-time positions at University
-    of Modena and Reggio Emilia (2019-2022), University of Padova (2018-2020) and
-    Princeton University (2009-2012). His research interests lie in the areas of communications
-    and information theory, machine learning, and privacy. Dr. Gündüz is a  Fellow
-    of the IEEE. He is an Area Editor for the IEEE Transactions on Information Theory
-    and IEEE Transactions on Communications, and an Editor of the IEEE Transactions
-    on Wireless Communications. He is the recipient of the IEEE Communications Society
-    - Communication Theory Technical Committee (CTTC) Early Achievement Award in 2017,
-    Starting (2016), Consolidator (2022) and Proof-of-Concept (2023) grants of the
-    European Research Council (ERC), and several best paper awards.
-  id: 12
-  name: Deniz Gündüz
+  - Raymond W. Yeung is the Choh-Ming Li Professor of Information Engineering at The
+    Chinese University of Hong Kong (CUHK). He received his B.S., M.Eng., and PhD
+    degrees from Cornell University in Electrical Engineering in 1984, 1985, and 1988,
+    respectively. Before joining CUHK in 1991, he was a Member of Technical Staff
+    at AT&T Bell Laboratories. A co-founder of the field of network coding, he has
+    been serving as Co-Director of the Institute of Network Coding at CUHK since 2010.
+    He is the author of the books A First Course in Information Theory (Kluwer Academic/Plenum
+    Publishers, 2002) and Information Theory and Network Coding (Springer 2008), which
+    have been adopted by over 100 institutions around the world. In spring 2014, he
+    gave the first MOOC in the world on information theory that reached over 25,000
+    students.
+  - He is a recipient of the 2005 IEEE Information Theory Society Paper Award, the
+    Friedrich Wilhelm Bessel Research Award from the Alexander von Humboldt Foundation
+    in 2007, the 2016 IEEE Eric E. Sumner Award, the 2018 ACM SIGMOBILE Test-of-Time
+    Paper Award, the 2021 IEEE Richard W. Hamming Medal, and the 2022 Claude E. Shannon
+    Award. In 2015, he was named an Outstanding Overseas Chinese Information Theorist
+    by the China Information Theory Society.  He is a Fellow of the IEEE, Hong Kong
+    Academy of Engineering Sciences, Hong Kong Institution of Engineers, and the US
+    National Academy of Engineering.
+  id: 6
+  name: Raymond W. Yeung
   sort_num: 1
   spk-abstract:
-  - Many emerging applications, from autonomous driving, to healthcare and Internet
-    of things, involve connecting machines with humans and other machines, where the
-    goal is to enable the receiver to make the right inference or to take the right
-    action at the right time and context. This requires identifying and sending only
-    the most relevant information for the underlying task, which can significantly
-    reduce the communication load, and has motivated the recent resurgence of interest
-    in semantic and task-oriented communications. In this talk, I will present new
-    sets of performance requirements and design constraints motivated by these applications,
-    and present the results of our recent efforts in designing semantic and pragmatic
-    communication systems bringing together ideas and tools from classical information
-    and coding theory with modern machine learning algorithms.
-  spk-title: Information Theoretic Results in Semantic and Task-Oriented Communications
+  - The entropy function plays a central role in information theory. Constraints on
+    the entropy function in the form of inequalities, viz. entropy inequalities (often
+    conditional on certain Markov conditions imposed by the problem under consideration),
+    are indispensable tools for proving converse coding theorems. In this talk, I
+    will give an overview of the development of machine-proving of entropy inequalities
+    for the past 25 years. To start with, I will present a geometrical framework for
+    the entropy function, and explain how an entropy inequality can be formulated,
+    with or without constraints on the entropy function. Among all entropy inequalities,
+    Shannon-type inequalities, namely those implied by the nonnegativity of Shannon’s
+    information measures, are best understood. We will focus on the proving of Shannon-type
+    inequalities, which in fact can be formulated as a linear programming problem.
+    I will discuss ITIP, a software package originally developed for this purpose
+    in the mid-1990s, as well as some of its later variants. In 2014, Tian successfully
+    characterized the rate region of a class of exact-repair regenerating codes by
+    means of a variant of ITIP. This is the first nontrivial converse coding theorem
+    proved by a machine. At the end of the talk, I will discuss some recent progress
+    in speeding up the proving of entropy inequalities.
+  spk-title: Machine-Proving of Entropy Inequalities
   title:
-  - Professor
-  - ', IEEE Fellow'
+  - The Choh-Ming Li Professor
   title_level: 1
-  url: https://www.imperial.ac.uk/people/d.gunduz
-- affiliation:
-  - The University of Hong Kong
-  avatar: /assets/images/avatar-Guangyue.png
-  bio:
-  - Guangyue Han received the B.S. and M.S. degrees in mathematics from Peking University,
-    China, in 1997 and 2000, respectively, and the Ph.D. degree in mathematics from
-    the University of Notre Dame, USA, in 2004. After three years with the Department
-    of Mathematics, the University of British Columbia, Canada, he joined the Department
-    of Mathematics, the University of Hong Kong, China, in 2007. His main research
-    areas are coding and information theory.
-  id: 8
-  name: Guangyue Han
-  sort_num: 2
-  spk-abstract:
-  - For a continuous-time additive white Gaussian noise (AWGN) channel with possible
-    feedback, it has been shown that as sampling gets infinitesimally fine, the mutual
-    information of the associative discrete-time channels converges to that of the
-    original continuous-time channel. We give in this paper more quantitative strengthenings
-    of this result, which, among other implications, characterize how over-sampling
-    approaches the true mutual information of a continuous-time Gaussian channel with
-    bandwidth limit. The assumptions in our results are relatively mild. In particular,
-    for the non-feedback case, compared to the Shannon-Nyquist sampling theorem, a
-    widely used tool to connect continuous-time Gaussian channels to their discrete-time
-    counterparts that requires the band-limitedness of the channel input, our results
-    only require some integrability conditions on the power spectral density function
-    of the input.
-  spk-title: On Sampling Continuous-Time AWGN Channels
-  title:
-  - Professor
-  title_level: 1
-  url: https://hkumath.hku.hk/~ghan/
-- affiliation:
-  - Tsinghua Shenzhen International Graduate School
-  avatar: /assets/images/avatar-Ercan.png
-  bio: 'Ercan E. Kuruoğlu received MPhil and PhD degrees in information engineering
-    from the University of Cambridge, United Kingdom, in 1995 and 1999, respectively.
-    In 1998, he joined Xerox Research Center Europe, Cambridge. He was an ERCIM fellow
-    in 2000 with INRIA-Sophia Antipolis, France. In January 2002, he joined Institute
-    of Science and Technology of Information-CNR (Italian National Council of Research),
-    Pisa, Italy where he became a Chief Scientist in 2020. He is a Full Professor
-    at Tsinghua-Berkeley Shenzhen Institute since 2022. He served as an Associate
-    Editor for the IEEE Transactions on Signal Processing and IEEE Transactions on
-    Image Processing. He was the Editor in Chief of Digital Signal Processing: A Review
-    Journal between 2011-2021. He is currently co-Editor-in-Chief of Journal of the
-    Franklin Institute. He acted as a Technical co-Chair for EUSIPCO 2006 and a Tutorials
-    co-Chair of ICASSP 2014. He is a member of the IEEE Signal Processing Society
-    Data Challenges Committee, IEEE Technical Committees (TC) on Machine Learning
-    for Signal Processing and TC on Image, Video and Multidimensional Signal Processing.
-    He was a plenary speaker at DAC 2007, ISSPA 2010, IEEE SIU 2017, Entropy 2018,
-    MIIS 2020 and tutorial speaker at IEEE ICSPCC 2012. He was an Alexander von Humboldt
-    Experienced Research Fellow in the Max Planck Institute for Molecular Genetics
-    in 2013-2015. His research interests are in the areas of statistical signal and
-    image processing, Bayesian machine learning and information theory with applications
-    in remote sensing, environmental sciences, telecommunications and computational
-    biology. He speaks English, Italian, German and Turkish.'
-  id: 11
-  name: Ercan E. Kuruoğlu
-  sort_num: 3
-  spk-abstract:
-  - Graphs provide an effective framework for the analysis of multi-variate data.
-    Research in Graph Signal Processing and Graph Neural Networks have advanced to
-    the point of providing state of the art solutions in various applications ranging
-    from traffic data analysis to meteorological data analysis. However, graphs provide
-    only a quantification of one-to-one relationships between variables. Topological
-    data analysis, an extension of graph data analysis provides a much greater potential
-    for uncovering hidden relationships between multiple variables. We present the
-    extension of basic graph signal processing to simplicial graphs and give the fundamentals
-    of topological data analysis.
-  - 'This new formulation allows us also to address two important challenges of the
-    adaptive graph signal processing problem: non-Gaussian data and time-varying graphs
-    where not only the node values but also the branch weights change over time. We
-    present new algorithms providing time-varying solutions robust to non-Gaussian
-    noise and data. Finally, we present an algorithm that can estimate time varying
-    node and branch values simultaneously.'
-  spk-title: Time-varying Topological Signal Processing
-  title:
-  - Professor
-  title_level: 1
-  url: https://ercanenginkuruoglu.github.io
+  url: https://www.ie.cuhk.edu.hk/people/raymond.shtml
 - affiliation:
   - University of California, Berkeley
   - ; Hong Kong University
@@ -143,7 +71,7 @@
     of IEEE, ACM, and SIAM.
   id: 3
   name: Yi Ma
-  sort_num: 4
+  sort_num: 2
   spk-abstract: In this talk, we provide a more systematic and principled view about
     the practice of artificial intelligence from the history of the study of intelligence.
     We argue that the most fundamental objective of intelligence is to learn a parsimonious
@@ -193,7 +121,7 @@
     inference.
   id: 4
   name: Hayashi Masahito
-  sort_num: 5
+  sort_num: 3
   spk-abstract:
   - Iterative minimization algorithms appear in various areas including machine learning,
     neural network, and information theory. The em algorithm is one of the famous
@@ -213,6 +141,247 @@
   title_level: 1
   url: https://mhayashi.info/about.html
 - affiliation:
+  - Massachusetts Institute of Technology
+  avatar: /assets/images/avatar-LizhongZheng.png
+  bio: Lizhong Zheng received the B.S and M.S. degrees, in 1994 and 1997 respectively,
+    from the Department of Electronic Engineering, Tsinghua University, China, and
+    the Ph.D. degree, in 2002, from the Department of Electrical Engineering and Computer
+    Sciences, University of California, Berkeley. Since 2002, he has been working
+    at MIT, where he is currently a professor of Electrical Engineering. His research
+    interests include information theory, statistical inference, communications, and
+    networks theory.
+  id: 1
+  name: Lizhong Zheng
+  sort_num: 4
+  spk-abstract:
+  - In this talk, we report recent progress in neural network based modal decomposition.
+    The overarching theme is that we should view learning as selecting feature functions
+    in a vector space, the geometry of which provides critical insights into the design
+    of learning algorithms, including neural networks. This talk introduces the neural
+    network modules to make projections in this vector space. With this as a basic
+    building block, we can decompose dependence between more than two random variables.
+    We argue that this technique is the counterpart to basic concepts like the chain
+    rule and random binning in classical information theory. We demonstrate that this
+    result can be used in problems such as designing receivers that can take parameters
+    as side information, which is widely used in communication problems.
+  spk-title: Decomposition of Multi-Variate Dependence and Application in Parameterized
+    Inference
+  title:
+  - Professor
+  - ', IEEE Fellow'
+  title_level: 1
+  url: https://lizhongzheng.mit.edu/
+- affiliation:
+  - Texas A&M University
+  avatar: /assets/images/avatar-ChaoTian.jpg
+  bio: Dr. Chao Tian received the B.E. degree in Electronic Engineering from Tsinghua
+    University, Beijing, China, in 2000 and the M.S. and Ph. D. degrees in Electrical
+    and Computer Engineering from Cornell University, Ithaca, NY in 2003 and 2005,
+    respectively. Dr. Tian was a postdoctoral researcher at Ecole Polytechnique Federale
+    de Lausanne (EPFL) from 2005 to 2007, a member of technical staff--research at
+    AT&T Labs--Research in New Jersey from 2007 to 2014, and an Associate Professor
+    in the Department of Electrical Engineering and Computer Science at the University
+    of Tennessee Knoxville from 2014 to 2017. He joined the Department of Electrical
+    and Computer Engineering at Texas A&M University in 2017, where he is a now an
+    associate professor. His research interests include machine learning, data storage
+    systems, multi-user information theory, and optimization. Dr. Tian received the
+    Liu Memorial Award at Cornell University in 2004, AT&T Key Contributor Award in
+    2010, 2011 and 2013. His authored and co-authored papers received the 2014 IEEE
+    Data Storage Best Paper Award, the 2017 IEEE Jack Keil Wolf ISIT Student Paper
+    Award, and the 2020-2021 IEEE Data Storage Best Student Paper Award. He was an
+    Associate Editor for the IEEE Signal Processing Letters during 2012-2014, an Editor
+    for the IEEE Transactions on Communications during 2016-2021, and an Associate
+    Editor for the IEEE Transactions on Information Theory during 2020-2023.
+  id: 2
+  name: Chao Tian
+  sort_num: 5
+  spk-abstract:
+  - Recent advances in machine learning algorithms reveal the deficiency of existing
+    approaches in understanding the generalization behaviors of such algorithms. Information
+    theoretic generalization error bounds have emerged as a promising approach, which
+    allows the incorporation of both the restriction on the data distribution and
+    the interaction between training data and the algorithms. In this talk we shall
+    discuss several results that we have developed using this approach. The first
+    is a conditional mutual information based generalization error bound, the second
+    is a new chaining approach that can be used to boost existing information theoretic
+    generalization error bound, and the third is a matching approach to construct
+    tight generalization error bound for specific problems. Akin to traditional information
+    theoretic studies in communications, the Gaussian setting plays an important role
+    in these studies of information theoretic generalization error.
+  spk-title: On Information Theoretic Generalization Error Bounds for Machine Learning
+    Algorithms
+  title:
+  - Associate Professor
+  title_level: 2
+  url: https://tiangroup.engr.tamu.edu/
+- affiliation:
+  - The University of Hong Kong
+  avatar: /assets/images/avatar-Guangyue.png
+  bio:
+  - Guangyue Han received the B.S. and M.S. degrees in mathematics from Peking University,
+    China, in 1997 and 2000, respectively, and the Ph.D. degree in mathematics from
+    the University of Notre Dame, USA, in 2004. After three years with the Department
+    of Mathematics, the University of British Columbia, Canada, he joined the Department
+    of Mathematics, the University of Hong Kong, China, in 2007. His main research
+    areas are coding and information theory.
+  id: 8
+  name: Guangyue Han
+  sort_num: 6
+  spk-abstract:
+  - For a continuous-time additive white Gaussian noise (AWGN) channel with possible
+    feedback, it has been shown that as sampling gets infinitesimally fine, the mutual
+    information of the associative discrete-time channels converges to that of the
+    original continuous-time channel. We give in this paper more quantitative strengthenings
+    of this result, which, among other implications, characterize how over-sampling
+    approaches the true mutual information of a continuous-time Gaussian channel with
+    bandwidth limit. The assumptions in our results are relatively mild. In particular,
+    for the non-feedback case, compared to the Shannon-Nyquist sampling theorem, a
+    widely used tool to connect continuous-time Gaussian channels to their discrete-time
+    counterparts that requires the band-limitedness of the channel input, our results
+    only require some integrability conditions on the power spectral density function
+    of the input.
+  spk-title: On Sampling Continuous-Time AWGN Channels
+  title:
+  - Professor
+  title_level: 1
+  url: https://hkumath.hku.hk/~ghan/
+- affiliation:
+  - Shenzhen Research Institute of Big Data
+  - ; The Chinese University of Hong Kong, Shenzhen
+  avatar: /assets/images/avatar-RuiZhang.jpg
+  bio:
+  - Dr. Rui Zhang (Fellow of IEEE, Fellow of the Academy of Engineering Singapore)
+    received the Ph.D. degree from Stanford University in electrical engineering in
+    2007.Rui Zhang is currently a Principal Research Scientist at Shenzhen Research
+    Institute of Big Data. He is also a Principal's Diligence Chair Professor in the
+    School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen.
+  - His current research interests include wireless information and power transfer,
+    UAV/satellite communications, intelligent reflecting surfaces and reconfigurable
+    MIMO. He has published over 500 papers, which have been cited more than 75,000
+    times with the h-index over 120. He has been listed as a Highly Cited Researcher
+    by Thomson Reuters / Clarivate Analytics since 2015. He was the recipient of the
+    IEEE Communications Society Asia-Pacific Region Best Young Researcher Award in
+    2011, the Young Researcher Award of National University of Singapore in 2015,
+    the Wireless Communications Technical Committee Recognition Award in 2020, and
+    the IEEE Signal Processing and Computing for Communications (SPCC) Technical Recognition
+    Award in 2021. He received 17 IEEE Best Journal Paper Awards, including the IEEE
+    Marconi Prize Paper Award in Wireless Communications (twice), the IEEE Communications
+    Society Heinrich Hertz Prize Paper Award (thrice), the IEEE Communications Society
+    Stephen O. Rice Prize, the IEEE Signal Processing Society Best Paper Award, etc.
+    He has served as an Editor for several IEEE journals, including TWC, TCOM, JSAC,
+    TSP, TGCN, etc., and as TPC co-chair or organizing committee member for over 30
+    international conferences. He served as an IEEE Distinguished Lecturer of IEEE
+    Communications Society and IEEE Signal Processing Society.
+  id: 10
+  name: Rui Zhang
+  sort_num: 7
+  spk-abstract:
+  - In this talk, we introduce a new promising paradigm for future wireless networks
+    (6G) by leveraging a massive number of low-cost passive elements with controllable
+    signal reflection, named Intelligent Reflecting Surface (IRS), which can smartly
+    reconfigure wireless channels for enhancing the communication performance. First,
+    we present the signal and channel models of IRS by considering its hardware constraints
+    in practice. We then illustrate the main functions and applications of IRS in
+    achieving spectral and energy efficient wireless networks and highlight its cost
+    and performance advantages as compared to existing wireless technologies. Next,
+    we focus on the main design challenges for efficiently integrating IRS into future
+    wireless networks, including passive reflection optimization, IRS channel acquisition,
+    and IRS deployment, and overview their state-of-the-art solutions, with an emphasis
+    on the recent progress in multi-IRS multi-reflection aided wireless networks via
+    a new “beam routing” approach. Finally, we discuss other extensions and point
+    out directions worthy of investigation in the future.
+  spk-title: 'Intelligent Reflecting Surface (IRS) Empowered 6G: Fundamentals, Applications
+    and Challenges'
+  title:
+  - X.Q. Deng Presidential Chair Professor
+  title_level: 1
+  url: https://sse.cuhk.edu.cn/en/faculty/zhangrui
+- affiliation:
+  - Tsinghua Shenzhen International Graduate School
+  avatar: /assets/images/avatar-Ercan.png
+  bio: 'Ercan E. Kuruoğlu received MPhil and PhD degrees in information engineering
+    from the University of Cambridge, United Kingdom, in 1995 and 1999, respectively.
+    In 1998, he joined Xerox Research Center Europe, Cambridge. He was an ERCIM fellow
+    in 2000 with INRIA-Sophia Antipolis, France. In January 2002, he joined Institute
+    of Science and Technology of Information-CNR (Italian National Council of Research),
+    Pisa, Italy where he became a Chief Scientist in 2020. He is a Full Professor
+    at Tsinghua-Berkeley Shenzhen Institute since 2022. He served as an Associate
+    Editor for the IEEE Transactions on Signal Processing and IEEE Transactions on
+    Image Processing. He was the Editor in Chief of Digital Signal Processing: A Review
+    Journal between 2011-2021. He is currently co-Editor-in-Chief of Journal of the
+    Franklin Institute. He acted as a Technical co-Chair for EUSIPCO 2006 and a Tutorials
+    co-Chair of ICASSP 2014. He is a member of the IEEE Signal Processing Society
+    Data Challenges Committee, IEEE Technical Committees (TC) on Machine Learning
+    for Signal Processing and TC on Image, Video and Multidimensional Signal Processing.
+    He was a plenary speaker at DAC 2007, ISSPA 2010, IEEE SIU 2017, Entropy 2018,
+    MIIS 2020 and tutorial speaker at IEEE ICSPCC 2012. He was an Alexander von Humboldt
+    Experienced Research Fellow in the Max Planck Institute for Molecular Genetics
+    in 2013-2015. His research interests are in the areas of statistical signal and
+    image processing, Bayesian machine learning and information theory with applications
+    in remote sensing, environmental sciences, telecommunications and computational
+    biology. He speaks English, Italian, German and Turkish.'
+  id: 11
+  name: Ercan E. Kuruoğlu
+  sort_num: 8
+  spk-abstract:
+  - Graphs provide an effective framework for the analysis of multi-variate data.
+    Research in Graph Signal Processing and Graph Neural Networks have advanced to
+    the point of providing state of the art solutions in various applications ranging
+    from traffic data analysis to meteorological data analysis. However, graphs provide
+    only a quantification of one-to-one relationships between variables. Topological
+    data analysis, an extension of graph data analysis provides a much greater potential
+    for uncovering hidden relationships between multiple variables. We present the
+    extension of basic graph signal processing to simplicial graphs and give the fundamentals
+    of topological data analysis.
+  - 'This new formulation allows us also to address two important challenges of the
+    adaptive graph signal processing problem: non-Gaussian data and time-varying graphs
+    where not only the node values but also the branch weights change over time. We
+    present new algorithms providing time-varying solutions robust to non-Gaussian
+    noise and data. Finally, we present an algorithm that can estimate time varying
+    node and branch values simultaneously.'
+  spk-title: Time-varying Topological Signal Processing
+  title:
+  - Professor
+  title_level: 1
+  url: https://ercanenginkuruoglu.github.io
+- affiliation:
+  - Ben Gurion University
+  avatar: /assets/images/avatar-Haim.png
+  bio: Haim Permuter received his B.Sc. (summa cum laude) from Ben-Gurion University
+    (BGU) and Ph.D. from Stanford University, both in in Electrical Engineering, in
+    1997 and 2008, respectively.  Between 1997-2004, he served as a scientific research
+    officer in an R&D unit in the Israeli Defense Forces. In summer 2002 he worked
+    for IBM, Almaden research center. He is a recipient of several rewards including
+    Eshkol Fellowship, Wolf Award,  Fulbright Fellowship,  Stanford Graduate Fellowship,
+    U.S.-Israel Binational Science Foundation Bergmann Memorial Award, and Allon Fellowship.  Haim
+    joined the faculty of Electrical Engineering Department at BGU in Oct 2008 as
+    a tenure-track faculty, and is now a  Professor, Luck-Hille Chair in Electrical
+    Engineering. Haim also serves as head of the communication, cyber and information
+    track in his department. Haim served on the editorial boards of the IEEE Transactions
+    on Information Theory in 2013-2016 and serves again from Jan 2023 till now.
+  id: 17
+  name: Haim Permuter
+  sort_num: 9
+  spk-abstract: In this talk we will develop a principled framework for neural estimation
+    and optimization of information measures and specifically directed information,
+    which is then leveraged to estimate the feedforward and feedback capacities of
+    general channels and to design a decoder for polar codes based on neural networks.
+    To that end, we propose a novel Directed Information Neural Estimator (DINE) that
+    complements the Mutual Information Neural Estimation (MINE), and then develop
+    methods for optimizing DINE and MINE over the channel input distributions. More
+    specifically, two optimization methods are proposed, one for continuous channel
+    input spaces and the other for discrete. While capacity estimation is the main
+    application considered in this talk, we will discuss how the developed estimation
+    and optimization techniques are applicable in additional scenarios where (maximized)
+    Directed Information is of interest such as probability density estimation for
+    processes with memory, causality identification and machine learning in general.
+  spk-title: A Machine Learning Approach for Estimating and Achieving Capacity Regions
+    of Communication System
+  title:
+  - Professor
+  title_level: 1
+  url: https://www.ee.bgu.ac.il/~haimp/
+- affiliation:
   - The Chinese University of Hong Kong
   avatar: /assets/images/avatar-Chandra.png
   bio:
@@ -230,7 +399,7 @@
   - 'You can find more about his research: http://chandra.ie.cuhk.edu.hk/pub/research-summary.pdf'
   id: 9
   name: Chandra Nair
-  sort_num: 6
+  sort_num: 10
   spk-abstract:
   - Non-Convex optimization problems arise often in information theory, especially
     in the context of evaluation of inner and outer bounds to the capacity regions
@@ -258,171 +427,97 @@
   title_level: 1
   url: http://chandra.ie.cuhk.edu.hk/
 - affiliation:
-  - Ben Gurion University
-  avatar: /assets/images/avatar-Haim.png
-  bio: Haim Permuter received his B.Sc. (summa cum laude) from Ben-Gurion University
-    (BGU) and Ph.D. from Stanford University, both in in Electrical Engineering, in
-    1997 and 2008, respectively.  Between 1997-2004, he served as a scientific research
-    officer in an R&D unit in the Israeli Defense Forces. In summer 2002 he worked
-    for IBM, Almaden research center. He is a recipient of several rewards including
-    Eshkol Fellowship, Wolf Award,  Fulbright Fellowship,  Stanford Graduate Fellowship,
-    U.S.-Israel Binational Science Foundation Bergmann Memorial Award, and Allon Fellowship.  Haim
-    joined the faculty of Electrical Engineering Department at BGU in Oct 2008 as
-    a tenure-track faculty, and is now a  Professor, Luck-Hille Chair in Electrical
-    Engineering. Haim also serves as head of the communication, cyber and information
-    track in his department. Haim served on the editorial boards of the IEEE Transactions
-    on Information Theory in 2013-2016 and serves again from Jan 2023 till now.
-  id: 17
-  name: Haim Permuter
-  sort_num: 7
-  spk-abstract: In this talk we will develop a principled framework for neural estimation
-    and optimization of information measures and specifically directed information,
-    which is then leveraged to estimate the feedforward and feedback capacities of
-    general channels and to design a decoder for polar codes based on neural networks.
-    To that end, we propose a novel Directed Information Neural Estimator (DINE) that
-    complements the Mutual Information Neural Estimation (MINE), and then develop
-    methods for optimizing DINE and MINE over the channel input distributions. More
-    specifically, two optimization methods are proposed, one for continuous channel
-    input spaces and the other for discrete. While capacity estimation is the main
-    application considered in this talk, we will discuss how the developed estimation
-    and optimization techniques are applicable in additional scenarios where (maximized)
-    Directed Information is of interest such as probability density estimation for
-    processes with memory, causality identification and machine learning in general.
-  spk-title: A Machine Learning Approach for Estimating and Achieving Capacity Regions
-    of Communication System
-  title:
-  - Professor
-  title_level: 1
-  url: https://www.ee.bgu.ac.il/~haimp/
-- affiliation:
-  - The Chinese University of Hong Kong
-  avatar: /assets/images/avatar-Raymond.png
+  - Imperial College London
+  avatar: /assets/images/avatar-Deniz.png
   bio:
-  - Raymond W. Yeung is the Choh-Ming Li Professor of Information Engineering at The
-    Chinese University of Hong Kong (CUHK). He received his B.S., M.Eng., and PhD
-    degrees from Cornell University in Electrical Engineering in 1984, 1985, and 1988,
-    respectively. Before joining CUHK in 1991, he was a Member of Technical Staff
-    at AT&T Bell Laboratories. A co-founder of the field of network coding, he has
-    been serving as Co-Director of the Institute of Network Coding at CUHK since 2010.
-    He is the author of the books A First Course in Information Theory (Kluwer Academic/Plenum
-    Publishers, 2002) and Information Theory and Network Coding (Springer 2008), which
-    have been adopted by over 100 institutions around the world. In spring 2014, he
-    gave the first MOOC in the world on information theory that reached over 25,000
-    students.
-  - He is a recipient of the 2005 IEEE Information Theory Society Paper Award, the
-    Friedrich Wilhelm Bessel Research Award from the Alexander von Humboldt Foundation
-    in 2007, the 2016 IEEE Eric E. Sumner Award, the 2018 ACM SIGMOBILE Test-of-Time
-    Paper Award, the 2021 IEEE Richard W. Hamming Medal, and the 2022 Claude E. Shannon
-    Award. In 2015, he was named an Outstanding Overseas Chinese Information Theorist
-    by the China Information Theory Society.  He is a Fellow of the IEEE, Hong Kong
-    Academy of Engineering Sciences, Hong Kong Institution of Engineers, and the US
-    National Academy of Engineering.
-  id: 6
-  name: Raymond W. Yeung
-  sort_num: 8
+  - Deniz Gündüz received his M.S. and Ph.D. degrees in electrical engineering from
+    NYU Tandon School of Engineering (formerly Polytechnic University) in 2004 and
+    2007, respectively. After his PhD, he served as a postdoctoral research associate
+    at Princeton University, as a consulting assistant professor at Stanford University,
+    and as a research associate at CTTC. ln 2012, he joined the Electrical and Electronic
+    Engineering Department of Imperial College London, UK, where he is currently a
+    Professor of Information Processing, and serves as the deputy head of the Intelligent
+    Systems and Networks Group. He has held visiting/part-time positions at University
+    of Modena and Reggio Emilia (2019-2022), University of Padova (2018-2020) and
+    Princeton University (2009-2012). His research interests lie in the areas of communications
+    and information theory, machine learning, and privacy. Dr. Gündüz is a  Fellow
+    of the IEEE. He is an Area Editor for the IEEE Transactions on Information Theory
+    and IEEE Transactions on Communications, and an Editor of the IEEE Transactions
+    on Wireless Communications. He is the recipient of the IEEE Communications Society
+    - Communication Theory Technical Committee (CTTC) Early Achievement Award in 2017,
+    Starting (2016), Consolidator (2022) and Proof-of-Concept (2023) grants of the
+    European Research Council (ERC), and several best paper awards.
+  id: 12
+  name: Deniz Gündüz
+  sort_num: 11
   spk-abstract:
-  - The entropy function plays a central role in information theory. Constraints on
-    the entropy function in the form of inequalities, viz. entropy inequalities (often
-    conditional on certain Markov conditions imposed by the problem under consideration),
-    are indispensable tools for proving converse coding theorems. In this talk, I
-    will give an overview of the development of machine-proving of entropy inequalities
-    for the past 25 years. To start with, I will present a geometrical framework for
-    the entropy function, and explain how an entropy inequality can be formulated,
-    with or without constraints on the entropy function. Among all entropy inequalities,
-    Shannon-type inequalities, namely those implied by the nonnegativity of Shannon’s
-    information measures, are best understood. We will focus on the proving of Shannon-type
-    inequalities, which in fact can be formulated as a linear programming problem.
-    I will discuss ITIP, a software package originally developed for this purpose
-    in the mid-1990s, as well as some of its later variants. In 2014, Tian successfully
-    characterized the rate region of a class of exact-repair regenerating codes by
-    means of a variant of ITIP. This is the first nontrivial converse coding theorem
-    proved by a machine. At the end of the talk, I will discuss some recent progress
-    in speeding up the proving of entropy inequalities.
-  spk-title: Machine-Proving of Entropy Inequalities
-  title:
-  - The Choh-Ming Li Professor
-  title_level: 1
-  url: https://www.ie.cuhk.edu.hk/people/raymond.shtml
-- affiliation:
-  - Shenzhen Research Institute of Big Data
-  - ; The Chinese University of Hong Kong, Shenzhen
-  avatar: /assets/images/avatar-RuiZhang.jpg
-  bio: Dr. Rui Zhang (Fellow of IEEE, Fellow of the Academy of Engineering Singapore)
-    received the Ph.D. degree from Stanford University in electrical engineering in
-    2007. He is now a Principal’s Diligence Chair Professor in School of Science and
-    Engineering, The Chinese University of Hong Kong, Shenzhen. His current research
-    interests include wireless information and power transfer, UAV/satellite communications,
-    intelligent reflecting surfaces and reconfigurable MIMO. He has published over
-    500 papers, which have been cited more than 75,000 times with the h-index over
-    120. He has been listed as a Highly Cited Researcher by Thomson Reuters / Clarivate
-    Analytics since 2015. He was the recipient of the IEEE Communications Society
-    Asia-Pacific Region Best Young Researcher Award in 2011, the Young Researcher
-    Award of National University of Singapore in 2015, the Wireless Communications
-    Technical Committee Recognition Award in 2020, and the IEEE Signal Processing
-    and Computing for Communications (SPCC) Technical Recognition Award in 2021. He
-    received 17 IEEE Best Journal Paper Awards, including the IEEE Marconi Prize Paper
-    Award in Wireless Communications (twice), the IEEE Communications Society Heinrich
-    Hertz Prize Paper Award (thrice), the IEEE Communications Society Stephen O. Rice
-    Prize, the IEEE Signal Processing Society Best Paper Award, etc. He has served
-    as an Editor for several IEEE journals, including TWC, TCOM, JSAC, TSP, TGCN,
-    etc., and as TPC co-chair or organizing committee member for over 30 international
-    conferences. He served as an IEEE Distinguished Lecturer of IEEE Communications
-    Society and IEEE Signal Processing Society.
-  id: 10
-  name: Rui Zhang
-  sort_num: 9
-  spk-abstract:
-  - In this talk, we introduce a new promising paradigm for future wireless networks
-    (6G) by leveraging a massive number of low-cost passive elements with controllable
-    signal reflection, named Intelligent Reflecting Surface (IRS), which can smartly
-    reconfigure wireless channels for enhancing the communication performance. First,
-    we present the signal and channel models of IRS by considering its hardware constraints
-    in practice. We then illustrate the main functions and applications of IRS in
-    achieving spectral and energy efficient wireless networks and highlight its cost
-    and performance advantages as compared to existing wireless technologies. Next,
-    we focus on the main design challenges for efficiently integrating IRS into future
-    wireless networks, including passive reflection optimization, IRS channel acquisition,
-    and IRS deployment, and overview their state-of-the-art solutions, with an emphasis
-    on the recent progress in multi-IRS multi-reflection aided wireless networks via
-    a new “beam routing” approach. Finally, we discuss other extensions and point
-    out directions worthy of investigation in the future.
-  spk-title: 'Intelligent Reflecting Surface (IRS) Empowered 6G: Fundamentals, Applications
-    and Challenges'
-  title:
-  - X.Q. Deng Presidential Chair Professor
-  title_level: 1
-  url: https://sse.cuhk.edu.cn/en/faculty/zhangrui
-- affiliation:
-  - Massachusetts Institute of Technology
-  avatar: /assets/images/avatar-LizhongZheng.png
-  bio: Lizhong Zheng received the B.S and M.S. degrees, in 1994 and 1997 respectively,
-    from the Department of Electronic Engineering, Tsinghua University, China, and
-    the Ph.D. degree, in 2002, from the Department of Electrical Engineering and Computer
-    Sciences, University of California, Berkeley. Since 2002, he has been working
-    at MIT, where he is currently a professor of Electrical Engineering. His research
-    interests include information theory, statistical inference, communications, and
-    networks theory.
-  id: 1
-  name: Lizhong Zheng
-  sort_num: 10
-  spk-abstract:
-  - In this talk, we report recent progress in neural network based modal decomposition.
-    The overarching theme is that we should view learning as selecting feature functions
-    in a vector space, the geometry of which provides critical insights into the design
-    of learning algorithms, including neural networks. This talk introduces the neural
-    network modules to make projections in this vector space. With this as a basic
-    building block, we can decompose dependence between more than two random variables.
-    We argue that this technique is the counterpart to basic concepts like the chain
-    rule and random binning in classical information theory. We demonstrate that this
-    result can be used in problems such as designing receivers that can take parameters
-    as side information, which is widely used in communication problems.
-  spk-title: Decomposition of Multi-Variate Dependence and Application in Parameterized
-    Inference
+  - Many emerging applications, from autonomous driving, to healthcare and Internet
+    of things, involve connecting machines with humans and other machines, where the
+    goal is to enable the receiver to make the right inference or to take the right
+    action at the right time and context. This requires identifying and sending only
+    the most relevant information for the underlying task, which can significantly
+    reduce the communication load, and has motivated the recent resurgence of interest
+    in semantic and task-oriented communications. In this talk, I will present new
+    sets of performance requirements and design constraints motivated by these applications,
+    and present the results of our recent efforts in designing semantic and pragmatic
+    communication systems bringing together ideas and tools from classical information
+    and coding theory with modern machine learning algorithms.
+  spk-title: Information Theoretic Results in Semantic and Task-Oriented Communications
   title:
   - Professor
   - ', IEEE Fellow'
   title_level: 1
-  url: https://lizhongzheng.mit.edu/
+  url: https://www.imperial.ac.uk/people/d.gunduz
+- affiliation:
+  - Shenzhen International Center for Industrial and Applied Mathematics
+  - ; Shenzhen Research Institute of Big Data
+  - ; The Chinese University of Hong Kong, Shenzhen
+  avatar: /assets/images/avatar-Ruoyu.png
+  bio:
+  - Ruoyu Sun is currently a Senior Research Scientist at Shenzhen Research Institute
+    of Big Data and Shenzhen International Center for Industrial and Applied Mathematics.
+    He is also an associate professor (tenured) in the School of Data Science at The
+    Chinese University of Hong Kong, Shenzhen. From 2017 to 2022, he worked as a tenure-track
+    assistant professor in the Department of ISE and ECE (affiliated), at the University
+    of Illinois at Urbana-Champaign (UIUC). Prior to that, he worked as a full-time
+    visiting research scientist at the Facebook AI Research, and was a postdoctoral
+    researcher at Stanford University. He obtained Ph.D. in Electrical Engineering
+    from the University of Minnesota, and B.S. in mathematics from Peking University.
+    His research interests include deep learning theory and algorithms, generative
+    models, large-scale optimization, learning to optimize and communication networks.
+    He has won the second place of INFORMS George Nicholson student paper competition,
+    and honorable mention of INFORMS optimization society student paper competition.
+    He received “AI2000 Most Influential Scholar Honorable Mention” (theory, 2012-2021)
+    from AMiner in 2022. He has published more than 50 papers in machine learning
+    conferences, information theory and communication journals, and optimization journals.
+    He has been serving as an area chair of machine learning conferences NeurIPS,
+    ICML, ICLR and AISTATS.
+  id: 7
+  name: Ruoyu Sun
+  sort_num: 12
+  spk-abstract:
+  - 'Adam is one of the most popular algorithms in deep learning, used in lots of
+    applications including chatGPT. Despite the popularity, the theoretical properties
+    of Adam were largely unknown, and how to tune Adam was not clear. Reddi et al.
+    (2018) pointed out the diverengece issue of Adam, and since then many variants
+    of Adam were proposed. However, vanilla Adam remains exceptionally popular and
+    it works well in practice. Why is there a gap between theory and practice? We
+    point out there is a mismatch between the settings of theory and practice: Reddi
+    et al. (2018) pick the problem after picking the hyperparameters of Adam, i.e.,
+    (β1, β2); while practical applications often fix the problem first and then tune
+    (β1, β2). We conjecture for the latter practical setting, i.e. allowing tuning
+    hyperparameters, Adam can converge. In this talk, we present our recent findings
+    that confirm this conjecture. More specifically, we show that when the 2nd-order
+    momentum parameter β2 is large enough and 1st-order momentum parameter β1 < sqrt(β2)
+    < 1, Adam converges. In general, Adam converges to the neighborhood of critical
+    points; and under an extra condition (strong growth condition), Adam converges
+    to critical points. These results lead to suggestions on how to tune Adam hyperparameters,
+    which are confirmed by empirical experiments.'
+  spk-title: Converge or Diverge? A Story of Adam
+  title:
+  - Associate Professor
+  title_level: 2
+  url: https://sds.cuhk.edu.cn/en/teacher/628
 - affiliation:
   - The Chinese University of Hong Kong
   avatar: /assets/images/avatar-Amin.png
@@ -451,7 +546,7 @@
     for the IEEE  Transactions on Information Theory from 2018 to 2021.
   id: 5
   name: Amin Gohari
-  sort_num: 11
+  sort_num: 13
   spk-abstract:
   - Shannon's mutual information is known to satisfy a class of  inequalities known
     as the Shannon-type inequalities. The Shannon-type  inequalities are widely utilized
@@ -509,7 +604,7 @@
     of information funded by other national and EU sources.'
   id: 13
   name: Nikolaos Pappas
-  sort_num: 12
+  sort_num: 14
   spk-abstract:
   - Wireless networks are evolving to cater to emerging cyber-physical and mission-critical
     interactive systems, such as swarm robotics, self-driving cars, and the smart
@@ -539,7 +634,7 @@
     Computational Complexity of Statistical Inference in Fall 2021.
   id: 15
   name: Cynthia Rush
-  sort_num: 13
+  sort_num: 15
   spk-abstract:
   - 'Sorted L1 regularization has been incorporated into many methods for solving
     high-dimensional statistical estimation problems, including the SLOPE estimator
@@ -574,96 +669,49 @@
   title_level: 2
   url: http://www.columbia.edu/~cgr2130/
 - affiliation:
-  - Shenzhen International Center for Industrial and Applied Mathematics
-  - ; Shenzhen Research Institute of Big Data
-  - ; The Chinese University of Hong Kong, Shenzhen
-  avatar: /assets/images/avatar-Ruoyu.png
-  bio:
-  - Ruoyu Sun is currently an associate professor (tenured) in the School of Data
-    Science at The Chinese University of Hong Kong, Shenzhen. From 2017 to 2022, he
-    worked as a tenure-track assistant professor in the Department of ISE and ECE
-    (affiliated), at the University of Illinois at Urbana-Champaign (UIUC). Prior
-    to that, he worked as a full-time visiting research scientist at the Facebook
-    AI Research, and was a postdoctoral researcher at Stanford University. He obtained
-    Ph.D. in Electrical Engineering from the University of Minnesota, and B.S. in
-    mathematics from Peking University. His research interests include deep learning
-    theory and algorithms, generative models, large-scale optimization, learning to
-    optimize and communication networks. He has won the second place of INFORMS George
-    Nicholson student paper competition, and honorable mention of INFORMS optimization
-    society student paper competition. He received “AI2000 Most Influential Scholar
-    Honorable Mention” (theory, 2012-2021) from AMiner in 2022. He has published more
-    than 50 papers in machine learning conferences, information theory and communication
-    journals, and optimization journals. He has been serving as an area chair of machine
-    learning conferences NeurIPS, ICML, ICLR and AISTATS.
-  id: 7
-  name: Ruoyu Sun
-  sort_num: 14
+  - University of Cambridge
+  avatar: /assets/images/avatar-Uri.png
+  bio: Uri Cohen received a BSc in Mathematics and Cognitive sciences from the Hebrew
+    University of Jerusalem, Israel. After spending some time outside the academy,
+    working as a software engineer, he completed a PhD at the Edmond & Lily Safra
+    Center for Brain Sciences, working on population coding and manifold representation
+    of sensory information under the supervisor of Haim Sompolinsky. Currently a postdoctoral
+    research fellow at the Computational and Biological Learning Lab, University of
+    Cambridge, he is using computational models for long-term memory to predict the
+    properties of memory mechanisms in the brain. He is interested in developing theories
+    on the dynamics of learning and memory in the brain, with possible applications
+    to machine learning.
+  id: 14
+  name: Uri Cohen
+  sort_num: 16
   spk-abstract:
-  - 'Adam is one of the most popular algorithms in deep learning, used in lots of
-    applications including chatGPT. Despite the popularity, the theoretical properties
-    of Adam were largely unknown, and how to tune Adam was not clear. Reddi et al.
-    (2018) pointed out the diverengece issue of Adam, and since then many variants
-    of Adam were proposed. However, vanilla Adam remains exceptionally popular and
-    it works well in practice. Why is there a gap between theory and practice? We
-    point out there is a mismatch between the settings of theory and practice: Reddi
-    et al. (2018) pick the problem after picking the hyperparameters of Adam, i.e.,
-    (β1, β2); while practical applications often fix the problem first and then tune
-    (β1, β2). We conjecture for the latter practical setting, i.e. allowing tuning
-    hyperparameters, Adam can converge. In this talk, we present our recent findings
-    that confirm this conjecture. More specifically, we show that when the 2nd-order
-    momentum parameter β2 is large enough and 1st-order momentum parameter β1 < sqrt(β2)
-    < 1, Adam converges. In general, Adam converges to the neighborhood of critical
-    points; and under an extra condition (strong growth condition), Adam converges
-    to critical points. These results lead to suggestions on how to tune Adam hyperparameters,
-    which are confirmed by empirical experiments.'
-  spk-title: Converge or Diverge? A Story of Adam
+  - Methods from statistical physics usually describe the typical behaviour of random,
+    unstructured systems when the number of elements becomes large. Here we present
+    an application of those methods to real-world data, which contains both detailed
+    structure and non-trivial correlations, through the introduction of a novel manifold
+    generation model. In computational neuroscience, it is usually assumed that stimuli
+    are represented in the brain by the collective population responses of sensory
+    neurons, and an object presented under varying conditions gives rise to a collection
+    of neural population responses called an ‘object manifold’. Then changes in the
+    object representation along a hierarchical sensory system are associated with
+    changes in the geometry of those manifolds. Introducing a theoretical framework
+    based on statistical physics and an appropriate data generation model, it is possible
+    to connect the manifolds' geometry with 'classification capacity', a quantitative
+    measure of the ability of the neural population to support object classification.
+    Deep neural networks trained on object classification tasks are a natural testbed
+    for the applicability of this relation, where it is demonstrated that classification
+    capacity improves along the hierarchies of deep neural networks with different
+    architectures and that changes in the geometry of the associated object manifolds
+    underlie this improved capacity. This analysis sheds light on the functional roles
+    different levels in the hierarchy play in achieving the improvement in classification
+    through orchestrated reduction of manifolds’ radius, dimensionality and inter-manifold
+    correlations.
+  spk-title: Characterize the Geometry of Object Manifolds in Deep Neural Networks
+    Using Statistical Physics Methods
   title:
-  - Associate Professor
-  title_level: 2
-  url: https://sds.cuhk.edu.cn/en/teacher/628
-- affiliation:
-  - Texas A&M University
-  avatar: /assets/images/avatar-ChaoTian.jpg
-  bio: Dr. Chao Tian received the B.E. degree in Electronic Engineering from Tsinghua
-    University, Beijing, China, in 2000 and the M.S. and Ph. D. degrees in Electrical
-    and Computer Engineering from Cornell University, Ithaca, NY in 2003 and 2005,
-    respectively. Dr. Tian was a postdoctoral researcher at Ecole Polytechnique Federale
-    de Lausanne (EPFL) from 2005 to 2007, a member of technical staff--research at
-    AT&T Labs--Research in New Jersey from 2007 to 2014, and an Associate Professor
-    in the Department of Electrical Engineering and Computer Science at the University
-    of Tennessee Knoxville from 2014 to 2017. He joined the Department of Electrical
-    and Computer Engineering at Texas A&M University in 2017, where he is a now an
-    associate professor. His research interests include machine learning, data storage
-    systems, multi-user information theory, and optimization. Dr. Tian received the
-    Liu Memorial Award at Cornell University in 2004, AT&T Key Contributor Award in
-    2010, 2011 and 2013. His authored and co-authored papers received the 2014 IEEE
-    Data Storage Best Paper Award, the 2017 IEEE Jack Keil Wolf ISIT Student Paper
-    Award, and the 2020-2021 IEEE Data Storage Best Student Paper Award. He was an
-    Associate Editor for the IEEE Signal Processing Letters during 2012-2014, an Editor
-    for the IEEE Transactions on Communications during 2016-2021, and an Associate
-    Editor for the IEEE Transactions on Information Theory during 2020-2023.
-  id: 2
-  name: Chao Tian
-  sort_num: 15
-  spk-abstract:
-  - Recent advances in machine learning algorithms reveal the deficiency of existing
-    approaches in understanding the generalization behaviors of such algorithms. Information
-    theoretic generalization error bounds have emerged as a promising approach, which
-    allows the incorporation of both the restriction on the data distribution and
-    the interaction between training data and the algorithms. In this talk we shall
-    discuss several results that we have developed using this approach. The first
-    is a conditional mutual information based generalization error bound, the second
-    is a new chaining approach that can be used to boost existing information theoretic
-    generalization error bound, and the third is a matching approach to construct
-    tight generalization error bound for specific problems. Akin to traditional information
-    theoretic studies in communications, the Gaussian setting plays an important role
-    in these studies of information theoretic generalization error.
-  spk-title: On Information Theoretic Generalization Error Bounds for Machine Learning
-    Algorithms
-  title:
-  - Associate Professor
-  title_level: 2
-  url: https://tiangroup.engr.tamu.edu/
+  - Postdoctoral Research Fellow
+  title_level: 3
+  url: https://uricohen.github.io/
 - affiliation:
   - EURECOM, Campus SophiaTech
   avatar: /assets/images/avatar-Photios.jpg
@@ -679,7 +727,7 @@
     communications, causal estimation theory, optimization and game theory.
   id: 18
   name: Photios A. Stavrou
-  sort_num: 16
+  sort_num: 17
   spk-abstract:
   - In this talk, the goal is to stress the usefulness of rate distortion theory and
     its variants in identifying fundamental limitations in goal-oriented semantic
@@ -713,50 +761,6 @@
   - Assistant Professor
   title_level: 2.5
   url: http://photios-stavrou.com/
-- affiliation:
-  - University of Cambridge
-  avatar: /assets/images/avatar-Uri.png
-  bio: Uri Cohen received a BSc in Mathematics and Cognitive sciences from the Hebrew
-    University of Jerusalem, Israel. After spending some time outside the academy,
-    working as a software engineer, he completed a PhD at the Edmond & Lily Safra
-    Center for Brain Sciences, working on population coding and manifold representation
-    of sensory information under the supervisor of Haim Sompolinsky. Currently a postdoctoral
-    research fellow at the Computational and Biological Learning Lab, University of
-    Cambridge, he is using computational models for long-term memory to predict the
-    properties of memory mechanisms in the brain. He is interested in developing theories
-    on the dynamics of learning and memory in the brain, with possible applications
-    to machine learning.
-  id: 14
-  name: Uri Cohen
-  sort_num: 17
-  spk-abstract:
-  - Methods from statistical physics usually describe the typical behaviour of random,
-    unstructured systems when the number of elements becomes large. Here we present
-    an application of those methods to real-world data, which contains both detailed
-    structure and non-trivial correlations, through the introduction of a novel manifold
-    generation model. In computational neuroscience, it is usually assumed that stimuli
-    are represented in the brain by the collective population responses of sensory
-    neurons, and an object presented under varying conditions gives rise to a collection
-    of neural population responses called an ‘object manifold’. Then changes in the
-    object representation along a hierarchical sensory system are associated with
-    changes in the geometry of those manifolds. Introducing a theoretical framework
-    based on statistical physics and an appropriate data generation model, it is possible
-    to connect the manifolds' geometry with 'classification capacity', a quantitative
-    measure of the ability of the neural population to support object classification.
-    Deep neural networks trained on object classification tasks are a natural testbed
-    for the applicability of this relation, where it is demonstrated that classification
-    capacity improves along the hierarchies of deep neural networks with different
-    architectures and that changes in the geometry of the associated object manifolds
-    underlie this improved capacity. This analysis sheds light on the functional roles
-    different levels in the hierarchy play in achieving the improvement in classification
-    through orchestrated reduction of manifolds’ radius, dimensionality and inter-manifold
-    correlations.
-  spk-title: Characterize the Geometry of Object Manifolds in Deep Neural Networks
-    Using Statistical Physics Methods
-  title:
-  - Postdoctoral Research Fellow
-  title_level: 3
-  url: https://uricohen.github.io/
 - affiliation:
   - Institute of Science and Technology Austria
   avatar: /assets/images/avatar-Yihan.jpg
