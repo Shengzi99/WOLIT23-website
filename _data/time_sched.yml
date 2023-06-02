@@ -74,12 +74,12 @@
       spk-id: 12
     - time: "&nbsp;&nbsp;9:50 - 10:40"
       event: Speaker 14
-      spk-id: 13
+      spk-id: 15
     - time: 10:40 - 11:10
       event: Coffee Break
     - time: 11:10 - 12:00
       event: Speaker 15
-      spk-id: 15
+      spk-id: 13
     - time: 12:00 - 13:30
       event: Lunch Break
     - time: 13:30 - 16:00

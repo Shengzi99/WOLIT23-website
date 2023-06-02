@@ -22,7 +22,7 @@
   affiliation: 
     - Texas A&M University
   bio: "Dr. Chao Tian received the B.E. degree in Electronic Engineering from Tsinghua University, Beijing, China, in 2000 and the M.S. and Ph. D. degrees in Electrical and Computer Engineering from Cornell University, Ithaca, NY in 2003 and 2005, respectively. Dr. Tian was a postdoctoral researcher at Ecole Polytechnique Federale de Lausanne (EPFL) from 2005 to 2007, a member of technical staff--research at AT&T Labs--Research in New Jersey from 2007 to 2014, and an Associate Professor in the Department of Electrical Engineering and Computer Science at the University of Tennessee Knoxville from 2014 to 2017. He joined the Department of Electrical and Computer Engineering at Texas A&M University in 2017, where he is a now an associate professor. His research interests include machine learning, data storage systems, multi-user information theory, and optimization. Dr. Tian received the Liu Memorial Award at Cornell University in 2004, AT&T Key Contributor Award in 2010, 2011 and 2013. His authored and co-authored papers received the 2014 IEEE Data Storage Best Paper Award, the 2017 IEEE Jack Keil Wolf ISIT Student Paper Award, and the 2020-2021 IEEE Data Storage Best Student Paper Award. He was an Associate Editor for the IEEE Signal Processing Letters during 2012-2014, an Editor for the IEEE Transactions on Communications during 2016-2021, and an Associate Editor for the IEEE Transactions on Information Theory during 2020-2023."
-  avatar: /assets/images/avatar-ChaoTian.jpg
+  avatar: /assets/images/avatar-ChaoTian-min.jpg
   url: https://tiangroup.engr.tamu.edu/
   spk-title: On Information Theoretic Generalization Error Bounds for Machine Learning Algorithms
   spk-abstract: 
@@ -117,7 +117,7 @@
     - The University of Hong Kong
   bio:
     - "Guangyue Han received the B.S. and M.S. degrees in mathematics from Peking University, China, in 1997 and 2000, respectively, and the Ph.D. degree in mathematics from the University of Notre Dame, USA, in 2004. After three years with the Department of Mathematics, the University of British Columbia, Canada, he joined the Department of Mathematics, the University of Hong Kong, China, in 2007. His main research areas are coding and information theory."
-  avatar: /assets/images/avatar-Guangyue.png
+  avatar: /assets/images/avatar-Guangyue.jpg
   url: https://hkumath.hku.hk/~ghan/
   spk-title: On Sampling Continuous-Time AWGN Channels
   spk-abstract:

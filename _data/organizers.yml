@@ -6,22 +6,22 @@
   logo: /assets/images/logo-INC_CUHK.jpg
 - id: 2
   name: Shenzhen Research Institute of Big Data
-  logo: /assets/images/logo-RIBD.png
+  logo: /assets/images/logo-RIBD-min.jpg
 - id: 3
   name: The Chinese University of Hong Kong, Shenzhen
-  logo: /assets/images/logo-CUHK_SZ.jpg
+  logo: /assets/images/logo-CUHK_SZ-min.jpg
 - id: 5
   name: Shenzhen International Center for Industrial and Applied Mathematics
-  logo: /assets/images/logo-SICIAM.jpg
+  logo: /assets/images/logo-SICIAM-min.jpg
 - id: 6
   name: City University of Hong Kong
   logo: /assets/images/logo-CityUHK.jpg
 - id: 7
   name: Institute of Data Science, HKU Musketeers Foundation
-  logo: /assets/images/logo-HKU_MF_IDS.png
+  logo: /assets/images/logo-HKU_MF_IDS-min.png
 - id: 8
   name: IEEE Information Theory Society Hong Kong Chapter
-  logo: /assets/images/logo-ITS_HK.png
+  logo: /assets/images/logo-ITS_HK-min.png
 - id: 9
   name: IEEE Information Theory Society Guangzhou Chapter
   logo: /assets/images/logo-ITS_GZ.png

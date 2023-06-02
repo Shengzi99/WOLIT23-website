@@ -2,11 +2,11 @@
 layout: single
 permalink: /venue
 toc: true
-toc_label: " "
+toc_label: "On this page"
 toc_sticky: true
 ---
 
-## Venue
+## Venues
 - <b>July 3rd & 4th, 2023:</b> Lecture Hall,1F, Block B, Talents Center,Shenzhen Institute for Talents Development, No.4589 Qinyuan Rd., Nanshan District, Shenzhen, Guangdong, China 
 - <b>July 5th, 2023:</b> Charles K. Kao Auditorium, Science Park, Hong Kong, China
 
