@@ -12,7 +12,7 @@
         {% for day in site.data.time_sched %}
           <thead>
             <tr>
-              <th>Day {{ day.num }}</th>
+              <th id="day-{{day.num}}">Day {{ day.num }}</th>
               <th>
                 {% for line in day.date %}
                   {{ line }}<br>

@@ -16,48 +16,57 @@ main:
   - title: "Contact"
     url: /contact.html
 sidebar-speakers:
-  - title: "DAY-1"
+  - title: "July 3rd (DAY1)"
     children:
-      - title: "speaker 1"
+      - title: "Raymond W. Yeung"
         url: /speakers.html#speaker-6
-      - title: "speaker 2"
+      - title: "Yi Ma"
         url: /speakers.html#speaker-3
-      - title: "speaker 3"
+      - title: "Hayashi Masahito"
         url: /speakers.html#speaker-4
-      - title: "speaker 4"
+      - title: "Rui Zhang"
         url: /speakers.html#speaker-10
-      - title: "speaker 5"
+      - title: "Ruoyu Sun"
         url: /speakers.html#speaker-7
-      - title: "speaker 6"
+      - title: "Ercan E. Kuruoğlu"
         url: /speakers.html#speaker-11
-  - title: "DAY-2"
+  - title: "July 4th (DAY2)"
     children:
-      - title: "speaker 7"
+      - title: "Lizhong Zheng"
         url: /speakers.html#speaker-1
-      - title: "speaker 8"
+      - title: "Chao Tian"
         url: /speakers.html#speaker-2
-      - title: "speaker 9"
+      - title: "Guangyue Han"
         url: /speakers.html#speaker-8
-      - title: "speaker 10"
+      - title: "Haim Permuter"
         url: /speakers.html#speaker-17
-      - title: "speaker 11"
+      - title: "Chandra Nair"
         url: /speakers.html#speaker-9
-      - title: "speaker 12"
+      - title: "Amin Gohari"
         url: /speakers.html#speaker-5
-  - title: "DAY-3"
+  - title: "July 5th (DAY3)"
     children:
-      - title: "speaker 13"
+      - title: "Deniz Gündüz"
         url: /speakers.html#speaker-12
-      - title: "speaker 14"
+      - title: "Cynthia Rush"
         url: /speakers.html#speaker-15
-      - title: "speaker 15"
+      - title: "Nikolaos Pappas"
         url: /speakers.html#speaker-13
-      - title: "speaker 16"
+      - title: "Uri Cohen"
         url: /speakers.html#speaker-14
-      - title: "speaker 17"
+      - title: "Photios A. Stavrou"
         url: /speakers.html#speaker-18
-      - title: "speaker 18"
+      - title: "Yihan Zhang"
         url: /speakers.html#speaker-16
+sidebar-program:
+  - title: "Quick scroll"
+    children:
+    - title: "to July 3rd (Day 1)"
+      url: /program.html#day-1
+    - title: "to July 4th (Day 2)"
+      url: /program.html#day-2
+    - title: "to July 5th (Day 3)"
+      url: /program.html#day-3
   
 sidebar-calls:
   - title: "CALL FOR POSTERS"
