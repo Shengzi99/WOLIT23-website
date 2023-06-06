@@ -1,6 +1,8 @@
 - id: 1
   name: HUAWEI
   logo: /assets/images/logo-HUAWEI.png
+  url: https://www.huawei.com/cn/
 - id: 2
   name: Meituan
   logo: /assets/images/logo-Meituan.png
+  url: https://about.meituan.com/

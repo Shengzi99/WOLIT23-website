@@ -1,36 +1,35 @@
 - id: 1
   name: Institute of Data and Information (iDI), Tsinghua Shenzhen International Graduate School
   logo: /assets/images/logo-iDI_SIGS.png
-  url: "/"
+  url: "https://www.sigs.tsinghua.edu.cn/"
 - id: 4
   name: Institute of Network Coding (INC), The Chinese University of Hong Kong
   logo: /assets/images/logo-INC_CUHK.jpg
-  url: 
+  url: https://www.inc.cuhk.edu.hk/
 - id: 2
   name: Shenzhen Research Institute of Big Data
   logo: /assets/images/logo-RIBD-min.jpg
-  url: 
+  url: http://www.sribd.cn/
 - id: 3
   name: The Chinese University of Hong Kong, Shenzhen
   logo: /assets/images/logo-CUHK_SZ-min.jpg
-  url: 
+  url: https://cuhk.edu.cn/zh-hans
 - id: 5
   name: Shenzhen International Center for Industrial and Applied Mathematics
   logo: /assets/images/logo-SICIAM-min.jpg
-  url: 
+  url: http://www.sribd.cn/recruitment/634
 - id: 6
   name: City University of Hong Kong
   logo: /assets/images/logo-CityUHK.jpg
-  url: 
+  url: https://www.cityu.edu.hk/zh-cn
 - id: 7
   name: Institute of Data Science, HKU Musketeers Foundation
   logo: /assets/images/logo-HKU_MF_IDS-min.png
-  url: 
+  url: https://datascience.hku.hk/
 - id: 8
   name: IEEE Information Theory Society Hong Kong Chapter
   logo: /assets/images/logo-ITS_HK-min.png
-  url: 
 - id: 9
   name: IEEE Information Theory Society Guangzhou Chapter
   logo: /assets/images/logo-ITS_GZ.png
-  url: 
+  url: http://www.itguangzhou.cn/

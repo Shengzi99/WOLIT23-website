@@ -16,7 +16,7 @@ main:
   - title: "Contact"
     url: /contact.html
 sidebar-speakers:
-  - title: "July 3rd (DAY1)"
+  - title: "July 3rd (Day1)"
     children:
       - title: "Raymond W. Yeung"
         url: /speakers.html#speaker-6
@@ -30,7 +30,7 @@ sidebar-speakers:
         url: /speakers.html#speaker-7
       - title: "Ercan E. Kuruoğlu"
         url: /speakers.html#speaker-11
-  - title: "July 4th (DAY2)"
+  - title: "July 4th (Day2)"
     children:
       - title: "Lizhong Zheng"
         url: /speakers.html#speaker-1
@@ -44,7 +44,7 @@ sidebar-speakers:
         url: /speakers.html#speaker-9
       - title: "Amin Gohari"
         url: /speakers.html#speaker-5
-  - title: "July 5th (DAY3)"
+  - title: "July 5th (Day3)"
     children:
       - title: "Deniz Gündüz"
         url: /speakers.html#speaker-12
@@ -61,11 +61,11 @@ sidebar-speakers:
 sidebar-program:
   - title: "Quick scroll"
     children:
-    - title: "to July 3rd (Day 1)"
+    - title: "TO JULY 3RD (DAY1)"
       url: /program.html#day-1
-    - title: "to July 4th (Day 2)"
+    - title: "TO JULY 4TH (DAY2)"
       url: /program.html#day-2
-    - title: "to July 5th (Day 3)"
+    - title: "TO JULY 5TH (DAY3)"
       url: /program.html#day-3
   
 sidebar-calls:
