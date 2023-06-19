@@ -13,7 +13,7 @@ toc_sticky: true
 # Call for Student Posters
 
 ## IMPORTANT DATES
-- Submission Deadline: **June 19**
+- Submission Deadline: ~~**June 19**~~ **June 23**
 - Poster Decision Date: **June 26**
 - Presentation Day: **July 4th**  
 

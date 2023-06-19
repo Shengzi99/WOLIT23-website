@@ -40,13 +40,13 @@
     - 4th July
     - Tuesday
   sched:
-    - time: 9:00 - 9:50
+    - time: "&nbsp;&nbsp;8:45 - 9:35"
       event: Speaker 7
       spk-id: 1
-    - time: "&nbsp;&nbsp;9:50 - 10:40"
+    - time: "&nbsp;&nbsp;9:35 - 10:25"
       event: Speaker 8
       spk-id: 2
-    - time: 10:40 - 11:10
+    - time: 10:25 - 11:10
       event: Coffee Break / Poster Session
     - time: 11:10 - 12:00
       event: Speaker 9
