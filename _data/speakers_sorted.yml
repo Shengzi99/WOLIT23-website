@@ -48,8 +48,8 @@
   title_level: 1
   url: https://www.ie.cuhk.edu.hk/people/raymond.shtml
 - affiliation:
-  - University of California, Berkeley
-  - ; Hong Kong University
+  - HKU Musketeers Foundation Institute of Data Science
+  - ; Head, Department of Computer Science, HKU
   avatar: /assets/images/avatar-YiMa.jpg
   bio: Yi Ma is the inaugural director of the Data Science Institute and the head
     of the Computer Science Department of the University of Hong Kong. He is also
@@ -88,7 +88,7 @@
   spk-title: 'The Past, Present, and Future of Intelligence: from Artificial Intelligence
     to Autonomous Intelligence'
   title:
-  - Professor
+  - Director & Chair Professor
   title_level: 1
   url: http://people.eecs.berkeley.edu/~yima/
 - affiliation:
@@ -130,10 +130,10 @@
   - However, these two topics had been separately studied for a long time. In this
     paper, we generalize an algorithm that was recently proposed in the context of
     Arimoto-Blahut algorithm. Then, we show various convergence theorems, one of which
-    covers the case wheneach iterative step is done approximately. Also, we apply
+    covers the case when each iterative step is done approximately. Also, we apply
     this algorithm to the target problem in em algorithm, and propose its improvement.
     In addition, we apply it to other various problems in information theory.
-  - This paper is available in https://arxiv.org/abs/2302.06905.
+  - This paper is available in <a href='https://arxiv.org/abs/2302.06905'>https://arxiv.org/abs/2302.06905</a>.
   spk-title: Iterative Minimization Algorithm on Mixture Family
   title:
   - Professor
