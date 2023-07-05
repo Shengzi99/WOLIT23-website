@@ -5,9 +5,9 @@ toc: true
 toc_label: "On this page"
 toc_sticky: true
 
-# sidebar:
-#   title: "  "
-#   nav: sidebar-calls
+sidebar:
+  title: "  "
+  nav: sidebar-calls
 ---
 
 # Call for Student Posters

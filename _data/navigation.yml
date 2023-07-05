@@ -22,7 +22,7 @@ sidebar-speakers:
         url: /speakers.html#speaker-6
       - title: "Yi Ma"
         url: /speakers.html#speaker-3
-      - title: "Hayashi Masahito"
+      - title: "Masahito Hayashi"
         url: /speakers.html#speaker-4
       - title: "Rui Zhang"
         url: /speakers.html#speaker-10
@@ -69,7 +69,7 @@ sidebar-program:
       url: /program.html#day-3
   
 sidebar-calls:
-  - title: "CALL FOR POSTERS"
-    children: 
-      - title: "Call for Student Posters"
-        url: /call4student_posters.html
+  - title: "Call for Student Posters"
+    url: /call4student_posters.html
+  - title: "Best Posters"
+    url: /best_posters.html

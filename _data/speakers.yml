@@ -43,7 +43,7 @@
   spk-abstract: "In this talk, we provide a more systematic and principled view about the practice of artificial intelligence from the history of the study of intelligence. We argue that the most fundamental objective of intelligence is to learn a parsimonious and structured representation of the sensed world that maximizes the internal information gain. This objective naturally leads to a unifying computational framework which integrates fundamental ideas from information theory, optimization, feedback control, and game theory, hence connects us back to the true origin of the study of intelligence 80 years ago. We contend that this new framework provides a unifying understanding and white-box explanation for almost all recent and current practices of artificial intelligence based on deep networks/learning. Probably most importantly, it reveals out a much broad and bright future for developing next-generation autonomous intelligent systems that truly emulate the computational mechanisms of natural intelligence."
 - id: 4
   sort_num: 3
-  name: Hayashi Masahito
+  name: Masahito Hayashi
   title: 
     - Professor
     - ", IEEE Fellow and an IMS Fellow"
